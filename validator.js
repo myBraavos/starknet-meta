@@ -10,6 +10,7 @@ const ajv = new Ajv();
 const validate = ajv.compile(jsonSchema);
 
 const isValid = validate(jsonData);
+const ids = new Set();
 
 if (!isValid) {
     throw new Error("The repository.json file is invalid.");
@@ -27,7 +28,13 @@ const getImagePath = (assetPath, fileName) => {
 
 // Iterate over the objects in the JSON array and check for corresponding asset folders
 jsonData.forEach(async obj => {
-    // Check if the assets folder exists
+    // ensure a unique id
+    if (ids.has(obj.id)) {
+        throw new Error(`Duplicate id found: ${obj.id}`);
+    }
+    ids.add(obj.id);
+
+    // check if the assets folder exists
     const assetPath = path.join("assets", obj.id);
     if (!fs.existsSync(assetPath) || !fs.lstatSync(assetPath).isDirectory()) {
         throw new Error(`Missing asset folder for id: ${obj.id}`);
@@ -39,7 +46,7 @@ jsonData.forEach(async obj => {
         throw new Error(`Missing or invalid icon image file for id: ${obj.id}`);
     }
 
-    // Check if the icon is square and its size is up to 1 MB
+    // check if the icon is square and its size is up to 1 MB
     const iconImage = sharp(iconPath);
     const iconMetadata = await iconImage.metadata();
     if (iconMetadata.width !== iconMetadata.height || iconMetadata.size > 1024 * 1024) {
@@ -53,7 +60,7 @@ jsonData.forEach(async obj => {
         throw new Error(`Missing or invalid cover image file for id: ${obj.id}`);
     }
 
-    // Validate the cover image dimensions and ratio
+    // validate the cover image dimensions and ratio
     const coverImage = sharp(coverPath);
     const coverMetadata = await coverImage.metadata();
     const aspectRatio = coverMetadata.width / coverMetadata.height;
