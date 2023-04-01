@@ -1,0 +1,15 @@
+{
+  "name": "starknet-meta",
+  "description": "Starknet metadata repository",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Braavos LTD.",
+  "license": "MIT",
+  "devDependencies": {
+    "ajv": "^8.12.0",
+    "sharp": "^0.32.0"
+  },
+  "dependencies": {
+    "prettier": "^2.8.7"
+  }
+}
