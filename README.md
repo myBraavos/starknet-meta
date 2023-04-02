@@ -1,8 +1,40 @@
 # starknet-meta
 Starknet dApps metadata repository.
 
+## Fetching dApp Metadata
+
+### List all projects
+
+To list all available dApps in the `starknet-meta` repository, you can use the `list` function.
+
+Example usage:
+
+```javascript
+import { list } from 'starknet-meta';
+
+const dApps = list();
+console.log(dApps); // array of Project[] objects
+```
+
+### Get project by ID
+
+To get a specific dApp's metadata by its id, you can use the `get` function.
+This function will return the `Project` object if the `id` exists in the repository,
+otherwise, it will return `null`.
+
+Example usage:
+
+```javascript
+import { get } from 'starknet-meta';
+
+const dApp = get('my_project');
+console.log(dApp);
+```
+
+
+
 ## How to submit a new project
-To add a new dApp to starknet-meta, follow these steps:
+To add a new dApp project to `starknet-meta`, follow these steps:
 
 1. Fork the `starknet-meta` repository.
 2. Create a new folder under the `/repository` directory, using the desired `id` for the new project as the folder name.
@@ -25,7 +57,7 @@ Please ensure that your submission adheres to the schema rules and asset require
 Use the `validator.js` script to validate your changes before submitting a PR.
 
 ## Updating an existing project
-To update an existing dApp project, follow the same steps as submitting a new dApp, but modify the existing project folder in the `/repository` directory:
+To update an existing dApp project, follow the same steps as submitting a new dApp project, but modify the existing project folder in the `/repository` directory:
 
 1. Fork the `starknet-meta` repository.
 2. Locate the project folder under the `/repository` directory, using the `id` of the project you want to update.
