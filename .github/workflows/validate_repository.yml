@@ -23,4 +23,4 @@ jobs:
         run: yarn
 
       - name: Validate repository
-        run: node validator.js
+        run: node ./scripts/validator.js
