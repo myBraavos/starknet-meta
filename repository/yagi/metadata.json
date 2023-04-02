@@ -1,0 +1,23 @@
+{
+  "id": "yagi",
+  "displayName": "Yagi Finance",
+  "host": "yagi.fi",
+  "description": "Yagi is a network of keepers on Starknet L2 that automate protocol actions.",
+  "categories": [
+    "defi",
+    "infra"
+  ],
+  "contracts": [
+    {
+      "tag": "yagi_vault",
+      "implements": [
+        "erc20"
+      ],
+      "addresses": {
+        "goerli-alpha": [
+          "0xdeacbc83303420ea41fd3720c205a7779b025f9f3f6515ac10cabb666ff207"
+        ]
+      }
+    }
+  ]
+}

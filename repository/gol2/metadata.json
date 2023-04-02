@@ -1,0 +1,28 @@
+{
+  "id": "gol2",
+  "displayName": "GoL2",
+  "host": {
+    "mainnet-alpha": "www.gol2.io",
+    "goerli-alpha": "goerli.gol2.io"
+  },
+  "description": "GoL2 on Starknet b\u0000\u0013 an on-chain iteration of the classic Game of Play by John Conway.",
+  "categories": [
+    "gamefi"
+  ],
+  "contracts": [
+    {
+      "tag": "main",
+      "implements": [
+        "erc20"
+      ],
+      "addresses": {
+        "goerli-alpha": [
+          "0x06dc4bd1212e67fd05b456a34b24a060c45aad08ab95843c42af31f86c7bd093"
+        ],
+        "mainnet-alpha": [
+          "0x06a05844a03bb9e744479e3298f54705a35966ab04140d3d8dd797c1f6dc49d0"
+        ]
+      }
+    }
+  ]
+}

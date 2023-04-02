@@ -1,0 +1,30 @@
+{
+  "id": "ninth",
+  "displayName": "The Ninth",
+  "host": "ninth.gg",
+  "description": "The Ninth is a metaverse world truly owned by users. Land owners can generate various in-game elements and have various gameplay. Various elements such as multi-epoch iterations, trading markets, DAOs, game guilds, and virtual buildings constitute this metaverse with a grand worldview",
+  "categories": [
+    "gamefi"
+  ],
+  "contracts": [
+    {
+      "tag": "ninth_token",
+      "implements": [
+        "erc20"
+      ],
+      "addresses": {
+        "goerli-alpha": [
+          "0x06fbd3f381ddcdf541d361a938717e97ff12ba3c77e4f96f9517d79055123293"
+        ]
+      }
+    },
+    {
+      "tag": "ninth_koma",
+      "addresses": {
+        "goerli-alpha": [
+          "0x0192e5bc40dc9ef4ce7b7dcdf07c8c6adda7d138989ef918caf741eb93a85e49"
+        ]
+      }
+    }
+  ]
+}

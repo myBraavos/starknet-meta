@@ -1,0 +1,64 @@
+{
+  "id": "jediswap",
+  "displayName": "JediSwap",
+  "host": {
+    "goerli-alpha": "app.testnet.jediswap.xyz",
+    "mainnet-alpha": "app.jediswap.xyz"
+  },
+  "description": "JediSwap is a fully permissionless and composable AMM on Starknet. Users can swap assets instantaneously with 0 gas fees while relying on Ethereum security. Anyone can add a pool on Jediswap, and builders can build more advanced applications using JediSwap open sourced contracts",
+  "categories": [
+    "defi"
+  ],
+  "contracts": [
+    {
+      "tag": "jedi_swap_address",
+      "addresses": {
+        "goerli-alpha": [
+          "0x01ea2f12a70ad6a052f99a49dace349996a8e968a0d6d4e9ec34e0991e6d5e5e",
+          "0x012b063b60553c91ed237d8905dff412fba830c5716b17821063176c6c073341",
+          "0x2bcc885342ebbcbcd170ae6cafa8a4bed22bb993479f49806e72d96af94c965"
+        ],
+        "mainnet-alpha": [
+          "0x41fd22b238fa21cfcf5dd45a8548974d8263b3a531a60388411c5e230f97023"
+        ]
+      }
+    },
+    {
+      "tag": "jedi_swap_factory",
+      "addresses": {
+        "goerli-alpha": [
+          "0x06c872d0696e7bf45735239393774f51455e3bdb08760a0dc76cd7c8688cfd60",
+          "0x0262744f8cea943dadc8823c318eaf24d0110dee2ee8026298f49a3bc58ed74a"
+        ]
+      }
+    },
+    {
+      "tag": "jedi_swap_zap_address",
+      "addresses": {
+        "goerli-alpha": [
+          "0x0263acca23357479031157e30053fe10598077f24f427ac1b1de85487f5cd124",
+          "0x07e4a2e2ad496c7572228d922a50e656b5791a6f09818fb709e697f460f55735",
+          "0x073e3ccd627283aed4fa3940aa2bdb4d2c702e8e44c99b6851c019222558310f"
+        ],
+        "mainnet-alpha": [
+          "0x29a303b928b9391ce797ec27d011d3937054bee783ca7831df792bae00c925c"
+        ]
+      }
+    },
+    {
+      "tag": "jedi_swap_pair",
+      "implements": [
+        "erc20"
+      ],
+      "addresses": {
+        "mainnet-alpha": [
+          "0x05801bdad32f343035fb242e98d1e9371ae85bc1543962fedea16c59b35bd19b",
+          "0x0260e98362e0949fefff8b4de85367c035e44f734c9f8069b6ce2075ae86b45c",
+          "0x07e2a13b40fc1119ec55e0bcf9428eedaa581ab3c924561ad4e955f95da63138",
+          "0x00f0f5b3eed258344152e1f17baf84a2e1b621cd754b625bec169e8595aea767",
+          "0x04d0390b777b424e43839cd1e744799f3de6c176c7e32c1812a41dbd9c19db6a"
+        ]
+      }
+    }
+  ]
+}

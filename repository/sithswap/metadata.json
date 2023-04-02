@@ -1,0 +1,23 @@
+{
+  "id": "sithswap",
+  "displayName": "SithSwap",
+  "host": "app.sithswap.com",
+  "description": "SithSwap is an AMM on StarkNet featuring instant volatile and stable swaps with ultra low slippage, near-zero fees and the full security of Ethereum",
+  "categories": [
+    "defi"
+  ],
+  "contracts": [
+    {
+      "tag": "sith_swap_address",
+      "addresses": {
+        "goerli-alpha": [
+          "0x4f50f31cd9f85757171c5c7dbab78b9c5e07b32b9a654f518dafea9aa269b92",
+          "0x03b0310fe3e35fef5e8a0150607ea77dc6541a2d39498072b809f511a1364dae"
+        ],
+        "mainnet-alpha": [
+          "0x028c858a586fa12123a1ccb337a0a3b369281f91ea00544d0c086524b759f627"
+        ]
+      }
+    }
+  ]
+}
