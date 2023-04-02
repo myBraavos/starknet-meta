@@ -1,0 +1,34 @@
+{
+  "id": "nostra",
+  "displayName": "Nostra",
+  "host": "alpha.nostra.finance",
+  "description": "Nostra is the most versatile liquidity protocol for lending and borrowing. Deposit your crypto in Nostra to earn income, and borrow crypto using your deposits as collateral while taking advantage of the protocol's unique features.",
+  "categories": [
+    "defi",
+    "infra"
+  ],
+  "contracts": [
+    {
+      "tag": "nostra_ibc_ethereum",
+      "implements": [
+        "erc20"
+      ],
+      "addresses": {
+        "mainnet-alpha": [
+          "0x070f8a4fcd75190661ca09a7300b7c93fab93971b67ea712c664d7948a8a54c6"
+        ]
+      }
+    },
+    {
+      "tag": "nostra_ibc_dai",
+      "implements": [
+        "erc20"
+      ],
+      "addresses": {
+        "mainnet-alpha": [
+          "0x00b9b1a4373de5b1458e598df53195ea3204aa926f46198b50b32ed843ce508b"
+        ]
+      }
+    }
+  ]
+}

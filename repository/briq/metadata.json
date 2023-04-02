@@ -1,0 +1,54 @@
+{
+  "id": "briq",
+  "displayName": "Briq",
+  "host": "briq.construction",
+  "description": "NFT building and composition protocol. Get some briqs and build the dream.",
+  "categories": [
+    "nft"
+  ],
+  "contracts": [
+    {
+      "tag": "briq_token",
+      "addresses": {
+        "goerli-alpha": [
+          "0x01317354276941f7f799574c73fd8fe53fa3f251084b4c04d88cf601b6bd915e"
+        ]
+      }
+    },
+    {
+      "tag": "briq_address",
+      "implements": [
+        "erc721"
+      ],
+      "addresses": {
+        "goerli-alpha": [
+          "0x0266b1276d23ffb53d99da3f01be7e29fa024dd33cd7f7b1eb7a46c67891c9d0"
+        ]
+      }
+    },
+    {
+      "tag": "briq_set",
+      "addresses": {
+        "mainnet-alpha": [
+          "0x01435498bf393da86b4733b9264a86b58a42b31f8d8b8ba309593e5c17847672"
+        ]
+      }
+    },
+    {
+      "tag": "briq_booklet",
+      "addresses": {
+        "mainnet-alpha": [
+          "0x05faa82e2aec811d3a3b14c1f32e9bbb6c9b4fd0cd6b29a823c98c7360019aa4"
+        ]
+      }
+    },
+    {
+      "tag": "briq_box",
+      "addresses": {
+        "mainnet-alpha": [
+          "0x01e1f972637ad02e0eed03b69304344c4253804e528e1a5dd5c26bb2f23a8139"
+        ]
+      }
+    }
+  ]
+}
