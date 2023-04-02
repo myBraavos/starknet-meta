@@ -1,14 +1,14 @@
 # starknet-meta
 Starknet dApps metadata repository.
 
-## How to submit a new dApp
+## How to submit a new project
 To add a new dApp to starknet-meta, follow these steps:
 
 1. Fork the `starknet-meta` repository.
-2. Add a new object to the `repository.json` file, following the JSON schema rules described below (you could easily validate your changes by executing `validator.js`) 
-3. Create a new folder under the `/assets` directory, using the `id` of the new object as the folder name.
-4. Add an `icon` image file to the new folder. The icon must be square and up to 1 MB in size.
-5. Add a `cover` image file to the new folder. The cover image must be up to 1500x500px in size and have a 0.33 aspect ratio.
+2. Create a new folder under the `/repository` directory, using the desired `id` for the new project as the folder name.
+3. Add a `metadata.json` file to the new folder, following the JSON schema rules described below (you can easily validate your changes by executing `validator.js`).
+4. Add an `icon` image file to the new folder. The icon must be square and up to 1 MB in size. Supported formats are PNG, JPEG, SVG, and WebP.
+5. Add a `cover` image file to the new folder. The cover image must be up to 1500x500px in size and have a 0.33 aspect ratio. Supported formats are PNG, JPEG, SVG, and WebP.
 6. Create a pull request to the `starknet-meta` repository with your changes.
 
 ## JSON schema rules
@@ -24,12 +24,15 @@ To add a new dApp to starknet-meta, follow these steps:
 Please ensure that your submission adheres to the schema rules and asset requirements.
 Use the `validator.js` script to validate your changes before submitting a PR.
 
-## Updating an existing schema object
-To update an existing dApp object, follow the same steps as submitting a new dApp,
-but modify the existing object in the repository.json file and/or update the relevant
-assets in the `/assets` directory if necessary.
+## Updating an existing project
+To update an existing dApp project, follow the same steps as submitting a new dApp, but modify the existing project folder in the `/repository` directory:
 
-After you've made the changes, create a pull request to the `starknet-meta` repository with your updates.
+1. Fork the `starknet-meta` repository.
+2. Locate the project folder under the `/repository` directory, using the `id` of the project you want to update.
+3. Update the `metadata.json` file in the project folder if necessary, following the JSON schema rules described below (you can easily validate your changes by executing `validator.js`).
+4. Update the `icon` image file in the project folder if necessary. The icon must be square and up to 1 MB in size. Supported formats are PNG, JPEG, SVG, and WebP.
+5. Update the `cover` image file in the project folder if necessary. The cover image must be up to 1500x500px in size and have a 0.33 aspect ratio. Supported formats are PNG, JPEG, SVG, and WebP.
+6. Create a pull request to the `starknet-meta` repository with your changes.
 
 ## Authors
 

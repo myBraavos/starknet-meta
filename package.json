@@ -1,61 +1,67 @@
 {
-  "name": "starknet-meta",
-  "description": "Starknet metadata repository",
-  "version": "0.0.1",
-  "repository": {
-    "url": "https://github.com/myBraavos/starknet-meta"
-  },
-  "keywords": [
-    "starknet",
-    "starkware",
-    "l2",
-    "zk",
-    "rollup",
-    "dapp",
-    "url",
-    "web3",
-    "contract",
-    "cairo"
-  ],
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
-  "author": "Braavos LTD.",
-  "license": "MIT",
-  "type": "module",
-  "scripts": {
-    "validate": "node scripts/validator.js",
-    "test": "jest",
-    "build": "WEBPACK_MODE=production webpack",
-    "dev": "WEBPACK_MODE=development webpack -w",
-    "prepare": "node ./scripts/generator.js && yarn build && husky install"
-  },
-  "devDependencies": {
-    "@types/jest": "^29.5.0",
-    "@types/node": "^18.15.11",
-    "@typescript-eslint/eslint-plugin": "^5.57.0",
-    "@typescript-eslint/parser": "^5.57.0",
-    "ajv": "^8.12.0",
-    "ajv-formats": "^2.1.1",
-    "eslint": "^8.37.0",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "husky": "^8.0.3",
-    "jest": "^29.5.0",
-    "json-schema-to-typescript": "^12.0.0",
-    "prettier": "^2.8.7",
-    "sharp": "^0.32.0",
-    "terser-webpack-plugin": "^5.3.7",
-    "ts-jest": "^29.1.0",
-    "ts-loader": "^9.4.2",
-    "typescript": "^5.0.3",
-    "webpack": "^5.77.0",
-    "webpack-cli": "^5.0.1"
-  },
-  "dependencies": {},
-  "lint-staged": {
-    "**/*.{js,ts}": "prettier --write --ignore-unknown"
-  }
+    "name": "starknet-meta",
+    "description": "Starknet dApps metadata repository.",
+    "version": "0.0.1",
+    "repository": {
+        "url": "https://github.com/myBraavos/starknet-meta"
+    },
+    "bugs": {
+        "url": "https://github.com/myBraavos/starknet-meta/issues"
+    },
+    "keywords": [
+        "starknet",
+        "starkware",
+        "dapp",
+        "metadata",
+        "assets",
+        "repository",
+        "blockchain",
+        "decentralized",
+        "directory",
+        "listing",
+        "web3",
+        "contract",
+        "cairo"
+    ],
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "author": "Braavos LTD.",
+    "license": "MIT",
+    "type": "module",
+    "scripts": {
+        "validate": "node scripts/validator.js",
+        "test": "jest",
+        "build": "WEBPACK_MODE=production webpack",
+        "dev": "WEBPACK_MODE=development webpack -w",
+        "prepare": "node ./scripts/generator.js && yarn build && husky install"
+    },
+    "devDependencies": {
+        "@types/jest": "^29.5.0",
+        "@types/node": "^18.15.11",
+        "@typescript-eslint/eslint-plugin": "^5.57.0",
+        "@typescript-eslint/parser": "^5.57.0",
+        "ajv": "^8.12.0",
+        "ajv-formats": "^2.1.1",
+        "eslint": "^8.37.0",
+        "eslint-config-prettier": "^8.8.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "husky": "^8.0.3",
+        "jest": "^29.5.0",
+        "json-schema-to-typescript": "^12.0.0",
+        "prettier": "^2.8.7",
+        "sharp": "^0.32.0",
+        "terser-webpack-plugin": "^5.3.7",
+        "ts-jest": "^29.1.0",
+        "ts-loader": "^9.4.2",
+        "typescript": "^5.0.3",
+        "webpack": "^5.77.0",
+        "webpack-cli": "^5.0.1"
+    },
+    "dependencies": {},
+    "lint-staged": {
+        "**/*.{js,ts}": "prettier --write --ignore-unknown"
+    }
 }
