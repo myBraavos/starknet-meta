@@ -1,7 +1,7 @@
 const { readFileSync } = require("fs");
 const { join } = require("path");
 
-const repositoryPath = join(__dirname, "../repository");
+const repositoryPath = join(__dirname, "../../repository");
 
 const metadataFiles = ["./myswap/metadata.json", "./aspect/metadata.json"];
 

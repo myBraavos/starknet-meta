@@ -8,7 +8,7 @@ declare const require: {
 const repositoryContext =
     process.env.NODE_ENV === "test"
         ? // @ts-ignore
-          require("../__mocks__/require-context-mock.js")
+          require("../tests/__mocks__/require-context-mock.js")
         : require.context(
               "../repository",
               true,
