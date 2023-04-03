@@ -1,6 +1,30 @@
+// noinspection JSUnresolvedReference, JSUnusedGlobalSymbols
+
 import path from "path";
+import fs from "fs";
 
 const __dirname = path.resolve();
+
+class DeclarationPlugin {
+    apply(compiler) {
+        compiler.hooks.afterEmit.tap("DeclarationPlugin", () => {
+            const srcPath = path.resolve(__dirname, "dist", "src");
+
+            if (fs.existsSync(srcPath)) {
+                fs.readdirSync(srcPath).forEach(file => {
+                    if (file.endsWith(".d.ts")) {
+                        fs.renameSync(
+                            path.resolve(srcPath, file),
+                            path.resolve(__dirname, "dist", file)
+                        );
+                    }
+                });
+
+                fs.rmdirSync(srcPath, { recursive: true });
+            }
+        });
+    }
+}
 
 // noinspection JSUnusedGlobalSymbols
 export default {
@@ -20,10 +44,6 @@ export default {
     },
     resolve: {
         extensions: [".ts", ".js"],
-        fallback: {
-            fs: false,
-            path: false,
-        },
     },
     module: {
         rules: [
@@ -45,4 +65,5 @@ export default {
             },
         ],
     },
+    plugins: [new DeclarationPlugin()],
 };

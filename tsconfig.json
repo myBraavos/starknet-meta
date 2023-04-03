@@ -4,6 +4,7 @@
     "lib": ["ESNext"],
     "declaration": true,
     "outDir": "dist",
+    "declarationDir": "dist",
     "allowJs": false,
     "skipLibCheck": true,
     "esModuleInterop": true,
