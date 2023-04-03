@@ -1,0 +1,63 @@
+{
+  "id": "mintsquare",
+  "displayName": "Mint Square",
+  "host": "mintsquare.io",
+  "description": "NFT marketplace on Ethereum Layer 2 ZK Rollups",
+  "categories": [
+    "nft",
+    "mobile"
+  ],
+  "contracts": [
+    {
+      "tag": "mintsquare_collection",
+      "implements": [
+        "erc721"
+      ],
+      "addresses": {
+        "goerli-alpha": [
+          "0x064bfed736951e98e16fedfd4605960879251f59f2f14427a2ae88a48f379801",
+          "0x2f13075210b7252c826eafdc09d9d77ef272f582947f7adbd44ef79eae0062c"
+        ],
+        "mainnet-alpha": [
+          "0x07861c4e276294a7e859ff0ae2eec0c68300ad9cbb43219db907da9bad786488",
+          "0x04a3621276a83251b557a8140e915599ae8e7b6207b067ea701635c0d509801e"
+        ]
+      }
+    },
+    {
+      "tag": "mintsquare_marketplace",
+      "addresses": {
+        "goerli-alpha": [
+          "0x033f80aa81bdc938a0793a5bfc879b86c687b366744b16ee03caa68e204c4df2",
+          "0x05bc8cc601c5098e20e9d9d74e86cfb0ec737f6f3ac571914dbe4f74aa249786"
+        ],
+        "mainnet-alpha": [
+          "0x0713273b1982c3b870b963418843ff8cbdb8f92481cd7f663f0f0e1c94848833",
+          "0x079b882cb8200c1c1d20e849a2ef19124b0b8985358c1313ea6af588cfe4fec8"
+        ]
+      }
+    },
+    {
+      "tag": "mintsquare_marketplace_manager",
+      "addresses": {
+        "goerli-alpha": [
+          "0x0423c040595731d6c4a3127e8def5b32b94ea81da8c79c17759202fd7417797c"
+        ],
+        "mainnet-alpha": [
+          "0x0423c040595731d6c4a3127e8def5b32b94ea81da8c79c17759202fd7417797c"
+        ]
+      }
+    },
+    {
+      "tag": "mintsquare_auction_address",
+      "addresses": {
+        "goerli-alpha": [
+          "0x038e8a53c92fff5e797d348b99c23ade60d86b835d61b3b70e5bf7920c623588"
+        ],
+        "mainnet-alpha": [
+          "0x07a16e9f4608c60704d6b1dfcea6354857ce106281b8986ed9afdecff231f957"
+        ]
+      }
+    }
+  ]
+}

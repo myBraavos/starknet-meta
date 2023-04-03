@@ -1,0 +1,46 @@
+{
+  "id": "myswap",
+  "displayName": "mySwap",
+  "host": "www.myswap.xyz",
+  "description": "mySwap is the first AMM built on Starknet. You can swap tokens and deposit your funds in liquidity pools to earn high yield.",
+  "categories": [
+    "defi",
+    "mobile"
+  ],
+  "contracts": [
+    {
+      "tag": "myswap_address_legacy",
+      "addresses": {
+        "goerli-alpha": [
+          "0x71faa7d6c3ddb081395574c5a6904f4458ff648b66e2123b877555d9ae0260e"
+        ]
+      }
+    },
+    {
+      "tag": "myswap_address_2",
+      "addresses": {
+        "goerli-alpha": [
+          "0x018a439bcbb1b3535a6145c1dc9bc6366267d923f60a84bd0c7618f33c81d334"
+        ],
+        "mainnet-alpha": [
+          "0x018a439bcbb1b3535a6145c1dc9bc6366267d923f60a84bd0c7618f33c81d334",
+          "0x10884171baf1914edc28d7afb619b40a4051cfae78a094a55d230f19e944a28"
+        ]
+      }
+    },
+    {
+      "tag": "myswap_liquidity_tokens",
+      "addresses": {
+        "goerli-alpha": [
+          "0x895a214b06582050056ad5dd29dd8086a82d9159f023ab4d21d6fa1a2985eb",
+          "0x1550ce85c20f616af7eec81b3a1c4d4cc2ca99140e68b8092256bdff15e7df9",
+          "0x21312730d9bac8678adfaf52f7a4471decbca5b502ac05c223e627e78c7087a"
+        ],
+        "mainnet-alpha": [
+          "0x22b05f9396d2c48183f6deaf138a57522bcc8b35b67dee919f76403d1783136",
+          "0x7c662b10f409d7a0a69c8da79b397fd91187ca5f6230ed30effef2dceddc5b3"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+npx lint-staged || exit 1
+
+# Fail on direct commits to master
+branch="$(git rev-parse --abbrev-ref HEAD)"
+if [ "$branch" = "master" ]; then
+  echo "No committing directly to master"
+  exit 1
+fi
+

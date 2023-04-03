@@ -1,0 +1,102 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "displayName": {
+            "type": "string",
+            "pattern": "^[\\x00-\\x7F]{1,50}$"
+        },
+        "description": {
+            "type": "string",
+            "pattern": "^[\\x00-\\x7F]{1,300}$"
+        },
+        "host": {
+            "oneOf": [
+                {
+                    "type": "string",
+                    "pattern": "^(?=.{1,253})(?!-)[A-Za-z0-9-]{1,63}(?<!-)(?:\\.(?!-)[A-Za-z0-9-]{1,63}(?<!-))*$"
+                },
+                {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "minProperties": 1,
+                    "properties": {
+                        "mainnet-alpha": {
+                            "type": "string",
+                            "pattern": "^(?=.{1,253})(?!-)[A-Za-z0-9-]{1,63}(?<!-)(?:\\.(?!-)[A-Za-z0-9-]{1,63}(?<!-))*$"
+                        },
+                        "goerli-alpha": {
+                            "type": "string",
+                            "pattern": "^(?=.{1,253})(?!-)[A-Za-z0-9-]{1,63}(?<!-)(?:\\.(?!-)[A-Za-z0-9-]{1,63}(?<!-))*$"
+                        },
+                        "goerli-alpha-2": {
+                            "type": "string",
+                            "pattern": "^(?=.{1,253})(?!-)[A-Za-z0-9-]{1,63}(?<!-)(?:\\.(?!-)[A-Za-z0-9-]{1,63}(?<!-))*$"
+                        },
+                        "others": {
+                            "type": "string",
+                            "pattern": "^(?=.{1,253})(?!-)[A-Za-z0-9-]{1,63}(?<!-)(?:\\.(?!-)[A-Za-z0-9-]{1,63}(?<!-))*$"
+                        }
+                    }
+                }
+            ]
+        },
+        "contracts": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "tag": {
+                        "type": "string"
+                    },
+                    "implements": {
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": ["erc721", "erc20", "erc1155"]
+                        }
+                    },
+                    "addresses": {
+                        "type": "object",
+                        "properties": {
+                            "mainnet-alpha": {
+                                "type": "array",
+                                "items": {
+                                    "type": "string",
+                                    "pattern": "^0x[0-9a-fA-F]{1,64}$"
+                                }
+                            },
+                            "goerli-alpha": {
+                                "type": "array",
+                                "items": {
+                                    "type": "string",
+                                    "pattern": "^0x[0-9a-fA-F]{1,64}$"
+                                }
+                            },
+                            "goerli-alpha-2": {
+                                "type": "array",
+                                "items": {
+                                    "type": "string",
+                                    "pattern": "^0x[0-9a-fA-F]{1,64}$"
+                                }
+                            }
+                        },
+                        "additionalProperties": false
+                    }
+                },
+                "required": ["tag", "addresses"]
+            }
+        },
+        "categories": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "enum": ["nft", "defi", "mobile", "infra", "gamefi", "digitalid"]
+            }
+        }
+    },
+    "required": ["id", "displayName", "description", "host", "contracts", "categories"]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "hashstack",
+  "displayName": "Hashstack",
+  "host": "zk.hashstack.finance",
+  "description": "A non-custodial Zk-native money market protocol enabling secure under-collateralized loans.",
+  "categories": [
+    "defi"
+  ],
+  "contracts": [
+    {
+      "tag": "hashstack_testnet",
+      "addresses": {
+        "goerli-alpha-2": [
+          "0x05ad65a92e83d652175aa914e922afd2917f6a9520047eaa0da0684749163fc4"
+        ]
+      }
+    }
+  ]
+}

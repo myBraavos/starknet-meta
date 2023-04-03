@@ -1,0 +1,29 @@
+name: Validate repository
+
+on:
+  pull_request:
+    paths:
+      - 'schema.json'
+      - 'scripts/**'
+      - 'repository/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16
+
+      - name: Install dependencies
+        run: yarn
+
+      - name: Run Jest tests
+        run: yarn test
+
+      - name: Validate repository
+        run: node ./scripts/validator.js
