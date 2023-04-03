@@ -29,7 +29,8 @@
       "addresses": {
         "goerli-alpha": [
           "0x033f80aa81bdc938a0793a5bfc879b86c687b366744b16ee03caa68e204c4df2",
-          "0x05bc8cc601c5098e20e9d9d74e86cfb0ec737f6f3ac571914dbe4f74aa249786"
+          "0x05bc8cc601c5098e20e9d9d74e86cfb0ec737f6f3ac571914dbe4f74aa249786",
+          "0x0029fd090a27fc937b6328c89c1a228811c3b221ef5ed19186e08a368de72a2f"
         ],
         "mainnet-alpha": [
           "0x0713273b1982c3b870b963418843ff8cbdb8f92481cd7f663f0f0e1c94848833",
@@ -41,10 +42,12 @@
       "tag": "mintsquare_marketplace_manager",
       "addresses": {
         "goerli-alpha": [
-          "0x0423c040595731d6c4a3127e8def5b32b94ea81da8c79c17759202fd7417797c"
+          "0x0423c040595731d6c4a3127e8def5b32b94ea81da8c79c17759202fd7417797c",
+          "0x007b1363f50b27bfbba7675a35b13599f8fa11b9483aac072b8c493abae8b5c5"
         ],
         "mainnet-alpha": [
-          "0x0423c040595731d6c4a3127e8def5b32b94ea81da8c79c17759202fd7417797c"
+          "0x041682b0bcd5db29046130db68a7f6650433acabc0792db559dac247305df783",
+          "0x04767b873669406d25dddbf67356e385a14480979e5358a411955d692576aa30"
         ]
       }
     },
@@ -52,6 +55,7 @@
       "tag": "mintsquare_auction_address",
       "addresses": {
         "goerli-alpha": [
+
           "0x038e8a53c92fff5e797d348b99c23ade60d86b835d61b3b70e5bf7920c623588"
         ],
         "mainnet-alpha": [
