@@ -3,10 +3,10 @@
 
 npx lint-staged || exit 1
 
-# Fail on direct commits to master
+# Fail on direct commits to main
 branch="$(git rev-parse --abbrev-ref HEAD)"
-if [ "$branch" = "master" ]; then
-  echo "No committing directly to master"
+if [ "$branch" = "main" ]; then
+  echo "No committing directly to main"
   exit 1
 fi
 

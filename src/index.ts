@@ -18,7 +18,7 @@ const repositoryContext =
 const baseUrl = `https://raw.githubusercontent.com/${packageJson.repository.url.replaceAll(
     "https://github.com/",
     ""
-)}/master/repository`;
+)}/main/repository`;
 
 const readMetadata = (projectId: string): ProjectMetadata => {
     return repositoryContext(`./${projectId}/metadata.json`);
