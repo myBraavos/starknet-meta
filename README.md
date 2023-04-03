@@ -1,6 +1,18 @@
 # starknet-meta
 Starknet dApps metadata repository.
 
+## Goals
+🔍 **API-first metadata repository:** Prioritize seamless integration of Starknet dApp metadata, assets, and textual data for developers.
+
+🌟 **Reliable dApp assets and metadata resource:** Provide a reliable source for both dApp textual metadata and common visual assets, catering to developers' needs.
+
+🌉 **Contract addresses repository:** Offer a dependable resource for dApp contract addresses across Starknet networks.
+
+## 🛠️ Use Cases
+📝 **Contract address validation for protocols:** Enable protocols to verify which contracts are associated with a dApp.
+
+🌎 **API-first dApp discovery:** Enable dApp aggregators to efficiently find, list, and showcase new dApps in the Starknet ecosystem using an API-first approach.
+
 ## How to submit a new project
 To add a new dApp to starknet-meta, follow these steps:
 
