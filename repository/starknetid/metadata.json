@@ -53,6 +53,17 @@
           "0x3448896d4a0df143f98c9eeccc7e279bf3c2008bda2ad2759f5b20ed263585f"
         ]
       }
+    },
+    {
+      "tag": "starknet_id_verifier",
+      "addresses": {
+        "goerli-alpha": [
+          "0x4d546c8d60cfd591557ac0613be5ceeb0ea6f797e7d11c0b5160d145fa3089f"
+        ],
+        "mainnet-alpha": [
+          "0x0480258f58d43fb73936f803780047a0f6d0a563697d80bd3f95b603f9c8b1c8"
+        ]
+      }
     }
   ]
 }
