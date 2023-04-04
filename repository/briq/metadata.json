@@ -19,19 +19,14 @@
       }
     },
     {
-      "tag": "briq_address",
+      "tag": "briq_set",
       "implements": [
         "erc721"
       ],
       "addresses": {
         "goerli-alpha": [
           "0x0266b1276d23ffb53d99da3f01be7e29fa024dd33cd7f7b1eb7a46c67891c9d0"
-        ]
-      }
-    },
-    {
-      "tag": "briq_set",
-      "addresses": {
+        ],
         "mainnet-alpha": [
           "0x01435498bf393da86b4733b9264a86b58a42b31f8d8b8ba309593e5c17847672"
         ]
