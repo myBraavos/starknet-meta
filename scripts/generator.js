@@ -2,6 +2,7 @@ import Ajv from "ajv";
 import addFormats from "ajv-formats";
 import { compile } from "json-schema-to-typescript";
 import fs from "fs";
+import prettier from "prettier";
 
 const schema = JSON.parse(fs.readFileSync("schema.json", "utf-8"));
 
@@ -20,5 +21,8 @@ export interface Project {
     metadata: ProjectMetadata;
 }
 `;
-    fs.writeFileSync("./src/types.ts", ts + additionalInterfaces);
+    fs.writeFileSync(
+        "./src/types.ts",
+        prettier.format(ts + additionalInterfaces)
+    );
 });
