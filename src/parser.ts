@@ -45,7 +45,7 @@ const getProject = (id: string): Project => {
     const icon = getImagePath(id, "icon");
     const cover = getImagePath(id, "cover");
     if (icon === null || cover === null) {
-        throw new Error(`Missing icon or cover file for project: ${id}`);
+        throw new Error(`Missing icon or cover file for project ${id}`);
     }
     return {
         icon,
