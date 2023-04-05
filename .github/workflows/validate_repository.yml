@@ -4,8 +4,10 @@ on:
   pull_request:
     paths:
       - 'schema.json'
-      - 'scripts/**'
       - 'repository/**'
+      - 'scripts/**'
+      - 'src/**'
+      - 'tests/**'
 
 jobs:
   validate:
