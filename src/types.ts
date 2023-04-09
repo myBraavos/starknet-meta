@@ -1,3 +1,11 @@
+export type Category =
+    | "nft"
+    | "defi"
+    | "mobile"
+    | "infra"
+    | "gamefi"
+    | "digitalid";
+
 export interface ProjectMetadata {
     id: string;
     displayName: string;
@@ -20,19 +28,11 @@ export interface ProjectMetadata {
         };
         [k: string]: unknown;
     }[];
-    categories: (
-        | "nft"
-        | "defi"
-        | "mobile"
-        | "infra"
-        | "gamefi"
-        | "digitalid"
-    )[];
+    categories: Category[];
     [k: string]: unknown;
 }
 
-export interface Project {
+export interface Project extends ProjectMetadata {
     icon: string;
     cover: string;
-    metadata: ProjectMetadata;
 }

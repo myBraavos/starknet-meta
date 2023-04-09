@@ -92,11 +92,21 @@
         },
         "categories": {
             "type": "array",
-            "items": {
-                "type": "string",
-                "enum": ["nft", "defi", "mobile", "infra", "gamefi", "digitalid"]
-            }
+            "items": { "$ref": "#/definitions/Category" }
         }
     },
-    "required": ["id", "displayName", "description", "host", "contracts", "categories"]
+    "definitions": {
+        "Category": {
+            "type": "string",
+            "enum": ["nft", "defi", "mobile", "infra", "gamefi", "digitalid"]
+        }
+    },
+    "required": [
+        "id",
+        "displayName",
+        "description",
+        "host",
+        "contracts",
+        "categories"
+    ]
 }
