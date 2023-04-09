@@ -10,12 +10,12 @@ describe("list", () => {
     it("should return projects with valid metadata, icon, and cover", () => {
         const projects = list();
         for (const project of projects) {
-            expect(project.metadata).toHaveProperty("id");
-            expect(project.metadata).toHaveProperty("displayName");
-            expect(project.metadata).toHaveProperty("description");
-            expect(project.metadata).toHaveProperty("host");
-            expect(project.metadata).toHaveProperty("contracts");
-            expect(project.metadata).toHaveProperty("categories");
+            expect(project).toHaveProperty("id");
+            expect(project).toHaveProperty("displayName");
+            expect(project).toHaveProperty("description");
+            expect(project).toHaveProperty("host");
+            expect(project).toHaveProperty("contracts");
+            expect(project).toHaveProperty("categories");
 
             expect(project.icon).toMatch(
                 /^https:\/\/raw\.githubusercontent\.com\/.*\/icon\.(png|jpg|jpeg|svg|webp)$/
@@ -31,16 +31,20 @@ describe("get", () => {
     it("should return a project with valid metadata, icon, and cover for a given ID", () => {
         const projects = list();
         for (const project of projects) {
-            const fetchedProject = get(project.metadata.id)!;
+            const fetchedProject = get(project.id)!;
 
             expect(fetchedProject).not.toBeUndefined();
-            expect(fetchedProject).toHaveProperty("metadata");
+
+            expect(fetchedProject).toHaveProperty("id");
+            expect(fetchedProject).toHaveProperty("displayName");
+            expect(fetchedProject).toHaveProperty("description");
+            expect(fetchedProject).toHaveProperty("host");
+            expect(fetchedProject).toHaveProperty("contracts");
+            expect(fetchedProject).toHaveProperty("categories");
             expect(fetchedProject).toHaveProperty("icon");
             expect(fetchedProject).toHaveProperty("cover");
 
-            expect(fetchedProject.metadata).toEqual(project.metadata);
-            expect(fetchedProject.icon).toEqual(project.icon);
-            expect(fetchedProject.cover).toEqual(project.cover);
+            expect(fetchedProject).toEqual(project);
         }
     });
 
@@ -58,7 +62,7 @@ describe("getByContract", () => {
 
         const project = getByContract(contractAddress);
         expect(project).not.toBeUndefined();
-        expect(project!.metadata.id).toEqual(expectedProjectId);
+        expect(project!.id).toEqual(expectedProjectId);
     });
 
     it("should return undefined for a non-existent contract address", () => {
@@ -74,6 +78,6 @@ describe("getByContract", () => {
 
         const project = getByContract(contractAddressWithLeadingZero);
         expect(project).not.toBeUndefined();
-        expect(project!.metadata.id).toEqual(expectedProjectId);
+        expect(project!.id).toEqual(expectedProjectId);
     });
 });
