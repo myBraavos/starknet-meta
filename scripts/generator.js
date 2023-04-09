@@ -15,10 +15,9 @@ if (!validate) {
 
 compile(schema, "ProjectMetadata", { bannerComment: "" }).then(ts => {
     const additionalInterfaces = `
-export interface Project {
+export interface Project extends ProjectMetadata {
     icon: string;
     cover: string;
-    metadata: ProjectMetadata;
 }
 `;
     fs.writeFileSync(

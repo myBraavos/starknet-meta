@@ -7,3 +7,5 @@ export const get = (id: string): Project | undefined => projectsMap[id];
 
 export const getByContract = (address: string): Project | undefined =>
     contractsMap[normalizeAddress(address)];
+
+export { Project };

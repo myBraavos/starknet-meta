@@ -50,7 +50,7 @@ const getProject = (id: string): Project => {
     return {
         icon,
         cover,
-        metadata: readMetadata(id),
+        ...readMetadata(id),
     };
 };
 
@@ -71,9 +71,9 @@ const projectFolders = repositoryContext
     }, []);
 projectFolders.forEach((projectFolder: string) => {
     const project = getProject(projectFolder);
-    projectsMap[project.metadata.id] = project;
+    projectsMap[project.id] = project;
 
-    project.metadata.contracts.forEach(contract =>
+    project.contracts.forEach(contract =>
         Object.values(contract.addresses).forEach(addresses =>
             addresses.forEach(
                 address => (contractsMap[normalizeAddress(address)] = project)
