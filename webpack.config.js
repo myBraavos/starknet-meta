@@ -41,6 +41,7 @@ export default {
         },
         globalObject: "this",
         clean: true,
+        publicPath: "",
     },
     resolve: {
         extensions: [".ts", ".js"],
