@@ -22,10 +22,10 @@
       "tag": "sith_factory_address",
       "addresses": {
         "goerli-alpha": [
-          "0x9cdd0fc6eae8ea0e3699c030bb475996e5dd867fffb17a7b9a95b6431fcea7",
+          "0x9cdd0fc6eae8ea0e3699c030bb475996e5dd867fffb17a7b9a95b6431fcea7"
         ],
         "mainnet-alpha": [
-          "0xeaf728d8e09bfbe5f11881f848ca647ba41593502347ed2ec5881e46b57a32",
+          "0xeaf728d8e09bfbe5f11881f848ca647ba41593502347ed2ec5881e46b57a32"
         ]
       }
     }
