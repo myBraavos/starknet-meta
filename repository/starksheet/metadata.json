@@ -10,8 +10,12 @@
     {
       "tag": "starksheet",
       "addresses": {
+        "goerli-alpha": [
+          "0x4689249b9d3041c5bee2c2f03e2ce5d3f8712989920271d281d0a2ebd548982"
+        ],
         "mainnet-alpha": [
-          "0x028850a764600d53b2009b17428ae9eb980a4c4ea930a69ed8668048ef082a04"
+          "0x028850a764600d53b2009b17428ae9eb980a4c4ea930a69ed8668048ef082a04",
+          "0x076a028b19d27310f5e9f941041ae4a3a52c0e0024d593ddcb0d34e1dcd24af1"
         ]
       }
     },
@@ -20,10 +24,12 @@
       "addresses": {
         "goerli-alpha": [
           "0x00b45604338d4d9b4daf5a8eb368b7d9d0447b2029d64684e47fd2fc4be3f497",
-          "0x021e46c69d5e116b2d7fce672cad513038ea9ad1d8a32050139201f6168cdf8c"
+          "0x021e46c69d5e116b2d7fce672cad513038ea9ad1d8a32050139201f6168cdf8c",
+          "0x9e0699702c78ac50c2f43ab10cedd38dc71dc0969b1da10a393b949170f47d"
         ],
         "mainnet-alpha": [
-          "0x00f3be869afa2abb57ab452c2659a2239cb4c83594902fd7f4d07d91316e9894"
+          "0x00f3be869afa2abb57ab452c2659a2239cb4c83594902fd7f4d07d91316e9894",
+          "0x181e1b8d5d1f16f3c818811d22e23ea93b07105e6455643fb41291502386d49"
         ]
       }
     },
@@ -37,7 +43,8 @@
           "0x0160ced9da188040d8be670d95d68219fb11c2eebe6fa4cc1bdf5e36ae6b5f6c"
         ],
         "mainnet-alpha": [
-          "0x04acd4b2a59eae7196f6a5c26ead8cb5f9d7ad3d911096418a23357bb2eac075"
+          "0x04acd4b2a59eae7196f6a5c26ead8cb5f9d7ad3d911096418a23357bb2eac075",
+          "0x0419772c05f2db85b8c2b2f92e04ef4f66884270f4eb97718c8693f3b33492f5"
         ]
       }
     },
@@ -45,10 +52,12 @@
       "tag": "starksheet_render",
       "addresses": {
         "goerli-alpha": [
-          "0x048ee4bccae62f50ec929c757d1c53141ac3866e5ca67d5cff0edaa8e833f34b"
+          "0x048ee4bccae62f50ec929c757d1c53141ac3866e5ca67d5cff0edaa8e833f34b",
+          "0x81e1731e6a58a5b51ac3e5da754749eab43f4a44dd6eb5dbe7cc0d0a845929"
         ],
         "mainnet-alpha": [
-          "0x0501c3c89faeecdd0f09d9d1c162caa401165f17dee32a224c6f6188fc16b7b1"
+          "0x0501c3c89faeecdd0f09d9d1c162caa401165f17dee32a224c6f6188fc16b7b1",
+          "0x5d25f5a21da81896304ce71779ae935335fea0b72aa75eba83cafdaae5996fe"
         ]
       }
     }
