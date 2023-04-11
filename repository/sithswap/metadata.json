@@ -8,14 +8,24 @@
   ],
   "contracts": [
     {
-      "tag": "sith_swap_address",
+      "tag": "sith_router_address",
       "addresses": {
         "goerli-alpha": [
-          "0x4f50f31cd9f85757171c5c7dbab78b9c5e07b32b9a654f518dafea9aa269b92",
           "0x03b0310fe3e35fef5e8a0150607ea77dc6541a2d39498072b809f511a1364dae"
         ],
         "mainnet-alpha": [
           "0x028c858a586fa12123a1ccb337a0a3b369281f91ea00544d0c086524b759f627"
+        ]
+      }
+    },
+    {
+      "tag": "sith_factory_address",
+      "addresses": {
+        "goerli-alpha": [
+          "0x9cdd0fc6eae8ea0e3699c030bb475996e5dd867fffb17a7b9a95b6431fcea7",
+        ],
+        "mainnet-alpha": [
+          "0xeaf728d8e09bfbe5f11881f848ca647ba41593502347ed2ec5881e46b57a32",
         ]
       }
     }
