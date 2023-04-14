@@ -24,7 +24,7 @@
       }
     },
     {
-      "tag": "starknet_id_domain_address",
+      "tag": "starknet_id_naming_address",
       "addresses": {
         "goerli-alpha": [
           "0x5cf267a0af6101667013fc6bd3f6c11116a14cda9b8c4b1198520d59f900b17",
@@ -44,13 +44,24 @@
       }
     },
     {
-      "tag": "starknet_id_subdomain_address",
+      "tag": "starknet_id_braavos_subdomain_address",
       "addresses": {
         "goerli-alpha": [
           "0x0660b2cd3c93528d4edf790610404414ba3f03e0d45c814d686d628583cb34de"
         ],
         "mainnet-alpha": [
           "0x3448896d4a0df143f98c9eeccc7e279bf3c2008bda2ad2759f5b20ed263585f"
+        ]
+      }
+    },
+    {
+      "tag": "starknet_id_vip_subdomain_address",
+      "addresses": {
+        "goerli-alpha": [
+          "0x25502b9cb2754704acde148f7656fb7b9dfc4f9dace4b1cb90d36c2a08b128f"
+        ],
+        "mainnet-alpha": [
+          "0x5c0c1f9d4588f8ee5fca667f3aa2b86f9e55ce22215401e937f0678afaaea3e"
         ]
       }
     },
