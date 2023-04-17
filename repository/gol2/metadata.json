@@ -5,7 +5,7 @@
 		"mainnet-alpha": "www.gol2.io",
 		"goerli-alpha": "goerli.gol2.io"
 	},
-	"description": "An on-chain remix of the classic 'Game of Life' by John Conway on Starknet b\u0000\u0013.",
+	"description": "An on-chain remix of the classic \"Game of Life\" by John Conway on Starknet.",
 	"categories": [
 		"gamefi"
 	],
