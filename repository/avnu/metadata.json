@@ -1,0 +1,19 @@
+{
+  "id": "AVNU",
+  "displayName": "AVNU",
+  "host": "avnu.fi",
+  "description":  "Best execution on Starknet. No fluff.",
+  "categories": [
+    "defi", "infrastructure"
+  ],
+  "contracts": [
+    {
+      "tag": "avnu_exchange",
+      "addresses": {
+        "goerli-alpha": [
+          "0x06d8cd321dcbbf54512eab67c8a6849faf920077a3996f40bb4761adc4f021d2"
+        ]
+      }
+    }
+  ]
+}
