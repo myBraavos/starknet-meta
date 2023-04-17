@@ -1,0 +1,19 @@
+{
+  "id": "starkpill",
+  "displayName": "Starkpill",
+  "host": "starkpill.me",
+  "description": "Aspect is an NFT marketplace powered by Starknet. Buy, Sell, and Create in the meta economy.",
+  "categories": [
+    "nft"
+  ],
+  "contracts": [
+    {
+      "tag": "Starkpill_testnet",
+      "addresses": {
+        "goerli-alpha": [
+          "0x05ef092a31619faa63bf317bbb636bfbba86baf8e0e3e8d384ee764f2904e5dd"      
+        ]
+      }
+    }
+  ]
+}
