@@ -1,7 +1,7 @@
 {
   "id": "starkpill",
   "displayName": "Starkpill",
-  "host": "starkpill.me",
+  "host": "www.starkpill.me",
   "description": "a ERC2114 test run for starkpills.",
   "categories": [
     "nft"
