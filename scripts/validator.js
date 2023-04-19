@@ -42,7 +42,10 @@ projectFolders.forEach(async projectFolder => {
 
     const isValid = validate(metadata);
     if (!isValid) {
-        throw new Error(`Invalid metadata.json for id: ${projectFolder}`);
+        const errors = ajv.errorsText(validate.errors);
+        throw new Error(
+            `Invalid metadata.json for id: ${projectFolder}. Errors: ${errors}`
+        );
     }
 
     // ensure a unique id
@@ -65,7 +68,7 @@ projectFolders.forEach(async projectFolder => {
         !fs.lstatSync(iconPath).isFile()
     ) {
         throw new Error(
-            `Missing or invalid icon image file for id: ${metadata.id}`
+            `Missing or invalid icon image file for id: ${metadata.id}. Please check if the file exists and is in the correct format.`
         );
     }
 
@@ -77,7 +80,7 @@ projectFolders.forEach(async projectFolder => {
         iconMetadata.size > 1024 * 1024
     ) {
         throw new Error(
-            `Invalid icon image file for id: ${metadata.id}. Icon must be square and up to 1 MB.`
+            `Invalid icon image file for id: ${metadata.id}. Icon must be square and up to 1 MB. Current dimensions: ${iconMetadata.width}x${iconMetadata.height}, size: ${iconMetadata.size} bytes.`
         );
     }
 
@@ -88,7 +91,7 @@ projectFolders.forEach(async projectFolder => {
         !fs.lstatSync(coverPath).isFile()
     ) {
         throw new Error(
-            `Missing or invalid cover image file for id: ${metadata.id}`
+            `Missing or invalid cover image file for id: ${metadata.id}. Please check if the file exists and is in the correct format.`
         );
     }
 
@@ -103,7 +106,11 @@ projectFolders.forEach(async projectFolder => {
         Math.abs(aspectRatio - 1500 / 500) > 0.01
     ) {
         throw new Error(
-            `Invalid cover image file for id: ${metadata.id}. Cover image must be up to 1500x500px and have a 0.33 aspect ratio.`
+            `Invalid cover image file for id: ${
+                metadata.id
+            }. Cover image must be up to 1500x500px and have a 0.33 aspect ratio. Current dimensions: ${
+                coverMetadata.width
+            }x${coverMetadata.height}, aspect ratio: ${aspectRatio.toFixed(2)}.`
         );
     }
 });
