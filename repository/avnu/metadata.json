@@ -3,9 +3,7 @@
   "displayName": "AVNU",
   "host": "avnu.fi",
   "description":  "Best execution on Starknet. No fluff.",
-  "categories": [
-    "defi", "infrastructure"
-  ],
+  "categories": ["defi", "infra"],
   "contracts": [
     {
       "tag": "avnu_exchange",
