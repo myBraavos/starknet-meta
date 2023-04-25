@@ -25,6 +25,25 @@
           "0x0192e5bc40dc9ef4ce7b7dcdf07c8c6adda7d138989ef918caf741eb93a85e49"
         ]
       }
+    },
+    {
+      "tag": "ninth_noah",
+      "implements": [
+        "erc20"
+      ],
+      "addresses": {
+        "mainnet-alpha": [
+          "0x07038b75cd6557f4c788971eacc37cf6554acad7146398d42bcc7da3a05b5218"
+        ]
+      }
+    },
+    {
+      "tag": "ninth_seance",
+      "addresses": {
+        "mainnet-alpha": [
+          "0x0274a2ef0e6aadb781777954ec78832fbe490de0f0f1484354b99f328f74ab36"
+        ]
+      }
     }
   ]
 }
