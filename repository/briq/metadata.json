@@ -47,6 +47,31 @@
           "0x01e1f972637ad02e0eed03b69304344c4253804e528e1a5dd5c26bb2f23a8139"
         ]
       }
+    },
+    {
+      "tag": "briq_auctions",
+      "addresses": {
+        "mainnet-alpha": [
+          "0x00b9bb7650a88f7e375ae8d31d48b4d4f13c6c34344839837d7dae7ffcdd3df0",
+          "0x01712e3e3f133b26d65a3c5aaae78e7405dfca0a3cfe725dd57c4941d9474620"
+        ]
+      }
+    },
+    {
+      "tag": "briq_attr_registry",
+      "addresses": {
+        "mainnet-alpha": [
+          "0x008d4f5b0830bd49a88730133a538ccaca3048ccf2b557114b1076feeff13c11"
+        ]
+      }
+    },
+    {
+      "tag": "briq_shape_registry",
+      "addresses": {
+        "mainnet-alpha": [
+          "0x04848d0dd8a296352ba4fe100fed9d6f44cbd0a8d360b7d551d986732a14791a"
+        ]
+      }
     }
   ]
 }
