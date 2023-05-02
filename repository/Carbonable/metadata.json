@@ -3,11 +3,7 @@
   "displayName": "Carbonable",
   "host": "app.carbonable.io",
   "description": "Derisk and manage your carbon investments",
-  "categories": [
-    "defi",
-    "refi",
-    "sft"
-  ],
+  "categories": ["defi", "nft"],
   "contracts": [
     {
       "tag": "carbonable_project_721",
