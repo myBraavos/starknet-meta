@@ -1,0 +1,121 @@
+{
+  "id": "Carbonable",
+  "displayName": "Carbonable",
+  "host": "app.carbonable.io",
+  "description": "Derisk and manage your carbon investments",
+  "categories": [
+    "defi",
+    "refi",
+    "sft"
+  ],
+  "contracts": [
+    {
+      "tag": "carbonable_project_721",
+      "addresses": {
+        "goerli-alpha": [
+          "0x02873e0cdbd8bf5d35c794d06b9518c1dcac0f4f4d9f36231c1611ec2b47c95b",
+          "0x30f5a9fbcf76e2171e49435f4d6524411231f257a1b28f517cf52f82279c06b"
+        ],
+        "mainnet-alpha":[
+          "0x4047810e4f759336f941a16b6de9d8d2f934e976b9a9431a2964646df9025c6",
+          "0xebf4bbab9c934fa0212c9358331d4a9543ad66a7e0007d4a720cfa6b56061e",
+          "0x0541b5dd5fae206ceccaf4eeb0642e4c04d456c5bc296eab047c9414bdad4f09",
+          "0x6191013bbd6bcf11d69f3d60d20f7aa03439d7011bd511d13122de2275dce21",
+          "0x61bcc33b0469cd072ad47813a1efd250fd36a28425d774c31c8f33c87306e8e"
+          
+
+        ]
+      }
+    },
+    {
+      "tag": "carbonable_minter_721",
+      "addresses": {
+        "goerli-alpha": [
+          "0x04c78baeeca296374ee430f725ab6deea30f7f9092c78032354b10940bf2d852",
+          "0x1258f0aee6c6f5f9c1eb1759406a9337f8c7ffaab08d7ed2488714ab20328d2"
+        ],
+        "mainnet-alpha":[
+          "0x751d90d78f315ca518d8bdbb2a87c822279b89200f43d9a367d849632176da4",
+          "0x2f3395e63079818591f240b2fa5fdaef5af7ed81b6783e1ab047259c72f1dff",
+          "0x005321d00440218677b1de426679b7e77381dbb846ee1ae54dc084951f99c646",
+          "0x03d983ed77d966515c066d49aa35cefffc89231cb33b9593a8964f58eca8ccd8",
+          "0x06458bdd463dc9cc8057c586ef5ebd80a6984c5ebcfb7b5271f25dd3d23ddfb1",
+          "0x04b13fd9300bf4dbd94a3434455551e3beb424aebfd41962839d60b53a4590b2"
+
+        ]
+      }
+    },
+    {
+      "tag": "carbonable_vester_721",
+      "addresses": {
+        "goerli-alpha": [
+          "0x036b1b867383c1ff14ab6762e1f14a427aadc0abd9a7df5233d211e867125911",
+          "0x1258f0aee6c6f5f9c1eb1759406a9337f8c7ffaab08d7ed2488714ab20328d2"
+        ]
+      }
+    },
+    {
+      "tag": "carbonable_offseter_721",
+      "addresses": {
+        "goerli-alpha": [
+          "0x02d5aff6d8a2b16735f0fb5c8cff91fefce7953f0178a14d12092f431e507c56"
+        ]
+      }
+    },
+    {
+      "tag": "carbonable_yielder_721",
+      "addresses": {
+        "goerli-alpha": [
+          "0x01f837476279407e3deb9afc69291d477d4943ead79723db2cbeca303b539f38"
+        ]
+      }
+    },
+
+    {
+      "tag": "carbonable_project_3525",
+      "addresses": {
+        "goerli-alpha": [
+          "0x722559df8b45ed4b82aceeaa08f46111ba6d03419916703c7b6990a8ab7da64"
+        ],
+        "mainnet-alpha":[
+        
+        ]
+      }
+    },
+    {
+      "tag": "carbonable_minter_3525",
+      "addresses": {
+        "goerli-alpha": [
+          "0x068337d9e937a5a5a440b8d520cc43d80913c6d7769f90c3afdfaa1b7e929025"
+        ],
+        "mainnet-alpha":[
+        ]
+      }
+    },
+    {
+      "tag": "carbonable_vester_3525",
+      "addresses": {
+        "goerli-alpha": [
+          "0x5c4c4b0f46b310a2ebec4a4cfadabbebc2eaa8c998b590aa470a848a43b8d29"
+        ]
+      }
+    },
+    {
+      "tag": "carbonable_offseter_3525",
+      "addresses": {
+        "goerli-alpha": [
+          "0x37c4ec0aba6efb98a476a324f65cc69399d088cea4b5210276b7b5c950feabb"
+        ]
+      }
+    },
+    {
+      "tag": "carbonable_yielder_3525",
+      "addresses": {
+        "goerli-alpha": [
+          "0x5b2fa5a923d5fecb8ca054bd6925f3361d0d71698441599b071ea7e6390121e"
+        ]
+      }
+    }
+  
+  ]
+}
