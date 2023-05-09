@@ -1,0 +1,74 @@
+{
+  "id": "starkgate",
+  "displayName": "StarkGate",
+  "host": {
+    "goerli-alpha": "goerli.starkgate.starknet.io",
+    "mainnet-alpha": "starkgate.starknet.io"
+  },
+  "description": "StarkGate is the Ethereum <-> Starknet token bridge developed by StarkWare",
+  "categories": [
+    "defi",
+    "infra"
+  ],
+  "contracts": [
+    {
+      "tag": "eth_bridge",
+      "addresses": {
+        "goerli-alpha": [
+          "0x073314940630fd6dcda0d772d4c972c4e0a9946bef9dabf4ef84eda8ef542b82"
+        ],
+        "mainnet-alpha": [
+          "0x073314940630fd6dcda0d772d4c972c4e0a9946bef9dabf4ef84eda8ef542b82"
+        ]
+      }
+    },
+    {
+      "tag": "dai_bridge",
+      "addresses": {
+        "goerli-alpha": [
+          "0x0278f24c3e74cbf7a375ec099df306289beb0605a346277d200b791a7f811a19"
+        ],
+        "mainnet-alpha": [
+          "0x001108cdbe5d82737b9057590adaf97d34e74b5452f0628161d237746b6fe69e",
+          "0x075ac198e734e289a6892baa8dd14b21095f13bf8401900f5349d5569c3f6e60"
+        ]
+      }
+    },
+
+    {
+      "tag": "usdc_bridge",
+      "addresses": {
+        "goerli-alpha": [
+          "0x001d5b64feabc8ac7c839753994f469704c6fabdd45c8fe6d26ed57b5eb79057"
+        ],
+        "mainnet-alpha": [
+          "0x05cd48fccbfd8aa2773fe22c217e808319ffcc1c5a6a463f7d8fa2da48218196"
+        ]
+      }
+    },
+
+    {
+      "tag": "wbtc_bridge",
+      "addresses": {
+        "goerli-alpha": [
+          "0x072eeb90833bae233a9585f2fa9afc99c187f0a3a82693becd6a4d700b37fc6b"
+        ],
+        "mainnet-alpha": [
+          "0x07aeec4870975311a7396069033796b61cd66ed49d22a786cba12a8d76717302"
+        ]
+      }
+    },
+
+    {
+      "tag": "usdt_bridge",
+      "addresses": {
+        "goerli-alpha": [
+          "0x071d54658ca3c6ccd84ff958adb7498b2e71ba008e29b643983221ed2bd71b69"
+        ],
+        "mainnet-alpha": [
+          "0x074761a8d48ce002963002becc6d9c3dd8a2a05b1075d55e5967f42296f16bd0"
+        ]
+      }
+    }
+  ]
+}
