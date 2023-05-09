@@ -1,0 +1,996 @@
+[
+  {
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/10kswap/icon.jpg",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/10kswap/cover.jpg",
+    "id": "10kswap",
+    "displayName": "10KSwap",
+    "host": "10kswap.com",
+    "description": "10KSwap is a Layer 2 AMM protocol building on Starknet",
+    "categories": [
+      "defi"
+    ],
+    "contracts": [
+      {
+        "tag": "10k_swap_address",
+        "addresses": {
+          "goerli-alpha": [
+            "0x00975910cd99bc56bd289eaaa5cee6cd557f0ddafdb2ce6ebea15b158eb2c664"
+          ],
+          "mainnet-alpha": [
+            "0x07a6f98c03379b9513ca84cca1373ff452a7462a3b61598f0af5bb27ad7f76d1"
+          ]
+        }
+      },
+      {
+        "tag": "10k_swap_factory",
+        "addresses": {
+          "goerli-alpha": [
+            "0x06c31f39524388c982045988de3788530605ed08b10389def2e7b1dd09d19308"
+          ],
+          "mainnet-alpha": [
+            "0x01c0a36e26a8f822e0d81f20a5a562b16a8f8a3dfd99801367dd2aea8f1a87a2"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/Carbonable/icon.png",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/Carbonable/cover.png",
+    "id": "Carbonable",
+    "displayName": "Carbonable",
+    "host": "app.carbonable.io",
+    "description": "Derisk and manage your carbon investments",
+    "categories": [
+      "defi",
+      "nft"
+    ],
+    "contracts": [
+      {
+        "tag": "carbonable_project_721",
+        "addresses": {
+          "goerli-alpha": [
+            "0x02873e0cdbd8bf5d35c794d06b9518c1dcac0f4f4d9f36231c1611ec2b47c95b",
+            "0x30f5a9fbcf76e2171e49435f4d6524411231f257a1b28f517cf52f82279c06b"
+          ],
+          "mainnet-alpha": [
+            "0x4047810e4f759336f941a16b6de9d8d2f934e976b9a9431a2964646df9025c6",
+            "0xebf4bbab9c934fa0212c9358331d4a9543ad66a7e0007d4a720cfa6b56061e",
+            "0x0541b5dd5fae206ceccaf4eeb0642e4c04d456c5bc296eab047c9414bdad4f09",
+            "0x6191013bbd6bcf11d69f3d60d20f7aa03439d7011bd511d13122de2275dce21",
+            "0x61bcc33b0469cd072ad47813a1efd250fd36a28425d774c31c8f33c87306e8e"
+          ]
+        }
+      },
+      {
+        "tag": "carbonable_minter_721",
+        "addresses": {
+          "goerli-alpha": [
+            "0x04c78baeeca296374ee430f725ab6deea30f7f9092c78032354b10940bf2d852",
+            "0x1258f0aee6c6f5f9c1eb1759406a9337f8c7ffaab08d7ed2488714ab20328d2"
+          ],
+          "mainnet-alpha": [
+            "0x751d90d78f315ca518d8bdbb2a87c822279b89200f43d9a367d849632176da4",
+            "0x2f3395e63079818591f240b2fa5fdaef5af7ed81b6783e1ab047259c72f1dff",
+            "0x005321d00440218677b1de426679b7e77381dbb846ee1ae54dc084951f99c646",
+            "0x03d983ed77d966515c066d49aa35cefffc89231cb33b9593a8964f58eca8ccd8",
+            "0x06458bdd463dc9cc8057c586ef5ebd80a6984c5ebcfb7b5271f25dd3d23ddfb1",
+            "0x04b13fd9300bf4dbd94a3434455551e3beb424aebfd41962839d60b53a4590b2"
+          ]
+        }
+      },
+      {
+        "tag": "carbonable_vester_721",
+        "addresses": {
+          "goerli-alpha": [
+            "0x036b1b867383c1ff14ab6762e1f14a427aadc0abd9a7df5233d211e867125911",
+            "0x1258f0aee6c6f5f9c1eb1759406a9337f8c7ffaab08d7ed2488714ab20328d2"
+          ]
+        }
+      },
+      {
+        "tag": "carbonable_offseter_721",
+        "addresses": {
+          "goerli-alpha": [
+            "0x02d5aff6d8a2b16735f0fb5c8cff91fefce7953f0178a14d12092f431e507c56"
+          ]
+        }
+      },
+      {
+        "tag": "carbonable_yielder_721",
+        "addresses": {
+          "goerli-alpha": [
+            "0x01f837476279407e3deb9afc69291d477d4943ead79723db2cbeca303b539f38"
+          ]
+        }
+      },
+      {
+        "tag": "carbonable_project_3525",
+        "addresses": {
+          "goerli-alpha": [
+            "0x722559df8b45ed4b82aceeaa08f46111ba6d03419916703c7b6990a8ab7da64"
+          ],
+          "mainnet-alpha": []
+        }
+      },
+      {
+        "tag": "carbonable_minter_3525",
+        "addresses": {
+          "goerli-alpha": [
+            "0x068337d9e937a5a5a440b8d520cc43d80913c6d7769f90c3afdfaa1b7e929025"
+          ],
+          "mainnet-alpha": []
+        }
+      },
+      {
+        "tag": "carbonable_vester_3525",
+        "addresses": {
+          "goerli-alpha": [
+            "0x5c4c4b0f46b310a2ebec4a4cfadabbebc2eaa8c998b590aa470a848a43b8d29"
+          ]
+        }
+      },
+      {
+        "tag": "carbonable_offseter_3525",
+        "addresses": {
+          "goerli-alpha": [
+            "0x37c4ec0aba6efb98a476a324f65cc69399d088cea4b5210276b7b5c950feabb"
+          ]
+        }
+      },
+      {
+        "tag": "carbonable_yielder_3525",
+        "addresses": {
+          "goerli-alpha": [
+            "0x5b2fa5a923d5fecb8ca054bd6925f3361d0d71698441599b071ea7e6390121e"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/almanac/icon.jpg",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/almanac/cover.jpg",
+    "id": "almanac",
+    "displayName": "AlmanacNFT",
+    "host": "www.almanacnft.xyz",
+    "description": "AlmanacNFT is a collection of 10.000 unique crypto trading days. Just pick a market, pick a date, and mint a day in crypto.",
+    "categories": [
+      "nft"
+    ],
+    "contracts": [
+      {
+        "tag": "almanac_nft",
+        "implements": [
+          "erc721"
+        ],
+        "addresses": {
+          "mainnet-alpha": [
+            "0x07d4dc2bf13ede97b9e458dc401d4ff6dd386a02049de879ebe637af8299f91d"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/aspect/icon.jpg",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/aspect/cover.jpeg",
+    "id": "aspect",
+    "displayName": "Aspect",
+    "host": {
+      "goerli-alpha": "testnet.aspect.co",
+      "mainnet-alpha": "aspect.co"
+    },
+    "description": "Aspect is an NFT marketplace powered by Starknet. Buy, Sell, and Create in the meta economy.",
+    "categories": [
+      "nft",
+      "mobile"
+    ],
+    "contracts": [
+      {
+        "tag": "aspect_collection",
+        "implements": [
+          "erc721"
+        ],
+        "addresses": {
+          "goerli-alpha": [
+            "0x04e34321e0bce0e4ff8ff0bcb3a9a030d423bca29a9d99cbcdd60edb9a2bf03a",
+            "0x03090623ea32d932ca1236595076b00702e7d860696faf300ca9eb13bfe0a78c"
+          ],
+          "mainnet-alpha": [
+            "0x03090623ea32d932ca1236595076b00702e7d860696faf300ca9eb13bfe0a78c"
+          ]
+        }
+      },
+      {
+        "tag": "aspect_operator",
+        "addresses": {
+          "goerli-alpha": [
+            "0x37c320cf53f24747cb6afd1c23d0bf9ca33dcf8840764df11f8f8c8c0cd685c",
+            "0x05841326c67a6806308d60c74d69e8a6895a254689f2e01a2f3c133e6ce733c5",
+            "0x006fcf30a53fdc33c85ab428d6c481c5d241f1de403009c4e5b66aeaf3edc890"
+          ],
+          "mainnet-alpha": [
+            "0x02a92f0f860bf7c63fb9ef42cff4137006b309e0e6e1484e42d0b5511959414d"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/avnu/icon.png",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/avnu/cover.png",
+    "id": "avnu",
+    "displayName": "AVNU",
+    "host": "avnu.fi",
+    "description": "Best execution on Starknet. No fluff.",
+    "categories": [
+      "defi",
+      "infra"
+    ],
+    "contracts": [
+      {
+        "tag": "avnu_exchange",
+        "addresses": {
+          "goerli-alpha": [
+            "0x06d8cd321dcbbf54512eab67c8a6849faf920077a3996f40bb4761adc4f021d2"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/briq/icon.jpg",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/briq/cover.png",
+    "id": "briq",
+    "displayName": "briq",
+    "host": "briq.construction",
+    "description": "NFT building and composition protocol. Get some briqs and build the dream.",
+    "categories": [
+      "nft"
+    ],
+    "contracts": [
+      {
+        "tag": "briq_token",
+        "addresses": {
+          "goerli-alpha": [
+            "0x01317354276941f7f799574c73fd8fe53fa3f251084b4c04d88cf601b6bd915e"
+          ],
+          "mainnet-alpha": [
+            "0x00247444a11a98ee7896f9dec18020808249e8aad21662f2fa00402933dce402"
+          ]
+        }
+      },
+      {
+        "tag": "briq_set",
+        "implements": [
+          "erc721"
+        ],
+        "addresses": {
+          "goerli-alpha": [
+            "0x0266b1276d23ffb53d99da3f01be7e29fa024dd33cd7f7b1eb7a46c67891c9d0"
+          ],
+          "mainnet-alpha": [
+            "0x01435498bf393da86b4733b9264a86b58a42b31f8d8b8ba309593e5c17847672"
+          ]
+        }
+      },
+      {
+        "tag": "briq_booklet",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x05faa82e2aec811d3a3b14c1f32e9bbb6c9b4fd0cd6b29a823c98c7360019aa4"
+          ]
+        }
+      },
+      {
+        "tag": "briq_box",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x01e1f972637ad02e0eed03b69304344c4253804e528e1a5dd5c26bb2f23a8139"
+          ]
+        }
+      },
+      {
+        "tag": "briq_auctions",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x00b9bb7650a88f7e375ae8d31d48b4d4f13c6c34344839837d7dae7ffcdd3df0",
+            "0x01712e3e3f133b26d65a3c5aaae78e7405dfca0a3cfe725dd57c4941d9474620"
+          ]
+        }
+      },
+      {
+        "tag": "briq_attr_registry",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x008d4f5b0830bd49a88730133a538ccaca3048ccf2b557114b1076feeff13c11"
+          ]
+        }
+      },
+      {
+        "tag": "briq_shape_registry",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x04848d0dd8a296352ba4fe100fed9d6f44cbd0a8d360b7d551d986732a14791a"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/carmineoptions/icon.jpg",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/carmineoptions/cover.jpg",
+    "id": "carmineoptions",
+    "displayName": "Carmine Options",
+    "host": "app.carmine.finance",
+    "description": "Carmine Finance is revolutionizing the way stakers, traders, and crypto investors approach risk management. Our risk platform offers a comprehensive suite of options and products that enable users to hedge and insure their portfolios across multiple chains.",
+    "categories": [
+      "defi"
+    ],
+    "contracts": [
+      {
+        "tag": "carmine_options_amm",
+        "addresses": {
+          "goerli-alpha": [
+            "0x042a7d485171a01b8c38b6b37e0092f0f096e9d3f945c50c77799171916f5a54"
+          ],
+          "mainnet-alpha": [
+            "0x76dbabc4293db346b0a56b29b6ea9fe18e93742c73f12348c8747ecfc1050aa"
+          ]
+        }
+      },
+      {
+        "tag": "carmine_governance",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x1405ab78ab6ec90fba09e6116f373cda53b0ba557789a4578d8c1ec374ba0f"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/gol2/icon.jpg",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/gol2/cover.jpg",
+    "id": "gol2",
+    "displayName": "GoL2",
+    "host": {
+      "mainnet-alpha": "www.gol2.io",
+      "goerli-alpha": "goerli.gol2.io"
+    },
+    "description": "An on-chain remix of the classic \"Game of Life\" by John Conway on Starknet.",
+    "categories": [
+      "gamefi"
+    ],
+    "contracts": [
+      {
+        "tag": "main",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "goerli-alpha": [
+            "0x06dc4bd1212e67fd05b456a34b24a060c45aad08ab95843c42af31f86c7bd093"
+          ],
+          "mainnet-alpha": [
+            "0x06a05844a03bb9e744479e3298f54705a35966ab04140d3d8dd797c1f6dc49d0"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/hashstack/icon.jpg",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/hashstack/cover.jpg",
+    "id": "hashstack",
+    "displayName": "Hashstack",
+    "host": "zk.hashstack.finance",
+    "description": "A non-custodial Zk-native money market protocol enabling secure under-collateralized loans.",
+    "categories": [
+      "defi"
+    ],
+    "contracts": [
+      {
+        "tag": "hashstack_testnet",
+        "addresses": {
+          "goerli-alpha-2": [
+            "0x05ad65a92e83d652175aa914e922afd2917f6a9520047eaa0da0684749163fc4"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/jediswap/icon.jpg",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/jediswap/cover.jpg",
+    "id": "jediswap",
+    "displayName": "JediSwap",
+    "host": {
+      "goerli-alpha": "app.testnet.jediswap.xyz",
+      "mainnet-alpha": "app.jediswap.xyz"
+    },
+    "description": "JediSwap is a fully permissionless and composable AMM on Starknet. Users can swap assets instantaneously with 0 gas fees while relying on Ethereum security. Anyone can add a pool on Jediswap, and builders can build more advanced applications using JediSwap open sourced contracts",
+    "categories": [
+      "defi"
+    ],
+    "contracts": [
+      {
+        "tag": "jedi_swap_address",
+        "addresses": {
+          "goerli-alpha": [
+            "0x01ea2f12a70ad6a052f99a49dace349996a8e968a0d6d4e9ec34e0991e6d5e5e",
+            "0x012b063b60553c91ed237d8905dff412fba830c5716b17821063176c6c073341",
+            "0x2bcc885342ebbcbcd170ae6cafa8a4bed22bb993479f49806e72d96af94c965"
+          ],
+          "mainnet-alpha": [
+            "0x41fd22b238fa21cfcf5dd45a8548974d8263b3a531a60388411c5e230f97023"
+          ]
+        }
+      },
+      {
+        "tag": "jedi_swap_factory",
+        "addresses": {
+          "goerli-alpha": [
+            "0x06c872d0696e7bf45735239393774f51455e3bdb08760a0dc76cd7c8688cfd60",
+            "0x0262744f8cea943dadc8823c318eaf24d0110dee2ee8026298f49a3bc58ed74a"
+          ],
+          "mainnet-alpha": [
+            "0x00dad44c139a476c7a17fc8141e6db680e9abc9f56fe249a105094c44382c2fd"
+          ]
+        }
+      },
+      {
+        "tag": "jedi_swap_zap_address",
+        "addresses": {
+          "goerli-alpha": [
+            "0x0263acca23357479031157e30053fe10598077f24f427ac1b1de85487f5cd124",
+            "0x07e4a2e2ad496c7572228d922a50e656b5791a6f09818fb709e697f460f55735",
+            "0x073e3ccd627283aed4fa3940aa2bdb4d2c702e8e44c99b6851c019222558310f"
+          ],
+          "mainnet-alpha": [
+            "0x29a303b928b9391ce797ec27d011d3937054bee783ca7831df792bae00c925c"
+          ]
+        }
+      },
+      {
+        "tag": "jedi_swap_pair",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "mainnet-alpha": [
+            "0x05801bdad32f343035fb242e98d1e9371ae85bc1543962fedea16c59b35bd19b",
+            "0x0260e98362e0949fefff8b4de85367c035e44f734c9f8069b6ce2075ae86b45c",
+            "0x07e2a13b40fc1119ec55e0bcf9428eedaa581ab3c924561ad4e955f95da63138",
+            "0x00f0f5b3eed258344152e1f17baf84a2e1b621cd754b625bec169e8595aea767",
+            "0x04d0390b777b424e43839cd1e744799f3de6c176c7e32c1812a41dbd9c19db6a",
+            "0x00cfd39f5244f7b617418c018204a8a9f9a7f72e71f0ef38f968eeb2a9ca302b",
+            "0x045e7131d776dddc137e30bdd490b431c7144677e97bf9369f629ed8d3fb7dd6",
+            "0x039c183c8e5a2df130eefa6fbaa3b8aad89b29891f6272cb0c90deaa93ec6315",
+            "0x005a8054e5ca0b277b295a830e53bd71a6a6943b42d0dbb22329437522bc80c8",
+            "0x044d13ad98a46fd2322ef2637e5e4c292ce8822f47b7cb9a1d581176a801c1a0"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/mintsquare/icon.jpg",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/mintsquare/cover.jpeg",
+    "id": "mintsquare",
+    "displayName": "Mint Square",
+    "host": "mintsquare.io",
+    "description": "NFT marketplace on Ethereum Layer 2 ZK Rollups",
+    "categories": [
+      "nft",
+      "mobile"
+    ],
+    "contracts": [
+      {
+        "tag": "mintsquare_collection",
+        "implements": [
+          "erc721"
+        ],
+        "addresses": {
+          "goerli-alpha": [
+            "0x064bfed736951e98e16fedfd4605960879251f59f2f14427a2ae88a48f379801",
+            "0x2f13075210b7252c826eafdc09d9d77ef272f582947f7adbd44ef79eae0062c"
+          ],
+          "mainnet-alpha": [
+            "0x07861c4e276294a7e859ff0ae2eec0c68300ad9cbb43219db907da9bad786488",
+            "0x04a3621276a83251b557a8140e915599ae8e7b6207b067ea701635c0d509801e"
+          ]
+        }
+      },
+      {
+        "tag": "mintsquare_marketplace",
+        "addresses": {
+          "goerli-alpha": [
+            "0x033f80aa81bdc938a0793a5bfc879b86c687b366744b16ee03caa68e204c4df2",
+            "0x05bc8cc601c5098e20e9d9d74e86cfb0ec737f6f3ac571914dbe4f74aa249786",
+            "0x0029fd090a27fc937b6328c89c1a228811c3b221ef5ed19186e08a368de72a2f"
+          ],
+          "mainnet-alpha": [
+            "0x0713273b1982c3b870b963418843ff8cbdb8f92481cd7f663f0f0e1c94848833",
+            "0x079b882cb8200c1c1d20e849a2ef19124b0b8985358c1313ea6af588cfe4fec8"
+          ]
+        }
+      },
+      {
+        "tag": "mintsquare_marketplace_manager",
+        "addresses": {
+          "goerli-alpha": [
+            "0x0423c040595731d6c4a3127e8def5b32b94ea81da8c79c17759202fd7417797c",
+            "0x007b1363f50b27bfbba7675a35b13599f8fa11b9483aac072b8c493abae8b5c5"
+          ],
+          "mainnet-alpha": [
+            "0x041682b0bcd5db29046130db68a7f6650433acabc0792db559dac247305df783",
+            "0x04767b873669406d25dddbf67356e385a14480979e5358a411955d692576aa30"
+          ]
+        }
+      },
+      {
+        "tag": "mintsquare_auction_address",
+        "addresses": {
+          "goerli-alpha": [
+            "0x038e8a53c92fff5e797d348b99c23ade60d86b835d61b3b70e5bf7920c623588"
+          ],
+          "mainnet-alpha": [
+            "0x07a16e9f4608c60704d6b1dfcea6354857ce106281b8986ed9afdecff231f957"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/myswap/icon.png",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/myswap/cover.jpeg",
+    "id": "myswap",
+    "displayName": "mySwap",
+    "host": "www.myswap.xyz",
+    "description": "mySwap is the first AMM built on Starknet. You can swap tokens and deposit your funds in liquidity pools to earn high yield.",
+    "categories": [
+      "defi",
+      "mobile"
+    ],
+    "contracts": [
+      {
+        "tag": "myswap_address_legacy",
+        "addresses": {
+          "goerli-alpha": [
+            "0x71faa7d6c3ddb081395574c5a6904f4458ff648b66e2123b877555d9ae0260e"
+          ]
+        }
+      },
+      {
+        "tag": "myswap_address_2",
+        "addresses": {
+          "goerli-alpha": [
+            "0x018a439bcbb1b3535a6145c1dc9bc6366267d923f60a84bd0c7618f33c81d334"
+          ],
+          "mainnet-alpha": [
+            "0x018a439bcbb1b3535a6145c1dc9bc6366267d923f60a84bd0c7618f33c81d334",
+            "0x10884171baf1914edc28d7afb619b40a4051cfae78a094a55d230f19e944a28"
+          ]
+        }
+      },
+      {
+        "tag": "myswap_liquidity_tokens",
+        "addresses": {
+          "goerli-alpha": [
+            "0x895a214b06582050056ad5dd29dd8086a82d9159f023ab4d21d6fa1a2985eb",
+            "0x1550ce85c20f616af7eec81b3a1c4d4cc2ca99140e68b8092256bdff15e7df9",
+            "0x21312730d9bac8678adfaf52f7a4471decbca5b502ac05c223e627e78c7087a"
+          ],
+          "mainnet-alpha": [
+            "0x22b05f9396d2c48183f6deaf138a57522bcc8b35b67dee919f76403d1783136",
+            "0x7c662b10f409d7a0a69c8da79b397fd91187ca5f6230ed30effef2dceddc5b3"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/ninth/icon.png",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/ninth/cover.jpg",
+    "id": "ninth",
+    "displayName": "The Ninth",
+    "host": "ninth.gg",
+    "description": "The Ninth is a Player-Made and revolutionary Real-Time Evolving Game that gives you the power to shape the game's development and determine the future. You'll be in control like never before in this fully-on-chain and crypto-native game with endless possibilities and a constantly evolving ecosystem.",
+    "categories": [
+      "gamefi"
+    ],
+    "contracts": [
+      {
+        "tag": "ninth_token",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "goerli-alpha": [
+            "0x06fbd3f381ddcdf541d361a938717e97ff12ba3c77e4f96f9517d79055123293"
+          ]
+        }
+      },
+      {
+        "tag": "ninth_koma",
+        "addresses": {
+          "goerli-alpha": [
+            "0x0192e5bc40dc9ef4ce7b7dcdf07c8c6adda7d138989ef918caf741eb93a85e49"
+          ]
+        }
+      },
+      {
+        "tag": "ninth_noah",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "mainnet-alpha": [
+            "0x07038b75cd6557f4c788971eacc37cf6554acad7146398d42bcc7da3a05b5218"
+          ]
+        }
+      },
+      {
+        "tag": "ninth_seance",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x0274a2ef0e6aadb781777954ec78832fbe490de0f0f1484354b99f328f74ab36"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/nostra/icon.jpg",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/nostra/cover.jpg",
+    "id": "nostra",
+    "displayName": "Nostra",
+    "host": "alpha.nostra.finance",
+    "description": "Nostra is the most versatile liquidity protocol for lending and borrowing. Deposit your crypto in Nostra to earn income, and borrow crypto using your deposits as collateral while taking advantage of the protocol's unique features.",
+    "categories": [
+      "defi",
+      "infra"
+    ],
+    "contracts": [
+      {
+        "tag": "nostra_ibc_ethereum",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "mainnet-alpha": [
+            "0x070f8a4fcd75190661ca09a7300b7c93fab93971b67ea712c664d7948a8a54c6"
+          ]
+        }
+      },
+      {
+        "tag": "nostra_ibc_dai",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "mainnet-alpha": [
+            "0x00b9b1a4373de5b1458e598df53195ea3204aa926f46198b50b32ed843ce508b"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/sithswap/icon.webp",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/sithswap/cover.webp",
+    "id": "sithswap",
+    "displayName": "SithSwap",
+    "host": "app.sithswap.com",
+    "description": "SithSwap is an AMM on StarkNet featuring instant volatile and stable swaps with ultra low slippage, near-zero fees and the full security of Ethereum",
+    "categories": [
+      "defi"
+    ],
+    "contracts": [
+      {
+        "tag": "sith_router_address",
+        "addresses": {
+          "goerli-alpha": [
+            "0x03b0310fe3e35fef5e8a0150607ea77dc6541a2d39498072b809f511a1364dae"
+          ],
+          "mainnet-alpha": [
+            "0x028c858a586fa12123a1ccb337a0a3b369281f91ea00544d0c086524b759f627"
+          ]
+        }
+      },
+      {
+        "tag": "sith_factory_address",
+        "addresses": {
+          "goerli-alpha": [
+            "0x9cdd0fc6eae8ea0e3699c030bb475996e5dd867fffb17a7b9a95b6431fcea7"
+          ],
+          "mainnet-alpha": [
+            "0xeaf728d8e09bfbe5f11881f848ca647ba41593502347ed2ec5881e46b57a32"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/starkgate/icon.png",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/starkgate/cover.jpg",
+    "id": "starkgate",
+    "displayName": "StarkGate",
+    "host": {
+      "goerli-alpha": "goerli.starkgate.starknet.io",
+      "mainnet-alpha": "starkgate.starknet.io"
+    },
+    "description": "StarkGate is the Ethereum <-> Starknet token bridge developed by StarkWare",
+    "categories": [
+      "defi",
+      "infra"
+    ],
+    "contracts": [
+      {
+        "tag": "eth_bridge",
+        "addresses": {
+          "goerli-alpha": [
+            "0x073314940630fd6dcda0d772d4c972c4e0a9946bef9dabf4ef84eda8ef542b82"
+          ],
+          "mainnet-alpha": [
+            "0x073314940630fd6dcda0d772d4c972c4e0a9946bef9dabf4ef84eda8ef542b82"
+          ]
+        }
+      },
+      {
+        "tag": "dai_bridge",
+        "addresses": {
+          "goerli-alpha": [
+            "0x0278f24c3e74cbf7a375ec099df306289beb0605a346277d200b791a7f811a19"
+          ],
+          "mainnet-alpha": [
+            "0x001108cdbe5d82737b9057590adaf97d34e74b5452f0628161d237746b6fe69e",
+            "0x075ac198e734e289a6892baa8dd14b21095f13bf8401900f5349d5569c3f6e60"
+          ]
+        }
+      },
+      {
+        "tag": "usdc_bridge",
+        "addresses": {
+          "goerli-alpha": [
+            "0x001d5b64feabc8ac7c839753994f469704c6fabdd45c8fe6d26ed57b5eb79057"
+          ],
+          "mainnet-alpha": [
+            "0x05cd48fccbfd8aa2773fe22c217e808319ffcc1c5a6a463f7d8fa2da48218196"
+          ]
+        }
+      },
+      {
+        "tag": "wbtc_bridge",
+        "addresses": {
+          "goerli-alpha": [
+            "0x072eeb90833bae233a9585f2fa9afc99c187f0a3a82693becd6a4d700b37fc6b"
+          ],
+          "mainnet-alpha": [
+            "0x07aeec4870975311a7396069033796b61cd66ed49d22a786cba12a8d76717302"
+          ]
+        }
+      },
+      {
+        "tag": "usdt_bridge",
+        "addresses": {
+          "goerli-alpha": [
+            "0x071d54658ca3c6ccd84ff958adb7498b2e71ba008e29b643983221ed2bd71b69"
+          ],
+          "mainnet-alpha": [
+            "0x074761a8d48ce002963002becc6d9c3dd8a2a05b1075d55e5967f42296f16bd0"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/starknetid/icon.jpg",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/starknetid/cover.jpg",
+    "id": "starknetid",
+    "displayName": "Starknet.id",
+    "host": {
+      "goerli-alpha": "goerli.app.starknet.id",
+      "mainnet-alpha": "app.starknet.id"
+    },
+    "description": "Identity and naming service for starknet",
+    "categories": [
+      "nft",
+      "digitalid"
+    ],
+    "contracts": [
+      {
+        "tag": "starknet_id_address",
+        "addresses": {
+          "goerli-alpha": [
+            "0x0798e884450c19e072d6620fefdbeb7387d0453d3fd51d95f5ace1f17633d88b",
+            "0x0783a9097b26eae0586373b2ce0ed3529ddc44069d1e0fbc4f66d42b69d6850d"
+          ],
+          "mainnet-alpha": [
+            "0x05dbdedc203e92749e2e746e2d40a768d966bd243df04a6b712e222bc040a9af"
+          ]
+        }
+      },
+      {
+        "tag": "starknet_id_naming_address",
+        "addresses": {
+          "goerli-alpha": [
+            "0x5cf267a0af6101667013fc6bd3f6c11116a14cda9b8c4b1198520d59f900b17",
+            "0x003bab268e932d2cecd1946f100ae67ce3dff9fd234119ea2f6da57d16d29fce"
+          ],
+          "mainnet-alpha": [
+            "0x06ac597f8116f886fa1c97a23fa4e08299975ecaf6b598873ca6792b9bbfb678"
+          ]
+        }
+      },
+      {
+        "tag": "starknet_id_quest",
+        "addresses": {
+          "goerli-alpha": [
+            "0x068c6b0cab1423338dd3ee6affb14a8e53ec0c64c27075d6137f6b8d2b4ccc73"
+          ]
+        }
+      },
+      {
+        "tag": "starknet_id_braavos_subdomain_address",
+        "addresses": {
+          "goerli-alpha": [
+            "0x0660b2cd3c93528d4edf790610404414ba3f03e0d45c814d686d628583cb34de"
+          ],
+          "mainnet-alpha": [
+            "0x3448896d4a0df143f98c9eeccc7e279bf3c2008bda2ad2759f5b20ed263585f"
+          ]
+        }
+      },
+      {
+        "tag": "starknet_id_vip_subdomain_address",
+        "addresses": {
+          "goerli-alpha": [
+            "0x25502b9cb2754704acde148f7656fb7b9dfc4f9dace4b1cb90d36c2a08b128f"
+          ],
+          "mainnet-alpha": [
+            "0x5c0c1f9d4588f8ee5fca667f3aa2b86f9e55ce22215401e937f0678afaaea3e"
+          ]
+        }
+      },
+      {
+        "tag": "starknet_id_verifier",
+        "addresses": {
+          "goerli-alpha": [
+            "0x4d546c8d60cfd591557ac0613be5ceeb0ea6f797e7d11c0b5160d145fa3089f"
+          ],
+          "mainnet-alpha": [
+            "0x0480258f58d43fb73936f803780047a0f6d0a563697d80bd3f95b603f9c8b1c8"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/starkpill/icon.png",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/starkpill/cover.png",
+    "id": "starkpill",
+    "displayName": "Starkpill",
+    "host": "www.starkpill.me",
+    "description": "a ERC2114 test run for starkpills.",
+    "categories": [
+      "nft"
+    ],
+    "contracts": [
+      {
+        "tag": "Starkpill_testnet",
+        "addresses": {
+          "goerli-alpha": [
+            "0x05ef092a31619faa63bf317bbb636bfbba86baf8e0e3e8d384ee764f2904e5dd"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/starksheet/icon.png",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/starksheet/cover.jpg",
+    "id": "starksheet",
+    "displayName": "StarkSheet",
+    "host": "app.starksheet.xyz",
+    "description": "A spreadsheet interface to read, write and execute anything on-chain.",
+    "categories": [
+      "infra"
+    ],
+    "contracts": [
+      {
+        "tag": "starksheet",
+        "addresses": {
+          "goerli-alpha": [
+            "0x4689249b9d3041c5bee2c2f03e2ce5d3f8712989920271d281d0a2ebd548982"
+          ],
+          "mainnet-alpha": [
+            "0x028850a764600d53b2009b17428ae9eb980a4c4ea930a69ed8668048ef082a04",
+            "0x076a028b19d27310f5e9f941041ae4a3a52c0e0024d593ddcb0d34e1dcd24af1",
+            "0x071d48483dcfa86718a717f57cf99a72ff8198b4538a6edccd955312fe624747"
+          ]
+        }
+      },
+      {
+        "tag": "starksheet_math",
+        "addresses": {
+          "goerli-alpha": [
+            "0x00b45604338d4d9b4daf5a8eb368b7d9d0447b2029d64684e47fd2fc4be3f497",
+            "0x021e46c69d5e116b2d7fce672cad513038ea9ad1d8a32050139201f6168cdf8c",
+            "0x9e0699702c78ac50c2f43ab10cedd38dc71dc0969b1da10a393b949170f47d"
+          ],
+          "mainnet-alpha": [
+            "0x00f3be869afa2abb57ab452c2659a2239cb4c83594902fd7f4d07d91316e9894",
+            "0x181e1b8d5d1f16f3c818811d22e23ea93b07105e6455643fb41291502386d49"
+          ]
+        }
+      },
+      {
+        "tag": "starksheet_nft",
+        "implements": [
+          "erc721"
+        ],
+        "addresses": {
+          "goerli-alpha": [
+            "0x0160ced9da188040d8be670d95d68219fb11c2eebe6fa4cc1bdf5e36ae6b5f6c"
+          ],
+          "mainnet-alpha": [
+            "0x04acd4b2a59eae7196f6a5c26ead8cb5f9d7ad3d911096418a23357bb2eac075",
+            "0x0419772c05f2db85b8c2b2f92e04ef4f66884270f4eb97718c8693f3b33492f5"
+          ]
+        }
+      },
+      {
+        "tag": "starksheet_render",
+        "addresses": {
+          "goerli-alpha": [
+            "0x048ee4bccae62f50ec929c757d1c53141ac3866e5ca67d5cff0edaa8e833f34b",
+            "0x81e1731e6a58a5b51ac3e5da754749eab43f4a44dd6eb5dbe7cc0d0a845929"
+          ],
+          "mainnet-alpha": [
+            "0x0501c3c89faeecdd0f09d9d1c162caa401165f17dee32a224c6f6188fc16b7b1",
+            "0x5d25f5a21da81896304ce71779ae935335fea0b72aa75eba83cafdaae5996fe"
+          ]
+        }
+      },
+      {
+        "tag": "starksheet_naming",
+        "addresses": {
+          "goerli-alpha": [
+            "0x5667aae255ea09839a6ed8c0f731b1b65d5ff37f238da9e0e92b8f1dfcfd65c"
+          ],
+          "mainnet-alpha": [
+            "0x372bc172be19d7cc89bf8db93a0c40bb6502647a78358ef0fca043bb15b584"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/yagi/icon.png",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/yagi/cover.jpg",
+    "id": "yagi",
+    "displayName": "Yagi Finance",
+    "host": "yagi.fi",
+    "description": "Yagi is a network of keepers on Starknet L2 that automate protocol actions.",
+    "categories": [
+      "defi",
+      "infra"
+    ],
+    "contracts": [
+      {
+        "tag": "yagi_vault",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "goerli-alpha": [
+            "0xdeacbc83303420ea41fd3720c205a7779b025f9f3f6515ac10cabb666ff207"
+          ]
+        }
+      }
+    ]
+  }
+]
