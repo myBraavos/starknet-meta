@@ -20,12 +20,10 @@ export interface Project extends ProjectMetadata {
     cover: string;
 }
 `;
-    prettier
-        .resolveConfig()
-        .then(prettierConfig =>
-            fs.writeFileSync(
-                "./src/types.ts",
-                prettier.format(ts + additionalInterfaces, prettierConfig)
-            )
+    prettier.resolveConfig().then(prettierConfig => {
+        fs.writeFileSync(
+            "./src/types.ts",
+            prettier.format(ts + additionalInterfaces, prettierConfig)
         );
+    });
 });
