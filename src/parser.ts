@@ -63,9 +63,11 @@ export const normalizeAddress = (address: string) =>
 const projectFolders = repositoryContext
     .keys()
     .reduce((folders: string[], filePath: string) => {
-        const folder = filePath.split("/")[1];
-        if (!folders.includes(folder)) {
-            folders.push(folder);
+        if (!filePath.includes("all.json")) {
+            const folder = filePath.split("/")[1];
+            if (!folders.includes(folder)) {
+                folders.push(folder);
+            }
         }
         return folders;
     }, []);
