@@ -13,20 +13,20 @@ export interface ProjectMetadata {
     host:
         | string
         | {
-              "mainnet-alpha"?: string;
-              "goerli-alpha"?: string;
-              "goerli-alpha-2"?: string;
-              others?: string;
+              "mainnet-alpha"?: string,
+              "goerli-alpha"?: string,
+              "goerli-alpha-2"?: string,
+              others?: string,
           };
     contracts: {
-        tag: string;
-        implements?: ("erc721" | "erc20" | "erc1155")[];
+        tag: string,
+        implements?: ("erc721" | "erc20" | "erc1155")[],
         addresses: {
-            "mainnet-alpha"?: string[];
-            "goerli-alpha"?: string[];
-            "goerli-alpha-2"?: string[];
-        };
-        [k: string]: unknown;
+            "mainnet-alpha"?: string[],
+            "goerli-alpha"?: string[],
+            "goerli-alpha-2"?: string[],
+        },
+        [k: string]: unknown,
     }[];
     categories: Category[];
     [k: string]: unknown;
