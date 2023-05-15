@@ -4,7 +4,7 @@
     "host": {
       "mainnet-alpha": "app.zklend.com"
     },
-    "description": "zkLend is the native L2 money-market protocol built on Starknet, combining zk-rollup scalability, superior transaction speed, and cost-savings with Ethereum’s security.",
+    "description": "zkLend is the native L2 money-market protocol built on Starknet, combining zk-rollup scalability, superior transaction speed, and cost-savings with Ethereum's security.",
     "categories": [
       "defi"
     ],
