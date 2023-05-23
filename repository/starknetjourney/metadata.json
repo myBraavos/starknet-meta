@@ -2,20 +2,18 @@
     "id": "starknetjourney",
     "displayName": "Starknet Journey",
     "host": {
-      "mainnet-alpha": "starknet-journey-map.braavos.app"
+        "mainnet-alpha": "starknet-journey-map.braavos.app"
     },
     "description": "The Starknet realm is quickly unfolding. To navigate this universe, we at Braavos have introduced a unique concept: the Starknet Journey Map NFT. This dynamic Non-Fungible Token (NFT) doesn't just represent digital ownership - it's an interactive guide to your journey through Starknet!",
-    "categories": [
-      "nft", "mobile", "gamefi"
-    ],
+    "categories": ["nft", "mobile", "gamefi"],
     "contracts": [
-      {
-        "tag": "starknet_journey_set",
-        "addresses": {
-          "mainnet-alpha": [
-            "0x00057c4b510d66eb1188a7173f31cccee47b9736d40185da8144377b896d5ff3"
-          ]
+        {
+            "tag": "starknet_journey_set",
+            "addresses": {
+                "mainnet-alpha": [
+                    "0x00057c4b510d66eb1188a7173f31cccee47b9736d40185da8144377b896d5ff3"
+                ]
+            }
         }
-      }
     ]
-  }
+}
