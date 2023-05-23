@@ -37,7 +37,7 @@
   {
     "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/Carbonable/icon.png",
     "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/Carbonable/cover.png",
-    "id": "Carbonable",
+    "id": "carbonable",
     "displayName": "Carbonable",
     "host": "app.carbonable.io",
     "description": "Derisk and manage your carbon investments",

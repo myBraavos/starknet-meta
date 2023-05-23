@@ -1,5 +1,5 @@
 {
-  "id": "Carbonable",
+  "id": "carbonable",
   "displayName": "Carbonable",
   "host": "app.carbonable.io",
   "description": "Derisk and manage your carbon investments",
@@ -18,7 +18,7 @@
           "0x0541b5dd5fae206ceccaf4eeb0642e4c04d456c5bc296eab047c9414bdad4f09",
           "0x6191013bbd6bcf11d69f3d60d20f7aa03439d7011bd511d13122de2275dce21",
           "0x61bcc33b0469cd072ad47813a1efd250fd36a28425d774c31c8f33c87306e8e"
-          
+
 
         ]
       }
@@ -74,7 +74,7 @@
           "0x722559df8b45ed4b82aceeaa08f46111ba6d03419916703c7b6990a8ab7da64"
         ],
         "mainnet-alpha":[
-        
+
         ]
       }
     },
@@ -112,6 +112,6 @@
         ]
       }
     }
-  
+
   ]
 }
