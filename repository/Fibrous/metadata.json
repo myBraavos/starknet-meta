@@ -1,0 +1,27 @@
+{
+  "id": "Fibrous",
+  "displayName": "Fibrous",
+  "host": "app.fibrous.finance",
+  "description": "All AMMs in one place.",
+  "categories": [
+    "defi"
+  ],
+  "contracts": [
+    {
+      "tag": "Fibrous_Router",
+      "addresses": {
+        "mainnet-alpha": [
+          "0x01b23ed400b210766111ba5b1e63e33922c6ba0c45e6ad56ce112e5f4c578e62"
+        ]
+      }
+    },
+    {
+      "tag": "Fibrous_SwapHandler",
+      "addresses": {
+        "mainnet-alpha": [
+          "0x0437bd0dab99c6a011ba3a9b17e103832c18af282a12c251555a1e05b8ea2f5b"
+        ]
+      }
+    }
+  ]
+}
