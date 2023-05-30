@@ -1,5 +1,5 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-eslint ./src/
+eslint --fix ./src/
 yarn validate
