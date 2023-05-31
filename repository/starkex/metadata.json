@@ -1,8 +1,8 @@
 {
-  "id": "StarkEx",
+  "id": "starkex",
   "displayName": "StarkEx",
   "host": "starkex.org",
-  "description": "StarkEx——AMM,Liquidity Farms,and Reward pools on StarkNet. StarkEx is also a community-based and open-source ecosystem for DeFi! Say goodbye to CeFi!",
+  "description": "StarkEx AMM,Liquidity Farms,and Reward pools on StarkNet.",
   "categories": [
     "defi"
   ],
