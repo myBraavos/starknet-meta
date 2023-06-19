@@ -1,0 +1,123 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "types.json",
+    "definitions": {
+        "Host": {
+            "type": "string",
+            "pattern": "^(?=.{1,253})(?!-)[A-Za-z0-9-]{1,63}(?<!-)(?:\\.(?!-)[A-Za-z0-9-]{1,63}(?<!-))*$"
+        },
+        "Contract": {
+            "type": "object",
+            "properties": {
+                "tag": {
+                    "type": "string"
+                },
+                "implements": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "enum": ["erc721", "erc20", "erc1155"]
+                    }
+                },
+                "addresses": {
+                    "type": "object",
+                    "properties": {
+                        "mainnet-alpha": {
+                            "type": "array",
+                            "items": {
+                                "type": "string",
+                                "pattern": "^0x[0-9a-fA-F]{1,64}$"
+                            }
+                        },
+                        "goerli-alpha": {
+                            "type": "array",
+                            "items": {
+                                "type": "string",
+                                "pattern": "^0x[0-9a-fA-F]{1,64}$"
+                            }
+                        },
+                        "goerli-alpha-2": {
+                            "type": "array",
+                            "items": {
+                                "type": "string",
+                                "pattern": "^0x[0-9a-fA-F]{1,64}$"
+                            }
+                        }
+                    },
+                    "additionalProperties": false
+                }
+            },
+            "required": ["tag", "addresses"]
+        },
+        "ErrorMatcher": {
+            "type": "object",
+            "properties": {
+                "matcher": {
+                    "type": "string",
+                    "format": "regex"
+                },
+                "message": {
+                    "type": "string"
+                },
+                "extractors": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Extractor"
+                    }
+                }
+            },
+            "required": [
+                "matcher",
+                "message"
+            ]
+        },
+        "Extractor": {
+            "type": "object",
+            "properties": {
+                "matcher": {
+                    "type": "string",
+                    "format": "regex"
+                },
+                "type": {
+                    "$ref": "#/definitions/DataType"
+                }
+            },
+            "required": [
+                "matcher"
+            ]
+        },
+        "DataType": {
+            "type": "string",
+            "enum": [
+                "string",
+                "address",
+                "hex",
+                "decimal",
+                "boolean"
+            ]
+        },
+        "ErrorMatchersMap": {
+            "type": "object",
+            "properties": {
+                "default": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/ErrorMatcher"
+                    }
+                }
+            },
+            "patternProperties": {
+                ".*": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/ErrorMatcher"
+                    }
+                }
+            },
+            "required": [
+                "default"
+            ]
+        }
+    }
+
+}

@@ -1,0 +1,16 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "erc721": {
+            "$ref": "types.json#/definitions/ErrorMatchersMap"
+        },
+        "erc20": {
+            "$ref": "types.json#/definitions/ErrorMatchersMap"
+        },
+        "erc1155": {
+            "$ref": "types.json#/definitions/ErrorMatchersMap"
+        }        
+    },
+    "additionalProperties": false
+}

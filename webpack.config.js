@@ -12,16 +12,14 @@ class DeclarationPlugin {
 
             if (fs.existsSync(srcPath)) {
                 fs.readdirSync(srcPath).forEach(file => {
-                    if (file.endsWith(".d.ts")) {
-                        fs.renameSync(
-                            path.resolve(srcPath, file),
-                            path.resolve(__dirname, "dist", file)
-                        );
-                    }
+                    fs.renameSync(
+                        path.resolve(srcPath, file),
+                        path.resolve(__dirname, "dist", file)
+                    );
                 });
-
-                fs.rmdirSync(srcPath, { recursive: true });
             }
+
+            fs.rmdirSync(srcPath, { recursive: true });
         });
     }
 }
