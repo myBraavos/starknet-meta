@@ -1,5 +1,11 @@
-import { Project, ProjectMetadata } from "./types";
+import type {
+    Contract,
+    Project,
+    ProjectErrors,
+    ProjectMetadata,
+} from "./types";
 import packageJson from "../package.json";
+import { normalizeAddress } from "./utils";
 
 declare const require: {
     context: (path: string, subdirectories: boolean, pattern: RegExp) => any;
@@ -22,6 +28,10 @@ const baseUrl = `https://raw.githubusercontent.com/${packageJson.repository.url.
 
 const readMetadata = (projectId: string): ProjectMetadata => {
     return repositoryContext(`./${projectId}/metadata.json`);
+};
+
+const readErrors = (projectId: string): ProjectErrors => {
+    return repositoryContext(`./${projectId}/errors.json`);
 };
 
 const imageExtensions = ["png", "jpg", "jpeg", "svg", "webp"];
@@ -54,16 +64,25 @@ const getProject = (id: string): Project => {
     };
 };
 
-const projectsMap: Record<string, Project> = {};
-const contractsMap: Record<string, Project> = {};
+const getErrors = (id: string): ProjectErrors => {
+    try {
+        // noinspection UnnecessaryLocalVariableJS
+        const errors = readErrors(id) as ProjectErrors;
+        return errors;
+    } catch {
+        return {};
+    }
+};
 
-export const normalizeAddress = (address: string) =>
-    address.toLowerCase().replace(/^0x0*/, "0x");
+const projectsMap: Record<string, Project> = {};
+const contractsMap: Record<string, { project: Project; contract: Contract }> =
+    {};
+const errorsMap: Record<string, ProjectErrors> = {};
 
 const projectFolders = repositoryContext
     .keys()
     .reduce((folders: string[], filePath: string) => {
-        if (!filePath.includes("all.json")) {
+        if (!filePath.endsWith(".json")) {
             const folder = filePath.split("/")[1];
             if (!folders.includes(folder)) {
                 folders.push(folder);
@@ -78,10 +97,19 @@ projectFolders.forEach((projectFolder: string) => {
     project.contracts.forEach(contract =>
         Object.values(contract.addresses).forEach(addresses =>
             addresses.forEach(
-                address => (contractsMap[normalizeAddress(address)] = project)
+                address =>
+                    (contractsMap[normalizeAddress(address)] = {
+                        project,
+                        contract,
+                    })
             )
         )
     );
+
+    const projectErrors = getErrors(projectFolder);
+    if (Object.keys(projectErrors).length > 0) {
+        errorsMap[project.id] = projectErrors;
+    }
 });
 
-export { projectsMap, contractsMap };
+export { projectsMap, contractsMap, errorsMap };

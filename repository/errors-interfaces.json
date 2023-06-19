@@ -1,0 +1,26 @@
+{
+    "erc721": {
+        "default": [
+            {
+                "matcher": "/Error message:/",
+                "message": "Error message: {{1}}",
+                "extractors": [
+                    {
+                        "matcher": "/Error message: (.*)\n/"
+                    }
+                ]
+            }
+        ],
+        "approve": [
+            {
+                "matcher": "/Error message:/",
+                "message": "Error message: {{1}}",
+                "extractors": [
+                    {
+                        "matcher": "/Error message: (.*)\n/"
+                    }
+                ]
+            }
+        ]
+    }
+}

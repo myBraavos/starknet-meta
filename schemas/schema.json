@@ -1,0 +1,77 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+$"
+        },
+        "displayName": {
+            "type": "string",
+            "pattern": "^[\\x00-\\x7F]{1,50}$"
+        },
+        "description": {
+            "type": "string",
+            "pattern": "^[\\x00-\\x7F]{1,300}$"
+        },
+        "host": {
+            "oneOf": [
+                {
+                    "$ref": "types.json#/definitions/Host"
+                },
+                {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "minProperties": 1,
+                    "properties": {
+                        "mainnet-alpha": {
+                            "$ref": "types.json#/definitions/Host"
+                        },
+                        "goerli-alpha": {
+                            "$ref": "types.json#/definitions/Host"
+                        },
+                        "goerli-alpha-2": {
+                            "$ref": "types.json#/definitions/Host"
+                        },
+                        "others": {
+                            "$ref": "types.json#/definitions/Host"
+                        }
+                    }
+                }
+            ]
+        },
+        "contracts": {
+            "type": "array",
+            "items": {
+                "$ref": "types.json#/definitions/Contract"
+            }
+        },
+        "categories": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/Category"
+            }
+        }
+    },
+    "definitions": {
+        "Category": {
+            "type": "string",
+            "enum": [
+                "nft",
+                "defi",
+                "mobile",
+                "infra",
+                "gamefi",
+                "digitalid"
+            ]
+        }
+    },
+    "required": [
+        "id",
+        "displayName",
+        "description",
+        "host",
+        "contracts",
+        "categories"
+    ]
+}
