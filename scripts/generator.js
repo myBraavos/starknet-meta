@@ -41,8 +41,8 @@ export interface FormatErrorResponse {
 };
 
 export type HandleErrorContext = Partial<FormatErrorResponse> & {
-    address?: string,
-    contractTag?: string,
+    address?: string;
+    contractTag?: string;
 };
 
 export interface FormatErrorParams {

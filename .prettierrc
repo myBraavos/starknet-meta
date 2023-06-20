@@ -1,5 +1,6 @@
 {
   "tabWidth": 4,
+  "parser": "typescript",
   "useTabs": false,
   "bracketSpacing": true,
   "trailingComma": "es5",
