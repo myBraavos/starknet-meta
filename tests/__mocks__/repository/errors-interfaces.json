@@ -1,0 +1,50 @@
+{
+    "erc721": {
+        "default": [
+            {
+                "matcher": "/erc721 default matcher/",
+                "message": "Error message erc721 default: {{1}}",
+                "extractors": [
+                    {
+                        "matcher": "/Error message: (.*)\n/"
+                    }
+                ]
+            }
+        ],
+        "approve": [
+            {
+                "matcher": "/erc721 approve matcher/",
+                "message": "Error message erc721 approve: {{1}}",
+                "extractors": [
+                    {
+                        "matcher": "/Error message: (.*)\n/"
+                    }
+                ]
+            }
+        ]
+    },
+    "erc20": {
+        "default": [
+            {
+                "matcher": "/erc20 default matcher/",
+                "message": "Error message erc20 default: {{1}}",
+                "extractors": [
+                    {
+                        "matcher": "/Error message: (.*)\n/"
+                    }
+                ]
+            }
+        ],
+        "approve": [
+            {
+                "matcher": "/erc20 approve matcher/",
+                "message": "Error message erc20 approve: {{1}}",
+                "extractors": [
+                    {
+                        "matcher": "/Error message: (.*)\n/"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "aspect",
+  "displayName": "Aspect",
+  "host": {
+    "goerli-alpha": "testnet.aspect.co",
+    "mainnet-alpha": "aspect.co"
+  },
+  "description": "Aspect is an NFT marketplace powered by Starknet. Buy, Sell, and Create in the meta economy.",
+  "categories": [
+    "nft",
+    "mobile"
+  ],
+  "contracts": [
+    {
+      "tag": "aspect_collection",
+      "implements": [
+        "erc721"
+      ],
+      "addresses": {
+        "goerli-alpha": [
+          "0x04e34321e0bce0e4ff8ff0bcb3a9a030d423bca29a9d99cbcdd60edb9a2bf03a",
+          "0x03090623ea32d932ca1236595076b00702e7d860696faf300ca9eb13bfe0a78c"
+        ],
+        "mainnet-alpha": [
+          "0x03090623ea32d932ca1236595076b00702e7d860696faf300ca9eb13bfe0a78c"
+        ]
+      }
+    },
+    {
+      "tag": "aspect_operator",
+      "addresses": {
+        "goerli-alpha": [
+          "0x37c320cf53f24747cb6afd1c23d0bf9ca33dcf8840764df11f8f8c8c0cd685c",
+          "0x05841326c67a6806308d60c74d69e8a6895a254689f2e01a2f3c133e6ce733c5",
+          "0x006fcf30a53fdc33c85ab428d6c481c5d241f1de403009c4e5b66aeaf3edc890"
+        ],
+        "mainnet-alpha": [
+          "0x02a92f0f860bf7c63fb9ef42cff4137006b309e0e6e1484e42d0b5511959414d"
+        ]
+      }
+    }
+  ]
+}
