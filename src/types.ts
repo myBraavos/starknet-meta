@@ -13,8 +13,8 @@ export interface FormatErrorResponse {
 }
 
 export type HandleErrorContext = Partial<FormatErrorResponse> & {
-    address?: string,
-    contractTag?: string,
+    address?: string;
+    contractTag?: string;
 };
 
 export interface FormatErrorParams {
@@ -42,10 +42,10 @@ export interface ProjectMetadata {
     host:
         | string
         | {
-              "mainnet-alpha"?: string,
-              "goerli-alpha"?: string,
-              "goerli-alpha-2"?: string,
-              others?: string,
+              "mainnet-alpha"?: string;
+              "goerli-alpha"?: string;
+              "goerli-alpha-2"?: string;
+              others?: string;
           };
     contracts: Contract[];
     categories: Category[];
@@ -55,9 +55,9 @@ export interface Contract {
     tag: string;
     implements?: ("erc721" | "erc20" | "erc1155")[];
     addresses: {
-        "mainnet-alpha"?: string[],
-        "goerli-alpha"?: string[],
-        "goerli-alpha-2"?: string[],
+        "mainnet-alpha"?: string[];
+        "goerli-alpha"?: string[];
+        "goerli-alpha-2"?: string[];
     };
     [k: string]: unknown;
 }
