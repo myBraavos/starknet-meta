@@ -50,7 +50,6 @@ To update an existing dApp project, follow the same steps as submitting a new dA
 
 - [Braavos Wallet](https://github.com/myBraavos)
 
-
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
