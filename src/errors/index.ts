@@ -10,7 +10,7 @@ import errorHandler from "./errorHandler";
 export function formatError(params: FormatErrorParams): FormatErrorResponse {
     const { error, call } = params;
 
-    const calls = !call || Array.isArray(call) ? call || [] : [call];
+    const calls = (!call || Array.isArray(call) ? call : [call]) || [];
 
     const errorMessage: string = (error as Error)?.message ?? error;
     if (!errorMessage) {
