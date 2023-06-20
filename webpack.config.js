@@ -12,10 +12,19 @@ class DeclarationPlugin {
 
             if (fs.existsSync(srcPath)) {
                 fs.readdirSync(srcPath).forEach(file => {
-                    fs.renameSync(
-                        path.resolve(srcPath, file),
-                        path.resolve(__dirname, "dist", file)
-                    );
+                    const filepath = path.resolve(srcPath, file);
+                    const newFilePath = path.resolve(__dirname, "dist", file);
+
+                    if (file.endsWith(".d.ts")) {
+                        // move files to dist folder
+                        fs.renameSync(filepath, newFilePath);
+                    } else if (
+                        fs.lstatSync(path.resolve(srcPath, file)).isDirectory()
+                    ) {
+                        // move directories to dist folder
+                        fs.cpSync(filepath, newFilePath, { recursive: true });
+                        fs.rmdirSync(filepath, { recursive: true });
+                    }
                 });
             }
 

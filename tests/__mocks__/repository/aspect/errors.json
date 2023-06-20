@@ -1,0 +1,50 @@
+{
+    "aspect_collection": {
+        "default": [
+            {
+                "matcher": "/aspect_collection default matcher/",
+                "message": "Error message aspect_collection default: {{1}}",
+                "extractors": [
+                    {
+                        "matcher": "/Error message: (.*)\n/"
+                    }
+                ]
+            }
+        ],
+        "approve": [
+            {
+                "matcher": "/aspect_collection approve matcher/",
+                "message": "Error message aspect_collection approve: {{1}}",
+                "extractors": [
+                    {
+                        "matcher": "/Error message: (.*)\n/"
+                    }
+                ]
+            }
+        ]
+    },
+    "aspect_operator": {
+        "default": [
+            {
+                "matcher": "/aspect_operator default matcher/",
+                "message": "Error message aspect_operator default: {{1}}",
+                "extractors": [
+                    {
+                        "matcher": "/Error message: (.*)\n/"
+                    }
+                ]
+            }
+        ],
+        "approve": [
+            {
+                "matcher": "/aspect_operator approve matcher/",
+                "message": "Error message aspect_operator approve: {{1}}",
+                "extractors": [
+                    {
+                        "matcher": "/Error message: (.*)\n/"
+                    }
+                ]
+            }
+        ]
+    }
+}

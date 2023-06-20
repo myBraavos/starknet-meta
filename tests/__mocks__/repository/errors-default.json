@@ -1,0 +1,13 @@
+{
+    "default": [
+        {
+            "matcher": "/default matcher/",
+            "message": "Error message default: {{1}}",
+            "extractors": [
+                {
+                    "matcher": "/Error message: (.*)\n/"
+                }
+            ]
+        }
+    ]
+}

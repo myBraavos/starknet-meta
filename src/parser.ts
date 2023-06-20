@@ -30,7 +30,7 @@ const readMetadata = (projectId: string): ProjectMetadata => {
     return repositoryContext(`./${projectId}/metadata.json`);
 };
 
-const readErrors = (projectId: string): ProjectErrors => {
+export const readErrors = (projectId: string): ProjectErrors => {
     return repositoryContext(`./${projectId}/errors.json`);
 };
 
@@ -112,4 +112,13 @@ projectFolders.forEach((projectFolder: string) => {
     }
 });
 
-export { projectsMap, contractsMap, errorsMap };
+const defaultErrorsMap = repositoryContext(`./errors-default.json`);
+const interfaceErrorsMap = repositoryContext(`./errors-interfaces.json`);
+
+export {
+    projectsMap,
+    contractsMap,
+    errorsMap,
+    defaultErrorsMap,
+    interfaceErrorsMap,
+};
