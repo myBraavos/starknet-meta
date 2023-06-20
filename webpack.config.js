@@ -26,9 +26,9 @@ class DeclarationPlugin {
                         fs.rmdirSync(filepath, { recursive: true });
                     }
                 });
-            }
 
-            fs.rmdirSync(srcPath, { recursive: true });
+                fs.rmdirSync(srcPath, { recursive: true });
+            }
         });
     }
 }

@@ -124,10 +124,7 @@ export const handleDefaultError = (
     );
 
 export const handleFallback = (params: HandleErrorParams): HandleErrorParams =>
-    prepareHandlerResponse(
-        params,
-        params.context.result || params.errorMessage
-    );
+    prepareHandlerResponse(params, params.errorMessage);
 
 /*
     The handlers are called sequentially.
