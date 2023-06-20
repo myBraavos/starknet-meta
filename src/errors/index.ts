@@ -40,5 +40,9 @@ export function formatError(params: FormatErrorParams): FormatErrorResponse {
         context,
     });
 
-    return res as FormatErrorResponse;
+    return {
+        result: res.result,
+        protocol: res.protocol,
+        interface: res.interface,
+    } as FormatErrorResponse;
 }

@@ -124,9 +124,6 @@ describe("formatError", () => {
             expect(formatError(formatErrorTestData[0])).toEqual({
                 protocol: "aspect",
                 interface: ["erc721"],
-                contractTag: "aspect_collection",
-                address:
-                    "0x3090623ea32d932ca1236595076b00702e7d860696faf300ca9eb13bfe0a78c",
                 result: "Error message aspect_collection approve: Invocation went wrong",
             });
         });
@@ -137,9 +134,6 @@ describe("formatError", () => {
             expect(formatError(formatErrorTestData[1])).toEqual({
                 protocol: "aspect",
                 interface: ["erc721"],
-                contractTag: "aspect_collection",
-                address:
-                    "0x3090623ea32d932ca1236595076b00702e7d860696faf300ca9eb13bfe0a78c",
                 result: "Error message aspect_collection default: Invocation went wrong",
             });
         });
@@ -148,9 +142,6 @@ describe("formatError", () => {
             expect(formatError(formatErrorTestData[2])).toEqual({
                 protocol: "aspect",
                 interface: ["erc721"],
-                contractTag: "aspect_collection",
-                address:
-                    "0x3090623ea32d932ca1236595076b00702e7d860696faf300ca9eb13bfe0a78c",
                 result: "Error message aspect_collection default: Invocation went wrong",
             });
         });
@@ -161,9 +152,6 @@ describe("formatError", () => {
             expect(formatError(formatErrorTestData[3])).toEqual({
                 protocol: "aspect",
                 interface: ["erc721"],
-                contractTag: "aspect_collection",
-                address:
-                    "0x3090623ea32d932ca1236595076b00702e7d860696faf300ca9eb13bfe0a78c",
                 result: "Error message erc721 approve: Invocation went wrong",
             });
         });
@@ -175,9 +163,6 @@ describe("formatError", () => {
             expect(formatError(formatErrorTestData[4])).toEqual({
                 protocol: "aspect",
                 interface: ["erc721"],
-                contractTag: "aspect_collection",
-                address:
-                    "0x3090623ea32d932ca1236595076b00702e7d860696faf300ca9eb13bfe0a78c",
                 result: "Error message erc721 default: Invocation went wrong",
             });
         });
@@ -186,9 +171,6 @@ describe("formatError", () => {
             expect(formatError(formatErrorTestData[5])).toEqual({
                 protocol: "aspect",
                 interface: ["erc721"],
-                contractTag: "aspect_collection",
-                address:
-                    "0x3090623ea32d932ca1236595076b00702e7d860696faf300ca9eb13bfe0a78c",
                 result: "Error message erc721 default: Invocation went wrong",
             });
         });
@@ -199,8 +181,6 @@ describe("formatError", () => {
             expect(formatError(formatErrorTestData[6])).toEqual({
                 protocol: undefined,
                 interface: undefined,
-                contractTag: undefined,
-                address: "0x234535345345345",
                 result: "Error message default: Invocation went wrong",
             });
         });
@@ -209,9 +189,6 @@ describe("formatError", () => {
             expect(formatError(formatErrorTestData[7])).toEqual({
                 protocol: "aspect",
                 interface: ["erc721"],
-                contractTag: "aspect_collection",
-                address:
-                    "0x3090623ea32d932ca1236595076b00702e7d860696faf300ca9eb13bfe0a78c",
                 result: "Error message default: Invocation went wrong",
             });
         });
@@ -222,9 +199,6 @@ describe("formatError", () => {
             expect(formatError(formatErrorTestData[8])).toEqual({
                 protocol: "aspect",
                 interface: ["erc721"],
-                contractTag: "aspect_collection",
-                address:
-                    "0x3090623ea32d932ca1236595076b00702e7d860696faf300ca9eb13bfe0a78c",
                 result: "does not match any matcher\nError in the called contract (0x03090623ea32d932ca1236595076b00702e7d860696faf300ca9eb13bfe0a78c)\nError message: Invocation went wrong\n",
             });
         });
@@ -232,8 +206,6 @@ describe("formatError", () => {
             expect(formatError(formatErrorTestData[9])).toEqual({
                 protocol: undefined,
                 interface: undefined,
-                contractTag: undefined,
-                address: "0x234535345345345",
                 result: "does not match any matcher\nError in the called contract (0x234535345345345)\nError message: Invocation went wrong\n",
             });
         });
