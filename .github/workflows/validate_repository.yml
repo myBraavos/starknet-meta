@@ -3,7 +3,7 @@ name: Validate repository
 on:
   pull_request:
     paths:
-      - 'schema.json'
+      - 'schemas/**'
       - 'repository/**'
       - 'scripts/**'
       - 'src/**'
