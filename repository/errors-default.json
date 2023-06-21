@@ -1,6 +1,16 @@
 {
     "default": [
         {
+            "matcher": "/Error message: .+\/insufficient-balance/",
+            "message": "Insufficient {{0}} balance.",
+            "extractors": [
+                {
+                    "matcher": "/Error message: (.+)\/insufficient-balance/",
+                    "type": "string"
+                }
+            ]
+        },
+        {
             "matcher": "/Error message:/",
             "message": "Error message: {{0}}",
             "extractors": [
