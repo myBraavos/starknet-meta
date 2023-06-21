@@ -20,7 +20,7 @@ export const substitutePlaceholders = (
     message: string
 ) =>
     message.replace(/\{\{(\d+)\}\}/g, (match, index) => {
-        const value = extractedSubstrings[parseInt(index) - 1];
+        const value = extractedSubstrings[parseInt(index)];
         return value !== undefined ? value : match;
     });
 

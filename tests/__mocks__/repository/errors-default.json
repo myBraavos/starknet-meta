@@ -2,7 +2,7 @@
     "default": [
         {
             "matcher": "/default matcher/",
-            "message": "Error message default: {{1}}",
+            "message": "Error message default: {{0}}",
             "extractors": [
                 {
                     "matcher": "/Error message: (.*)\n/"

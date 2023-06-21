@@ -3,7 +3,7 @@
         "default": [
             {
                 "matcher": "/aspect_collection default matcher/",
-                "message": "Error message aspect_collection default: {{1}}",
+                "message": "Error message aspect_collection default: {{0}}",
                 "extractors": [
                     {
                         "matcher": "/Error message: (.*)\n/"
@@ -14,7 +14,7 @@
         "approve": [
             {
                 "matcher": "/aspect_collection approve matcher/",
-                "message": "Error message aspect_collection approve: {{1}}",
+                "message": "Error message aspect_collection approve: {{0}}",
                 "extractors": [
                     {
                         "matcher": "/Error message: (.*)\n/"
@@ -27,7 +27,7 @@
         "default": [
             {
                 "matcher": "/aspect_operator default matcher/",
-                "message": "Error message aspect_operator default: {{1}}",
+                "message": "Error message aspect_operator default: {{0}}",
                 "extractors": [
                     {
                         "matcher": "/Error message: (.*)\n/"
@@ -38,7 +38,7 @@
         "approve": [
             {
                 "matcher": "/aspect_operator approve matcher/",
-                "message": "Error message aspect_operator approve: {{1}}",
+                "message": "Error message aspect_operator approve: {{0}}",
                 "extractors": [
                     {
                         "matcher": "/Error message: (.*)\n/"
