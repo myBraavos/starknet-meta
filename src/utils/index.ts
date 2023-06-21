@@ -7,7 +7,7 @@ export const normalizeAddress = (address: string) =>
 
 export const formatByType = (
     value: string,
-    type?: "string" | "address" | "hex" | "decimal" | "boolean"
+    type?: "string" | "address" | "hex" | "decimal" | "boolean" | "symbol"
 ): string => {
     let result = value;
 
@@ -35,6 +35,10 @@ export const formatByType = (
         case "boolean":
             result = `${Boolean(new BigNumber(value).toNumber())}`;
             assert(result === "true" || result === "false");
+            break;
+        case "symbol":
+            result = value.toUpperCase();
+            assert(!!result);
             break;
     }
 

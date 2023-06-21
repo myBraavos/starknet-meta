@@ -84,6 +84,6 @@ export interface ErrorMatcher {
 }
 export interface Extractor {
     matcher: string;
-    type?: "string" | "address" | "hex" | "decimal" | "boolean";
+    type?: "string" | "address" | "hex" | "decimal" | "boolean" | "symbol";
     [k: string]: unknown;
 }

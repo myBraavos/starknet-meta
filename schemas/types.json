@@ -93,7 +93,8 @@
                 "address",
                 "hex",
                 "decimal",
-                "boolean"
+                "boolean",
+                "symbol"
             ]
         },
         "ErrorMatchersMap": {
