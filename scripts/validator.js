@@ -83,17 +83,17 @@ const validateErrorMatchers = (errorMatchers, _messageBase) => {
                 Number(resultsArray[1])
             );
 
-            if (placeholdersNumbers.some(number => number < 1)) {
+            if (placeholdersNumbers.some(number => number < 0)) {
                 errorsArray.push(
                     errorMessageBase +
-                        `/message placeholder numbers must be greater than or equal to 1`
+                        `/message placeholder numbers must be greater than or equal to 0`
                 );
                 return;
             }
 
             // Validate matching of the placeholder to the extractor
             for (const placeholderNumber of placeholdersNumbers) {
-                if (!errorMatcher.extractors[placeholderNumber - 1]) {
+                if (!errorMatcher.extractors[placeholderNumber]) {
                     errorsArray.push(
                         errorMessageBase +
                             `/message placeholder with number ${placeholderNumber} has no extractor`

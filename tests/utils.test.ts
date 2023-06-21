@@ -79,28 +79,28 @@ describe("extractErrorTargetContract", () => {
 describe("substitutePlaceholders", () => {
     it("should substitute placeholders with extracted substrings", () => {
         const extractedSubstrings = ["one", "two"];
-        const message = "{{1}} some text {{2}}";
+        const message = "{{0}} some text {{1}}";
         const result = substitutePlaceholders(extractedSubstrings, message);
         expect(result).toBe("one some text two");
     });
 
     it("should handle missing extracted substrings gracefully", () => {
         const extractedSubstrings = ["one"];
-        const message = "{{1}} some text {{2}}";
+        const message = "{{0}} some text {{1}}";
         const result = substitutePlaceholders(extractedSubstrings, message);
-        expect(result).toBe("one some text {{2}}");
+        expect(result).toBe("one some text {{1}}");
     });
 
     it("should handle duplicate placeholders", () => {
         const extractedSubstrings = ["first", "second", "third"];
-        const message = "{{1}} {{2}} {{3}} {{2}}";
+        const message = "{{0}} {{1}} {{2}} {{1}}";
         const result = substitutePlaceholders(extractedSubstrings, message);
         expect(result).toBe("first second third second");
     });
 
     it("should handle multiple placeholders in a row", () => {
         const extractedSubstrings = ["one", "two", "three"];
-        const message = "{{1}}{{2}}{{3}}";
+        const message = "{{0}}{{1}}{{2}}";
         const result = substitutePlaceholders(extractedSubstrings, message);
         expect(result).toBe("onetwothree");
     });
@@ -132,7 +132,7 @@ describe("normalizeAddress", () => {
 describe("getErrorMessageFromMatcher", () => {
     const errorMatcher: ErrorMatcher = {
         matcher: "/Error message: (.*)\\n/",
-        message: "Something went wrong: {{1}}",
+        message: "Something went wrong: {{0}}",
         extractors: [
             {
                 matcher: "/Error code: (\\d+)/",
@@ -144,7 +144,7 @@ describe("getErrorMessageFromMatcher", () => {
     it("should return the formatted error message when the matcher matches and extractors are provided", () => {
         const errorMatcher: ErrorMatcher = {
             matcher: "/Error message: (.*)\\n/",
-            message: "Something went wrong: {{1}}",
+            message: "Something went wrong: {{0}}",
             extractors: [
                 {
                     matcher: "/Error code: (\\d+)/",
@@ -164,14 +164,14 @@ describe("getErrorMessageFromMatcher", () => {
     it("should return the default error message when the matcher matches but no extractors are provided", () => {
         const errorMatcher = {
             matcher: "/Error message: (.*)\\n/",
-            message: "Something went wrong: {{1}}",
+            message: "Something went wrong: {{0}}",
         };
         const rawMessage = "Error message: Something went wrong\n";
         const errorMessage = getErrorMessageFromMatcher(
             errorMatcher,
             rawMessage
         );
-        expect(errorMessage).toBe("Something went wrong: {{1}}");
+        expect(errorMessage).toBe("Something went wrong: {{0}}");
     });
 
     it("should return null when the matcher does not match", () => {
@@ -186,7 +186,7 @@ describe("getErrorMessageFromMatcher", () => {
     it("should handle multiple extractors and placeholders in the message", () => {
         const customErrorMatcher: ErrorMatcher = {
             matcher: "/Error: (.*)\\n/",
-            message: "Error occurred: {{1}} (Code: {{2}})",
+            message: "Error occurred: {{0}} (Code: {{1}})",
             extractors: [
                 {
                     matcher: "/Error: (.*)\\n/",
@@ -211,7 +211,7 @@ describe("getErrorMessageFromMatcher", () => {
     it("should handle multiple extractors and placeholders in the message", () => {
         const customErrorMatcher: ErrorMatcher = {
             matcher: "/Error: (.*)\\n/",
-            message: "Error occurred: {{1}} (Code: {{2}})",
+            message: "Error occurred: {{0}} (Code: {{1}})",
             extractors: [
                 {
                     matcher: "/Error: (.*)\\n/",
