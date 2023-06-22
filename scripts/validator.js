@@ -53,6 +53,7 @@ const validateErrorMatchers = (errorMatchers, _messageBase) => {
         errorMatchers[entryPointName].forEach((errorMatcher, matcherIdx) => {
             const errorMessageBase =
                 _messageBase + `/${entryPointName}/${matcherIdx}`;
+
             // Validate matcher
             try {
                 stringToRegExp(errorMatcher.matcher);
