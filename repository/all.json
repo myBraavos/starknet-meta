@@ -513,6 +513,28 @@
     ]
   },
   {
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/lotus/icon.png",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/lotus/cover.jpg",
+    "id": "lotus",
+    "displayName": "Lotus NFT Raffle",
+    "host": "lotuss.app",
+    "description": "Your ultimate permissionless NFT raffle platform, creating new use cases for your NFTs.",
+    "categories": [
+      "nft",
+      "infra"
+    ],
+    "contracts": [
+      {
+        "tag": "raffle_manager",
+        "addresses": {
+          "goerli-alpha": [
+            "0x703d3e6ea6736b59857e4a2107d439dc7a8b28adfbd48b5e87c024a7df3a51a"
+          ]
+        }
+      }
+    ]
+  },
+  {
     "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/mintsquare/icon.jpg",
     "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/mintsquare/cover.jpeg",
     "id": "mintsquare",
