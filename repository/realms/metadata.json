@@ -1,6 +1,6 @@
 {
   "id": "realms",
-  "displayName": "Realms Autonomous World",
+  "displayName": "Realms",
   "host": {
     "goerli-alpha": "goerli-beta.realms.world",
     "mainnet-alpha": "realms.world"
