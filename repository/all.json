@@ -746,7 +746,7 @@
     "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/realms/icon.png",
     "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/realms/cover.webp",
     "id": "realms",
-    "displayName": "Realms Autonomous World",
+    "displayName": "Realms",
     "host": {
       "goerli-alpha": "goerli-beta.realms.world",
       "mainnet-alpha": "realms.world"
