@@ -388,6 +388,28 @@
     ]
   },
   {
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/flex/icon.jpeg",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/flex/cover.jpeg",
+    "id": "flex",
+    "displayName": "Flex",
+    "description": "The 1st Dynamic Marketplace for Starknet",
+    "host": "flexing.gg",
+    "categories": [
+      "nft",
+      "mobile"
+    ],
+    "contracts": [
+      {
+        "tag": "flex_marketplace",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x04b1b3fdf34d00288a7956e6342fb366a1510a9387d321c87f3301d990ac19d4"
+          ]
+        }
+      }
+    ]
+  },
+  {
     "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/gol2/icon.jpg",
     "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/gol2/cover.jpg",
     "id": "gol2",
