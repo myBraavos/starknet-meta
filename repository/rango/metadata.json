@@ -1,0 +1,12 @@
+{
+  "id": "rango",
+  "displayName": "Rango Exchange",
+  "host": "app.rango.exchange",
+  "description": "Rango Exchange is a cross-chain dex & bridge aggregator (which supports StarkNet)",
+  "categories": [
+    "defi",
+    "infra"
+  ],
+  "contracts": [
+  ]
+}
