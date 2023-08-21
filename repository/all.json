@@ -765,6 +765,19 @@
     ]
   },
   {
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/rango/icon.png",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/rango/cover.jpg",
+    "id": "rango",
+    "displayName": "Rango Exchange",
+    "host": "app.rango.exchange",
+    "description": "Rango Exchange is a cross-chain dex & bridge aggregator (which supports StarkNet)",
+    "categories": [
+      "defi",
+      "infra"
+    ],
+    "contracts": []
+  },
+  {
     "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/realms/icon.png",
     "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/realms/cover.webp",
     "id": "realms",
