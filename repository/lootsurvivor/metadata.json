@@ -1,0 +1,21 @@
+{
+  "id": "lootsurvivor",
+  "displayName": "Loot Survivor",
+  "host": {
+    "goerli-alpha": "survivor.realms.world"
+  },
+  "description": "Loot Survivor is an onchain Arcade machine game, first of the Play2Die franchise. You add some tokens, try to get the highscore and live for eternity onchain.",
+  "categories": [
+    "gamefi", "nft"
+  ],
+  "contracts": [
+    {
+      "tag": "loot_survivor_game",
+      "addresses": {
+        "goerli-alpha": [
+          "0x029eea6beaee6cfd02456e6172441f967a3808f5474921549cb3bafdb1cc32d0"
+        ]
+      }
+    }
+  ]
+}
