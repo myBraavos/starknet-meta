@@ -1,5 +1,5 @@
 import { ErrorMatcher, ErrorMatchersMap, HandleErrorParams } from "../types";
-import { errorsMap, interfaceErrorsMap, defaultErrorsMap } from "../parser";
+import { defaultErrorsMap, errorsMap, interfaceErrorsMap } from "../parser";
 import { combineHandlers, getErrorMessageFromMatcher } from "./utils";
 
 export const processMatchers = (

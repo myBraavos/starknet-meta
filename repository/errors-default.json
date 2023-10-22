@@ -18,6 +18,15 @@
                     "matcher": "/Error message: (.*)\n/"
                 }
             ]
+        },
+        {
+            "matcher": "/Execution was reverted; failure reason: \\[.*\\]\\.\\n?/",
+            "message": "Execution was reverted; failure reason: {{0}}",
+            "extractors": [
+                {
+                    "matcher": "/Execution was reverted; failure reason: \\[(.*)\\]\\.\n?/"
+                }
+            ]
         }
     ]
 }
