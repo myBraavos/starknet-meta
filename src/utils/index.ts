@@ -90,7 +90,7 @@ export const isHex = (hex: string) => /^0x[0-9a-f]*$/i.test(hex);
 
 export const removeHexPrefix = (hex: string) => hex.replace(/^0x/i, "");
 
-export const isDecimalString = (decim: string) => /^[0-9]*$/i.test(decim);
+export const isDecimalString = (decimal: string) => /^[0-9]*$/i.test(decimal);
 
 export const decodeShortString = (str: string): string => {
     if (!isASCII(str)) {
