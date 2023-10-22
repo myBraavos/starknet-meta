@@ -59,7 +59,7 @@
         "prettier": "^2.8.7",
         "semantic-release": "^21.0.1",
         "sharp": "^0.32.0",
-        "starknet": "^4.22.0",
+        "starknet": "^5.19.5",
         "terser-webpack-plugin": "^5.3.7",
         "ts-import": "^5.0.0-beta.0",
         "ts-jest": "^29.1.0",
