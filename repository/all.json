@@ -451,10 +451,10 @@
     ],
     "contracts": [
       {
-        "tag": "hashstack_testnet",
+        "tag": "hashstack",
         "addresses": {
-          "goerli-alpha-2": [
-            "0x05ad65a92e83d652175aa914e922afd2917f6a9520047eaa0da0684749163fc4"
+          "mainnet-alpha": [
+            "0x03dcf5c72ba60eb7b2fe151032769d49dd3df6b04fa3141dffd6e2aa162b7a6e"
           ]
         }
       }
