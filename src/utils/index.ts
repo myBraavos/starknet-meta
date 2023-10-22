@@ -41,7 +41,9 @@ export const formatByType = (
             if (result) {
                 try {
                     result = shortString.decodeShortString(value);
-                } catch {}
+                } catch {
+                    // ignore, just return original value
+                }
             }
     }
 
