@@ -174,6 +174,29 @@ describe("getErrorMessageFromMatcher", () => {
         expect(errorMessage).toBe("Something went wrong: {{0}}");
     });
 
+    it("should return the default error message when the matcher matches but no extractors are provided - reverted", () => {
+        const errorMatcher = {
+            matcher:
+                "/Execution was reverted; failure reason: (\\[.*\\]|.+).\\n?/",
+            message: "Execution was reverted; failure reason: {{0}}",
+            extractors: [
+                {
+                    matcher:
+                        "/Execution was reverted; failure reason: (\\[.*\\]|.+).\\n?/",
+                },
+            ],
+        };
+        const rawMessage =
+            "Error in the called contract (0xfff107e2403123c7df78d91728a7ee5cfd557aec0fa2d2bdc5891c286bbfff): Execution was reverted; failure reason: custom contract panic message.";
+        const errorMessage = getErrorMessageFromMatcher(
+            errorMatcher,
+            rawMessage
+        );
+        expect(errorMessage).toBe(
+            "Execution was reverted; failure reason: custom contract panic message"
+        );
+    });
+
     it("should return the default error message when the matcher matches but no extractors are provided - reverted + ascii", () => {
         const errorMatcher = {
             matcher:
