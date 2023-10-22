@@ -1,6 +1,7 @@
 import BigNumber from "bignumber.js";
 import type { Extractor } from "../types";
 import stringToRegExp from "./stringToRegExp";
+import { shortString } from "starknet";
 
 export const normalizeAddress = (address: string) =>
     address.toLowerCase().replace(/^0x0*/, "0x");
@@ -36,6 +37,12 @@ export const formatByType = (
             result = `${Boolean(new BigNumber(value).toNumber())}`;
             assert(result === "true" || result === "false");
             break;
+        default:
+            if (result) {
+                try {
+                    result = shortString.decodeShortString(value);
+                } catch {}
+            }
     }
 
     return result;
