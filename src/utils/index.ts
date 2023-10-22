@@ -40,6 +40,23 @@ export const formatByType = (
         default:
             if (result) {
                 try {
+                    if (/^\[0x[0-9a-fA-F]+(, 0x[0-9a-fA-F]+)*\]$/.test(value)) {
+                        // do not parse via JSON.parse to avoid js precision/roundness issues
+                        const asList = value
+                            // remove brackets
+                            .slice(1, -1)
+                            .split(",")
+                            .map(s => s.trim());
+                        const isAsciiList = asList.every(s =>
+                            shortString.isASCII(s)
+                        );
+                        if (isAsciiList) {
+                            return asList
+                                .map(s => shortString.decodeShortString(s))
+                                .join(" ");
+                        }
+                    }
+
                     result = shortString.decodeShortString(value);
                 } catch {
                     // ignore, just return original value
