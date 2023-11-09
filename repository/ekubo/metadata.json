@@ -1,0 +1,44 @@
+{
+  "id": "ekubo",
+  "displayName": "Ekubo",
+  "host": "ekubo.org",
+  "description": "The most powerful AMM on Starknet, featuring super-concentrated liquidity and extensibility.",
+  "categories": [
+    "defi"
+  ],
+  "contracts": [
+    {
+      "tag": "ekubo_core",
+      "addresses": {
+        "goerli-alpha": [
+          "0x031e8a7ab6a6a556548ac85cbb8b5f56e8905696e9f13e9a858142b8ee0cc221"
+        ],
+        "mainnet-alpha": [
+          "0x00000005dd3D2F4429AF886cD1a3b08289DBcEa99A294197E9eB43b0e0325b4b"
+        ]
+      }
+    },
+    {
+      "tag": "ekubo_positions",
+      "addresses": {
+        "goerli-alpha": [
+          "0x073fa8432bf59f8ed535f29acfd89a7020758bda7be509e00dfed8a9fde12ddc"
+        ],
+        "mainnet-alpha": [
+          "0x02e0af29598b407c8716b17f6d2795eca1b471413fa03fb145a5e33722184067"
+        ]
+      }
+    },
+    {
+      "tag": "ekubo_positions_nft",
+      "addresses": {
+        "goerli-alpha": [
+          "0x01090e3cfd9990c396f246cd1d5c7fb091905cba9f99739653db1f2960a3311f"
+        ],
+        "mainnet-alpha": [
+          "0x07b696af58c967c1b14c9dde0ace001720635a660a8e90c565ea459345318b30"
+        ]
+      }
+    }
+  ]
+}
