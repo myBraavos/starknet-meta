@@ -1,0 +1,36 @@
+{
+    "id": "nimbora",
+    "displayName": "Nimbora",
+    "host": {
+        "goerli-alpha": "testnet.nimbora.io",
+        "mainnet-alpha": "app.nimbora.io"
+    },
+    "description": "Nimbora is a highly efficient platform that offers the opportunity to interact with favorite Layer 1 (L1) protocols at a fraction of the cost of Layer 2 (L2) solutions. Nimbora makes DeFi actions a simple 1-click process and offers faster transactions and much lower gas fees.",
+    "categories": [
+        "defi"
+    ],
+    "contracts": [
+        {
+            "tag": "275% Trove",
+            "addresses": {
+                "goerli-alpha": [
+                    "0x03b3e6f26fa0b0e932a356d5394d3bc43b098962bf7982f4204350c561aada2f"
+                ],
+                "mainnet-alpha": [
+                    "0x03580a65260563b5511ddf2eafb83d6b309dce7fc25271df8c040a437f09a399"
+                ]
+            }
+        },
+        {
+            "tag": "400% Trove",
+            "addresses": {
+                "goerli-alpha": [
+                    "0x43acb79a8436b35d98a9231be51ee69e7aaea6e0feb3eaf186ef0d3ba4d8c7f"
+                ],
+                "mainnet-alpha": [
+                    "0x02a67288e48a8c4e2881aee422da7841fc11fef195e0a81f929871c77f07509d"
+                ]
+            }
+        }
+    ]
+}
