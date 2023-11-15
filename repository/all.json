@@ -702,6 +702,33 @@
     ]
   },
   {
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/myswapcl/icon.jpg",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/myswapcl/cover.jpg",
+    "id": "myswapcl",
+    "displayName": "mySwap CL",
+    "host": "cl.myswap.xyz",
+    "description": "Swap or provide liquidity using the most advanced AMM on Starknet.",
+    "categories": [
+      "defi",
+      "mobile"
+    ],
+    "contracts": [
+      {
+        "tag": "myswap_cl_address",
+        "addresses": {
+          "goerli-alpha": [
+            "0x0436924c4ed166d3c283d516adc424976cfccba108e3a0e3f3fc1ef319e23aa7",
+            "0x052d99ab5835a0c295567dcdd40e9e281378d26d02ecca7b31e33dea99bc02ea"
+          ],
+          "mainnet-alpha": [
+            "0x01114c7103e12c2b2ecbd3a2472ba9c48ddcbf702b1c242dd570057e26212111",
+            "0x00fff107e2403123c7df78d91728a7ee5cfd557aec0fa2d2bdc5891c286bbfff"
+          ]
+        }
+      }
+    ]
+  },
+  {
     "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/ninth/icon.png",
     "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/ninth/cover.jpg",
     "id": "ninth",
