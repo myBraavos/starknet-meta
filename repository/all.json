@@ -708,7 +708,7 @@
     "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/myswap/cover.jpg",
     "id": "myswap",
     "displayName": "mySwap",
-    "host": "www.myswap.xyz",
+    "host": "v1.myswap.xyz",
     "description": "mySwap is the first AMM built on Starknet. You can swap tokens and deposit your funds in liquidity pools to earn high yield.",
     "categories": [
       "defi",
@@ -761,7 +761,7 @@
     "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/myswapcl/cover.jpg",
     "id": "myswapcl",
     "displayName": "mySwap CL",
-    "host": "cl.myswap.xyz",
+    "host": "www.myswap.xyz",
     "description": "Swap or provide liquidity using the most advanced AMM on Starknet.",
     "categories": [
       "defi",
