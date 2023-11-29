@@ -461,6 +461,14 @@
             "0x04b1b3fdf34d00288a7956e6342fb366a1510a9387d321c87f3301d990ac19d4"
           ]
         }
+      },
+      {
+        "tag": "flex_storefront",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x02e6c908da3d1ced80d81085ed9374b7c5048f86799e1f35e54daca4d70832d7"
+          ]
+        }
       }
     ]
   },
