@@ -10,6 +10,102 @@
     {
       "tag": "briq_token",
       "addresses": {
+        "mainnet-alpha": [
+          "0x02417eb26d02947416ed0e9d99c7a023e3565fc895ee21a0a0ef88a524a665d6"
+        ]
+      }
+    },
+    {
+      "tag": "box_nft_starknet_planet",
+      "addresses": {
+        "mainnet-alpha": [
+          "0x073e3b5e6c7924f752a158c2b07f606bd5b885029da0ac1e3cde254985303f50"
+        ]
+      }
+    },
+    {
+      "tag": "box_nft_briqmas",
+      "addresses": {
+        "mainnet-alpha": [
+          "0x069699ce808b5459a3b652b5378f8c141e1dc79e10f4e7b486439fd989b7dfb1"
+        ]
+      }
+    },
+    {
+      "tag": "booklet_ducks_everywhere",
+      "addresses": {
+        "mainnet-alpha": [
+          "0x03311cdef78f70c1b13568e6dabda043c5e9d2736c0c02a35aa906d91d69836b"
+        ]
+      }
+    },
+    {
+      "tag": "booklet_starknet_planet",
+      "addresses": {
+        "mainnet-alpha": [
+          "0x02fd50e1bdd7400a8fc97eb63aa4f3423a7ec72ebe78d413ce410ec60a35afea"
+        ]
+      }
+    },
+    {
+      "tag": "booklet_briqmas",
+      "addresses": {
+        "mainnet-alpha": [
+          "0x04bbb2000c80ff79c2aa3b8aa83ee69c103469181a19d01d7f3ee4313a8031"
+        ]
+      }
+    },
+    {
+      "tag": "booklet_ducks_frens",
+      "addresses": {
+        "mainnet-alpha": [
+          "0x035d3f5be7b3b06a2d02a539faecd45bf4a04644aee7290359bd595047929a92"
+        ]
+      }
+    },
+    {
+      "tag": "set_nft",
+      "addresses": {
+        "mainnet-alpha": [
+          "0x03f96949d14c65ec10e7544d93f298d0cb07c498ecb733774f1d4b2adf3ffb23"
+        ]
+      }
+    },
+    {
+      "tag": "set_nft_ducks_everywhere",
+      "addresses": {
+        "mainnet-alpha": [
+          "0x04fa864a706e3403fd17ac8df307f22eafa21b778b73353abf69a622e47a2003"
+        ]
+      }
+    },
+    {
+      "tag": "set_nft_starknet_planet",
+      "addresses": {
+        "mainnet-alpha": [
+          "0x0e9b982bdcbed7fa60e5bbf733249ff58da9fe935067656e8175d694162df3"
+        ]
+      }
+    },
+    {
+      "tag": "set_nft_briqmas",
+      "addresses": {
+        "mainnet-alpha": [
+          "0x012a6eeb4a3eecaf16667e2b630963a4c215cdf3715fb271370a02ed6e8c1942"
+        ]
+      }
+    },
+    {
+      "tag": "set_nft_1155_ducks_frens",
+      "addresses": {
+        "mainnet-alpha": [
+          "0x0433a83c97c083470a1e2f47e24cbc53c4a225f69ffc045580a7279e7f077c79"
+        ]
+      }
+    },
+    {
+      "tag": "briq_token",
+      "addresses": {
         "goerli-alpha": [
           "0x01317354276941f7f799574c73fd8fe53fa3f251084b4c04d88cf601b6bd915e"
         ],
