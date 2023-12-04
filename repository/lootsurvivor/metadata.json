@@ -2,18 +2,55 @@
   "id": "lootsurvivor",
   "displayName": "Loot Survivor",
   "host": {
-    "goerli-alpha": "survivor.realms.world"
+    "goerli-alpha": "goerli-survivor.realms.world",
+    "mainnet-alpha": "survivor.realms.world"
   },
   "description": "Loot Survivor is an onchain Arcade machine game, first of the Play2Die franchise. You add some tokens, try to get the highscore and live for eternity onchain.",
   "categories": [
-    "gamefi", "nft"
+    "gamefi", "nft", "mobile"
   ],
   "contracts": [
     {
       "tag": "loot_survivor_game",
       "addresses": {
         "goerli-alpha": [
-          "0x029eea6beaee6cfd02456e6172441f967a3808f5474921549cb3bafdb1cc32d0"
+          "0x071d07b1217cdcc334739a3f28da75db05d62672ad04b9204ee11b88f2f9f61c"
+        ],
+        "mainnet-alpha": [
+          "0x03c10537fa0073b2dd5120242697dbf76d6173eb9f384d3bf3d284d53388a0b0"
+        ]
+      }
+    },
+    {
+      "tag": "loot_survivor_beasts",
+      "addresses": {
+        "goerli-alpha": [
+          "0x05c909139dbef784180eef8ce7a2f5bf52afe567aa73aaa77b8d8243ad5b6b96"
+        ],
+        "mainnet-alpha": [
+          "0x0158160018d590d93528995b340260e65aedd76d28a686e9daa5c4e8fad0c5dd"
+        ]
+      }
+    },
+    {
+      "tag": "loot_survivor_golden_token",
+      "addresses": {
+        "goerli-alpha": [
+          "0x003583470A8943479F8609192Da4427caC45BdF66a58C84043c7Ab2FC722C0C0"
+        ],
+        "mainnet-alpha": [
+          "0x04f5e296c805126637552cf3930e857f380e7c078e8f00696de4fc8545356b1d"
+        ]
+      }
+    },
+    {
+      "tag": "lords",
+      "addresses": {
+        "goerli-alpha": [
+          "0x05e367ac160e5f90c5775089b582dfc987dd148a5a2f977c49def2a6644f724b"
+        ],
+        "mainnet-alpha": [
+          "0x0124aeb495b947201f5fac96fd1138e326ad86195b98df6dec9009158a533b49"
         ]
       }
     }
