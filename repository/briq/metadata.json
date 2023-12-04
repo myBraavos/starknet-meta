@@ -8,6 +8,22 @@
   ],
   "contracts": [
     {
+      "tag": "briq_world",
+      "addresses": {
+        "mainnet-alpha": [
+          "0x01ea16366a82e211a9b9045725309a5080c0260d5caf45c58836fc61b42501f5"
+        ]
+      }
+    },
+    {
+      "tag": "briq_factory",
+      "addresses": {
+        "mainnet-alpha": [
+          "0x075341b8090a4257f22dafffe3a4cb882006bd26302720d6a80a1fde154a3430"
+        ]
+      }
+    },
+    {
       "tag": "briq_token",
       "addresses": {
         "mainnet-alpha": [
