@@ -161,6 +161,114 @@ describe("getErrorMessageFromMatcher", () => {
         expect(errorMessage).toBe("Something went wrong: 500");
     });
 
+    it("should return the formatted error message when the matcher matches and extractors are provided - reverted", () => {
+        const errorMatcher = {
+            matcher: "/Execution was reverted; failure reason: .+.\\n?/",
+            message: "Execution was reverted; failure reason: {{0}}",
+            extractors: [
+                {
+                    matcher:
+                        "/Execution was reverted; failure reason: (.+).\\n?/",
+                },
+            ],
+        };
+        const rawMessage =
+            "Error in the called contract (0xfff107e2403123c7df78d91728a7ee5cfd557aec0fa2d2bdc5891c286bbfff): Execution was reverted; failure reason: custom contract panic message.";
+        const errorMessage = getErrorMessageFromMatcher(
+            errorMatcher,
+            rawMessage
+        );
+        expect(errorMessage).toBe(
+            "Execution was reverted; failure reason: custom contract panic message"
+        );
+    });
+
+    it("should return the formatted error message when the matcher matches and extractors are provided - reverted + ascii", () => {
+        const errorMatcher = {
+            matcher: "/Execution was reverted; failure reason: .+.\\n?/",
+            message: "Execution was reverted; failure reason: {{0}}",
+            extractors: [
+                {
+                    matcher:
+                        "/Execution was reverted; failure reason: (.+).\\n?/",
+                },
+            ],
+        };
+        const rawMessage =
+            "Error in the called contract (0xfff107e2403123c7df78d91728a7ee5cfd557aec0fa2d2bdc5891c286bbfff): Execution was reverted; failure reason: [0x616d6f756e743020736c697070616765].";
+        const errorMessage = getErrorMessageFromMatcher(
+            errorMatcher,
+            rawMessage
+        );
+        expect(errorMessage).toBe(
+            "Execution was reverted; failure reason: amount0 slippage"
+        );
+    });
+
+    it("should return the formatted error message when the matcher matches and extractors are provided - reverted + ascii list", () => {
+        const errorMatcher = {
+            matcher: "/Execution was reverted; failure reason: .+.\\n?/",
+            message: "Execution was reverted; failure reason: {{0}}",
+            extractors: [
+                {
+                    matcher:
+                        "/Execution was reverted; failure reason: (.+).\\n?/",
+                },
+            ],
+        };
+        const rawMessage =
+            "Error in the called contract (0xfff107e2403123c7df78d91728a7ee5cfd557aec0fa2d2bdc5891c286bbfff): Execution was reverted; failure reason: [0x616d6f756e743020736c697070616765, 0x616d6f756e743020736c697070616765, 0x616d6f756e743020736c697070616765].";
+        const errorMessage = getErrorMessageFromMatcher(
+            errorMatcher,
+            rawMessage
+        );
+        expect(errorMessage).toBe(
+            "Execution was reverted; failure reason: amount0 slippage amount0 slippage amount0 slippage"
+        );
+    });
+
+    it("should return the formatted error message when the matcher matches and extractors are provided - blockfier reverted", () => {
+        const errorMatcher = {
+            matcher: "/Execution failed. Failure reason: .+.\\n?/",
+            message: "Execution failed. Failure reason: {{0}}",
+            extractors: [
+                {
+                    matcher: "/Execution failed. Failure reason: (.+).\\n?/",
+                },
+            ],
+        };
+        const rawMessage =
+            "Error in the called contract (0xfff107e2403123c7df78d91728a7ee5cfd557aec0fa2d2bdc5891c286bbfff): Execution failed. Failure reason: custom contract panic message.";
+        const errorMessage = getErrorMessageFromMatcher(
+            errorMatcher,
+            rawMessage
+        );
+        expect(errorMessage).toBe(
+            "Execution failed. Failure reason: custom contract panic message"
+        );
+    });
+
+    it("should return the formatted error message when the matcher matches and extractors are provided - blockfier reverted + ascii", () => {
+        const errorMatcher = {
+            matcher: "/Execution failed. Failure reason: .+.\\n?/",
+            message: "Execution failed. Failure reason: {{0}}",
+            extractors: [
+                {
+                    matcher: "/Execution failed. Failure reason: (.+).\\n?/",
+                },
+            ],
+        };
+        const rawMessage =
+            "Error in the called contract (0xfff107e2403123c7df78d91728a7ee5cfd557aec0fa2d2bdc5891c286bbfff): Execution failed. Failure reason: [0x616d6f756e743020736c697070616765].";
+        const errorMessage = getErrorMessageFromMatcher(
+            errorMatcher,
+            rawMessage
+        );
+        expect(errorMessage).toBe(
+            "Execution failed. Failure reason: amount0 slippage"
+        );
+    });
+
     it("should return the default error message when the matcher matches but no extractors are provided", () => {
         const errorMatcher = {
             matcher: "/Error message: (.*)\\n/",

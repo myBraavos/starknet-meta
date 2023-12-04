@@ -341,7 +341,8 @@
         "tag": "carmine_options_amm",
         "addresses": {
           "goerli-alpha": [
-            "0x042a7d485171a01b8c38b6b37e0092f0f096e9d3f945c50c77799171916f5a54"
+            "0x042a7d485171a01b8c38b6b37e0092f0f096e9d3f945c50c77799171916f5a54",
+            "0x070eb12729e80d751e999557c9c1b0754a0c7933fbde0f310b99c8b6886e139e"
           ],
           "mainnet-alpha": [
             "0x76dbabc4293db346b0a56b29b6ea9fe18e93742c73f12348c8747ecfc1050aa"
@@ -353,6 +354,52 @@
         "addresses": {
           "mainnet-alpha": [
             "0x1405ab78ab6ec90fba09e6116f373cda53b0ba557789a4578d8c1ec374ba0f"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/ekubo/icon.svg",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/ekubo/cover.png",
+    "id": "ekubo",
+    "displayName": "Ekubo",
+    "host": "ekubo.org",
+    "description": "The most powerful AMM on Starknet, featuring super-concentrated liquidity and extensibility.",
+    "categories": [
+      "defi"
+    ],
+    "contracts": [
+      {
+        "tag": "ekubo_core",
+        "addresses": {
+          "goerli-alpha": [
+            "0x031e8a7ab6a6a556548ac85cbb8b5f56e8905696e9f13e9a858142b8ee0cc221"
+          ],
+          "mainnet-alpha": [
+            "0x00000005dd3d2f4429af886cd1a3b08289dbcea99a294197e9eb43b0e0325b4b"
+          ]
+        }
+      },
+      {
+        "tag": "ekubo_positions",
+        "addresses": {
+          "goerli-alpha": [
+            "0x073fa8432bf59f8ed535f29acfd89a7020758bda7be509e00dfed8a9fde12ddc"
+          ],
+          "mainnet-alpha": [
+            "0x02e0af29598b407c8716b17f6d2795eca1b471413fa03fb145a5e33722184067"
+          ]
+        }
+      },
+      {
+        "tag": "ekubo_positions_nft",
+        "addresses": {
+          "goerli-alpha": [
+            "0x01090e3cfd9990c396f246cd1d5c7fb091905cba9f99739653db1f2960a3311f"
+          ],
+          "mainnet-alpha": [
+            "0x07b696af58c967c1b14c9dde0ace001720635a660a8e90c565ea459345318b30"
           ]
         }
       }
@@ -373,7 +420,7 @@
         "tag": "Fibrous_Router",
         "addresses": {
           "mainnet-alpha": [
-            "0x01b23ed400b210766111ba5b1e63e33922c6ba0c45e6ad56ce112e5f4c578e62"
+            "0x00f6f4cf62e3c010e0ac2451cc7807b5eec19a40b0faacd00cca3914280fdf5a"
           ]
         }
       },
@@ -382,6 +429,15 @@
         "addresses": {
           "mainnet-alpha": [
             "0x0437bd0dab99c6a011ba3a9b17e103832c18af282a12c251555a1e05b8ea2f5b"
+          ]
+        }
+      },
+      {
+        "tag": "Fibrous_Router_legacy",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x01b23ed400b210766111ba5b1e63e33922c6ba0c45e6ad56ce112e5f4c578e62",
+            "0x03201e8057a781dca378564b9d3bbe9b5b7617fac4ad9d9deaa1024cf63f877e"
           ]
         }
       }
@@ -404,6 +460,14 @@
         "addresses": {
           "mainnet-alpha": [
             "0x04b1b3fdf34d00288a7956e6342fb366a1510a9387d321c87f3301d990ac19d4"
+          ]
+        }
+      },
+      {
+        "tag": "flex_storefront",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x02e6c908da3d1ced80d81085ed9374b7c5048f86799e1f35e54daca4d70832d7"
           ]
         }
       }
@@ -451,10 +515,10 @@
     ],
     "contracts": [
       {
-        "tag": "hashstack_testnet",
+        "tag": "hashstack",
         "addresses": {
-          "goerli-alpha-2": [
-            "0x05ad65a92e83d652175aa914e922afd2917f6a9520047eaa0da0684749163fc4"
+          "mainnet-alpha": [
+            "0x03dcf5c72ba60eb7b2fe151032769d49dd3df6b04fa3141dffd6e2aa162b7a6e"
           ]
         }
       }
@@ -529,6 +593,30 @@
             "0x039c183c8e5a2df130eefa6fbaa3b8aad89b29891f6272cb0c90deaa93ec6315",
             "0x005a8054e5ca0b277b295a830e53bd71a6a6943b42d0dbb22329437522bc80c8",
             "0x044d13ad98a46fd2322ef2637e5e4c292ce8822f47b7cb9a1d581176a801c1a0"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/lootsurvivor/icon.png",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/lootsurvivor/cover.png",
+    "id": "lootsurvivor",
+    "displayName": "Loot Survivor",
+    "host": {
+      "goerli-alpha": "survivor.realms.world"
+    },
+    "description": "Loot Survivor is an onchain Arcade machine game, first of the Play2Die franchise. You add some tokens, try to get the highscore and live for eternity onchain.",
+    "categories": [
+      "gamefi",
+      "nft"
+    ],
+    "contracts": [
+      {
+        "tag": "loot_survivor_game",
+        "addresses": {
+          "goerli-alpha": [
+            "0x029eea6beaee6cfd02456e6172441f967a3808f5474921549cb3bafdb1cc32d0"
           ]
         }
       }
@@ -629,7 +717,7 @@
     "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/myswap/cover.jpg",
     "id": "myswap",
     "displayName": "mySwap",
-    "host": "www.myswap.xyz",
+    "host": "v1.myswap.xyz",
     "description": "mySwap is the first AMM built on Starknet. You can swap tokens and deposit your funds in liquidity pools to earn high yield.",
     "categories": [
       "defi",
@@ -672,6 +760,71 @@
             "0x1ea237607b7d9d2e9997aa373795929807552503683e35d8739f4dc46652de1",
             "0x0611e8f4f3badf1737b9e8f0ca77dd2f6b46a1d33ce4eed951c6b18ac497d505",
             "0x014e644c20bd5f9888033d2093c8ba3334caa0c7d15ed142962a9bebf36cc7e0"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/myswapcl/icon.jpg",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/myswapcl/cover.jpg",
+    "id": "myswapcl",
+    "displayName": "mySwap CL",
+    "host": "www.myswap.xyz",
+    "description": "Swap or provide liquidity using the most advanced AMM on Starknet.",
+    "categories": [
+      "defi",
+      "mobile"
+    ],
+    "contracts": [
+      {
+        "tag": "myswap_cl_address",
+        "addresses": {
+          "goerli-alpha": [
+            "0x0436924c4ed166d3c283d516adc424976cfccba108e3a0e3f3fc1ef319e23aa7",
+            "0x052d99ab5835a0c295567dcdd40e9e281378d26d02ecca7b31e33dea99bc02ea"
+          ],
+          "mainnet-alpha": [
+            "0x01114c7103e12c2b2ecbd3a2472ba9c48ddcbf702b1c242dd570057e26212111",
+            "0x00fff107e2403123c7df78d91728a7ee5cfd557aec0fa2d2bdc5891c286bbfff"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/nimbora/icon.jpg",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/nimbora/cover.png",
+    "id": "nimbora",
+    "displayName": "Nimbora",
+    "host": {
+      "goerli-alpha": "testnet.nimbora.io",
+      "mainnet-alpha": "app.nimbora.io"
+    },
+    "description": "Nimbora is a highly efficient platform that offers the opportunity to interact with favorite Layer 1 (L1) protocols at a fraction of the cost of Layer 2 (L2) solutions. Nimbora makes DeFi actions a simple 1-click process and offers faster transactions and much lower gas fees.",
+    "categories": [
+      "defi"
+    ],
+    "contracts": [
+      {
+        "tag": "275% Trove",
+        "addresses": {
+          "goerli-alpha": [
+            "0x03b3e6f26fa0b0e932a356d5394d3bc43b098962bf7982f4204350c561aada2f"
+          ],
+          "mainnet-alpha": [
+            "0x03580a65260563b5511ddf2eafb83d6b309dce7fc25271df8c040a437f09a399"
+          ]
+        }
+      },
+      {
+        "tag": "400% Trove",
+        "addresses": {
+          "goerli-alpha": [
+            "0x43acb79a8436b35d98a9231be51ee69e7aaea6e0feb3eaf186ef0d3ba4d8c7f"
+          ],
+          "mainnet-alpha": [
+            "0x02a67288e48a8c4e2881aee422da7841fc11fef195e0a81f929871c77f07509d"
           ]
         }
       }
@@ -733,21 +886,131 @@
     "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/nostra/cover.jpg",
     "id": "nostra",
     "displayName": "Nostra",
-    "host": "alpha.nostra.finance",
-    "description": "Nostra is the most versatile liquidity protocol for lending and borrowing. Deposit your crypto in Nostra to earn income, and borrow crypto using your deposits as collateral while taking advantage of the protocol's unique features.",
+    "host": "app.nostra.finance",
+    "description": "Nostra is a one-stop DeFi solution built on Starknet where users can lend, borrow, and trade crypto.",
     "categories": [
       "defi",
       "infra"
     ],
     "contracts": [
       {
-        "tag": "nostra_ibc_ethereum",
+        "tag": "nostra_ib_wbtc",
         "implements": [
           "erc20"
         ],
         "addresses": {
           "mainnet-alpha": [
-            "0x070f8a4fcd75190661ca09a7300b7c93fab93971b67ea712c664d7948a8a54c6"
+            "0x0735d0f09a4e8bf8a17005fa35061b5957dcaa56889fc75df9e94530ff6991ea"
+          ]
+        }
+      },
+      {
+        "tag": "nostra_ibc_wbtc",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "mainnet-alpha": [
+            "0x05b7d301fa769274f20e89222169c0fad4d846c366440afc160aafadd6f88f0c"
+          ]
+        }
+      },
+      {
+        "tag": "nostra_wbtc",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "mainnet-alpha": [
+            "0x073132577e25b06937c64787089600886ede6202d085e6340242a5a32902e23e"
+          ]
+        }
+      },
+      {
+        "tag": "nostra_c_wbtc",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "mainnet-alpha": [
+            "0x036b68238f3a90639d062669fdec08c4d0bdd09826b1b6d24ef49de6d8141eaa"
+          ]
+        }
+      },
+      {
+        "tag": "nostra_d_wbtc",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "mainnet-alpha": [
+            "0x0491480f21299223b9ce770f23a2c383437f9fbf57abc2ac952e9af8cdb12c97"
+          ]
+        }
+      },
+      {
+        "tag": "nostra_ib_eth",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "mainnet-alpha": [
+            "0x01fecadfe7cda2487c66291f2970a629be8eecdcb006ba4e71d1428c2b7605c7"
+          ]
+        }
+      },
+      {
+        "tag": "nostra_ibc_eth",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "mainnet-alpha": [
+            "0x057146f6409deb4c9fa12866915dd952aa07c1eb2752e451d7f3b042086bdeb8"
+          ]
+        }
+      },
+      {
+        "tag": "nostra_eth",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "mainnet-alpha": [
+            "0x07170f54dd61ae85377f75131359e3f4a12677589bb7ec5d61f362915a5c0982"
+          ]
+        }
+      },
+      {
+        "tag": "nostra_c_eth",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "mainnet-alpha": [
+            "0x044debfe17e4d9a5a1e226dabaf286e72c9cc36abbe71c5b847e669da4503893"
+          ]
+        }
+      },
+      {
+        "tag": "nostra_d_eth",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "mainnet-alpha": [
+            "0x00ba3037d968790ac486f70acaa9a1cab10cf5843bb85c986624b4d0e5a82e74"
+          ]
+        }
+      },
+      {
+        "tag": "nostra_ib_dai",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "mainnet-alpha": [
+            "0x022ccca3a16c9ef0df7d56cbdccd8c4a6f98356dfd11abc61a112483b242db90"
           ]
         }
       },
@@ -758,7 +1021,150 @@
         ],
         "addresses": {
           "mainnet-alpha": [
-            "0x00b9b1a4373de5b1458e598df53195ea3204aa926f46198b50b32ed843ce508b"
+            "0x04f18ffc850cdfa223a530d7246d3c6fc12a5969e0aa5d4a88f470f5fe6c46e9"
+          ]
+        }
+      },
+      {
+        "tag": "nostra_dai",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "mainnet-alpha": [
+            "0x02b5fd690bb9b126e3517f7abfb9db038e6a69a068303d06cf500c49c1388e20"
+          ]
+        }
+      },
+      {
+        "tag": "nostra_c_dai",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "mainnet-alpha": [
+            "0x005c4676bcb21454659479b3cd0129884d914df9c9b922c1c649696d2e058d70"
+          ]
+        }
+      },
+      {
+        "tag": "nostra_d_dai",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "mainnet-alpha": [
+            "0x066037c083c33330a8460a65e4748ceec275bbf5f28aa71b686cbc0010e12597"
+          ]
+        }
+      },
+      {
+        "tag": "nostra_ib_usdc",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "mainnet-alpha": [
+            "0x002fc2d4b41cc1f03d185e6681cbd40cced61915d4891517a042658d61cba3b1"
+          ]
+        }
+      },
+      {
+        "tag": "nostra_ibc_usdc",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "mainnet-alpha": [
+            "0x05dcd26c25d9d8fd9fc860038dcb6e4d835e524eb8a85213a8cda5b7fff845f6"
+          ]
+        }
+      },
+      {
+        "tag": "nostra_usdc",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "mainnet-alpha": [
+            "0x06eda767a143da12f70947192cd13ee0ccc077829002412570a88cd6539c1d85"
+          ]
+        }
+      },
+      {
+        "tag": "nostra_c_usdc",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "mainnet-alpha": [
+            "0x05f296e1b9f4cf1ab452c218e72e02a8713cee98921dad2d3b5706235e128ee4"
+          ]
+        }
+      },
+      {
+        "tag": "nostra_d_usdc",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "mainnet-alpha": [
+            "0x063d69ae657bd2f40337c39bf35a870ac27ddf91e6623c2f52529db4c1619a51"
+          ]
+        }
+      },
+      {
+        "tag": "nostra_ib_usdt",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "mainnet-alpha": [
+            "0x0360f9786a6595137f84f2d6931aaec09ceec476a94a98dcad2bb092c6c06701"
+          ]
+        }
+      },
+      {
+        "tag": "nostra_ibc_usdt",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "mainnet-alpha": [
+            "0x0453c4c996f1047d9370f824d68145bd5e7ce12d00437140ad02181e1d11dc83"
+          ]
+        }
+      },
+      {
+        "tag": "nostra_usdt",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "mainnet-alpha": [
+            "0x06669cb476aa7e6a29c18b59b54f30b8bfcfbb8444f09e7bbb06c10895bf5d7b"
+          ]
+        }
+      },
+      {
+        "tag": "nostra_c_usdt",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "mainnet-alpha": [
+            "0x0514bd7ee8c97d4286bd481c54aa0793e43edbfb7e1ab9784c4b30469dcf9313"
+          ]
+        }
+      },
+      {
+        "tag": "nostra_d_usdt",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "mainnet-alpha": [
+            "0x024e9b0d6bc79e111e6872bb1ada2a874c25712cf08dfc5bcf0de008a7cca55f"
           ]
         }
       }
@@ -1335,6 +1741,30 @@
         "addresses": {
           "mainnet-alpha": [
             "0x4a31c52c6d952540fd844908797e12ac43ffb9b541aa00abd51d24bf3e0aa63"
+          ]
+        }
+      },
+      {
+        "tag": "zklend_zwsteth_token",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x0536aa7e01ecc0235ca3e29da7b5ad5b12cb881e29034d87a4290edbb20b7c28"
+          ]
+        }
+      },
+      {
+        "tag": "zklend_irm_wsteth",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x0484dd4564cb646f78805126d7c6bded386ccede48ad909240ea9f8140296a03"
+          ]
+        }
+      },
+      {
+        "tag": "zklend_empiric_adapter_wsteth",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x004778c6f2be161ea1a4299c49e602bae2e8c54668112958194fa8684695406d"
           ]
         }
       }

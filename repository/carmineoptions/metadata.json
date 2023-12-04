@@ -11,7 +11,8 @@
       "tag": "carmine_options_amm",
       "addresses": {
         "goerli-alpha": [
-          "0x042a7d485171a01b8c38b6b37e0092f0f096e9d3f945c50c77799171916f5a54"
+          "0x042a7d485171a01b8c38b6b37e0092f0f096e9d3f945c50c77799171916f5a54",
+          "0x070eb12729e80d751e999557c9c1b0754a0c7933fbde0f310b99c8b6886e139e"
         ],
         "mainnet-alpha": [
           "0x76dbabc4293db346b0a56b29b6ea9fe18e93742c73f12348c8747ecfc1050aa"

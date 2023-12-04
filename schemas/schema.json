@@ -30,9 +30,6 @@
                         "goerli-alpha": {
                             "$ref": "types.json#/definitions/Host"
                         },
-                        "goerli-alpha-2": {
-                            "$ref": "types.json#/definitions/Host"
-                        },
                         "others": {
                             "$ref": "types.json#/definitions/Host"
                         }
