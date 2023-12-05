@@ -36,7 +36,7 @@
       "tag": "loot_survivor_golden_token",
       "addresses": {
         "goerli-alpha": [
-          "0x003583470A8943479F8609192Da4427caC45BdF66a58C84043c7Ab2FC722C0C0"
+          "0x003583470a8943479f8609192da4427cac45bdf66a58c84043c7ab2fc722c0c0"
         ],
         "mainnet-alpha": [
           "0x04f5e296c805126637552cf3930e857f380e7c078e8f00696de4fc8545356b1d"
