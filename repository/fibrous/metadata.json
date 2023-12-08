@@ -11,14 +11,7 @@
       "tag": "Fibrous_Router",
       "addresses": {
         "mainnet-alpha": [
-          "0x00f6f4cf62e3c010e0ac2451cc7807b5eec19a40b0faacd00cca3914280fdf5a"
-        ]
-      }
-    },
-    {
-      "tag": "Fibrous_Router_Legacy",
-      "addresses": {
-        "mainnet-alpha": [
+          "0x00f6f4cf62e3c010e0ac2451cc7807b5eec19a40b0faacd00cca3914280fdf5a",
           "0x01b23ed400b210766111ba5b1e63e33922c6ba0c45e6ad56ce112e5f4c578e62",
           "0x03201e8057a781dca378564b9d3bbe9b5b7617fac4ad9d9deaa1024cf63f877e"
         ]
