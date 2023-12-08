@@ -144,6 +144,30 @@
             "0x4a31c52c6d952540fd844908797e12ac43ffb9b541aa00abd51d24bf3e0aa63"
           ]
         }
+      },
+      {
+        "tag": "zklend_zwsteth_token",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x0536aa7e01ecc0235ca3e29da7b5ad5b12cb881e29034d87a4290edbb20b7c28"
+          ]
+        }
+      },
+      {
+        "tag": "zklend_irm_wsteth",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x0484dd4564cb646f78805126d7c6bded386ccede48ad909240ea9f8140296a03"
+          ]
+        }
+      },
+      {
+        "tag": "zklend_empiric_adapter_wsteth",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x004778c6f2be161ea1a4299c49e602bae2e8c54668112958194fa8684695406d"
+          ]
+        }
       }
     ]
   }

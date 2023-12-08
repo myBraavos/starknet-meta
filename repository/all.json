@@ -145,7 +145,119 @@
     ],
     "contracts": [
       {
+        "tag": "briq_world",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x01ea16366a82e211a9b9045725309a5080c0260d5caf45c58836fc61b42501f5"
+          ]
+        }
+      },
+      {
+        "tag": "briq_factory",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x075341b8090a4257f22dafffe3a4cb882006bd26302720d6a80a1fde154a3430"
+          ]
+        }
+      },
+      {
         "tag": "briq_token",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x02417eb26d02947416ed0e9d99c7a023e3565fc895ee21a0a0ef88a524a665d6"
+          ]
+        }
+      },
+      {
+        "tag": "box_nft_starknet_planet",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x073e3b5e6c7924f752a158c2b07f606bd5b885029da0ac1e3cde254985303f50"
+          ]
+        }
+      },
+      {
+        "tag": "box_nft_briqmas",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x069699ce808b5459a3b652b5378f8c141e1dc79e10f4e7b486439fd989b7dfb1"
+          ]
+        }
+      },
+      {
+        "tag": "booklet_ducks_everywhere",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x03311cdef78f70c1b13568e6dabda043c5e9d2736c0c02a35aa906d91d69836b"
+          ]
+        }
+      },
+      {
+        "tag": "booklet_starknet_planet",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x02fd50e1bdd7400a8fc97eb63aa4f3423a7ec72ebe78d413ce410ec60a35afea"
+          ]
+        }
+      },
+      {
+        "tag": "booklet_briqmas",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x04bbb2000c80ff79c2aa3b8aa83ee69c103469181a19d01d7f3ee4313a8031"
+          ]
+        }
+      },
+      {
+        "tag": "booklet_ducks_frens",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x035d3f5be7b3b06a2d02a539faecd45bf4a04644aee7290359bd595047929a92"
+          ]
+        }
+      },
+      {
+        "tag": "set_nft",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x03f96949d14c65ec10e7544d93f298d0cb07c498ecb733774f1d4b2adf3ffb23"
+          ]
+        }
+      },
+      {
+        "tag": "set_nft_ducks_everywhere",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x04fa864a706e3403fd17ac8df307f22eafa21b778b73353abf69a622e47a2003"
+          ]
+        }
+      },
+      {
+        "tag": "set_nft_starknet_planet",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x0e9b982bdcbed7fa60e5bbf733249ff58da9fe935067656e8175d694162df3"
+          ]
+        }
+      },
+      {
+        "tag": "set_nft_briqmas",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x012a6eeb4a3eecaf16667e2b630963a4c215cdf3715fb271370a02ed6e8c1942"
+          ]
+        }
+      },
+      {
+        "tag": "set_nft_1155_ducks_frens",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x0433a83c97c083470a1e2f47e24cbc53c4a225f69ffc045580a7279e7f077c79"
+          ]
+        }
+      },
+      {
+        "tag": "briq_token (old)",
         "addresses": {
           "goerli-alpha": [
             "0x01317354276941f7f799574c73fd8fe53fa3f251084b4c04d88cf601b6bd915e"
@@ -156,7 +268,7 @@
         }
       },
       {
-        "tag": "briq_set",
+        "tag": "briq_set (old)",
         "implements": [
           "erc721"
         ],
@@ -170,7 +282,7 @@
         }
       },
       {
-        "tag": "briq_booklet",
+        "tag": "briq_booklet (old)",
         "addresses": {
           "mainnet-alpha": [
             "0x05faa82e2aec811d3a3b14c1f32e9bbb6c9b4fd0cd6b29a823c98c7360019aa4"
@@ -178,7 +290,7 @@
         }
       },
       {
-        "tag": "briq_box",
+        "tag": "briq_box (old)",
         "addresses": {
           "mainnet-alpha": [
             "0x01e1f972637ad02e0eed03b69304344c4253804e528e1a5dd5c26bb2f23a8139"
@@ -186,7 +298,7 @@
         }
       },
       {
-        "tag": "briq_auctions",
+        "tag": "briq_auctions (old)",
         "addresses": {
           "mainnet-alpha": [
             "0x00b9bb7650a88f7e375ae8d31d48b4d4f13c6c34344839837d7dae7ffcdd3df0",
@@ -195,7 +307,7 @@
         }
       },
       {
-        "tag": "briq_attr_registry",
+        "tag": "briq_attr_registry (old)",
         "addresses": {
           "mainnet-alpha": [
             "0x008d4f5b0830bd49a88730133a538ccaca3048ccf2b557114b1076feeff13c11"
@@ -203,7 +315,7 @@
         }
       },
       {
-        "tag": "briq_shape_registry",
+        "tag": "briq_shape_registry (old)",
         "addresses": {
           "mainnet-alpha": [
             "0x04848d0dd8a296352ba4fe100fed9d6f44cbd0a8d360b7d551d986732a14791a"
@@ -341,7 +453,8 @@
         "tag": "carmine_options_amm",
         "addresses": {
           "goerli-alpha": [
-            "0x042a7d485171a01b8c38b6b37e0092f0f096e9d3f945c50c77799171916f5a54"
+            "0x042a7d485171a01b8c38b6b37e0092f0f096e9d3f945c50c77799171916f5a54",
+            "0x070eb12729e80d751e999557c9c1b0754a0c7933fbde0f310b99c8b6886e139e"
           ],
           "mainnet-alpha": [
             "0x76dbabc4293db346b0a56b29b6ea9fe18e93742c73f12348c8747ecfc1050aa"
@@ -419,7 +532,7 @@
         "tag": "Fibrous_Router",
         "addresses": {
           "mainnet-alpha": [
-            "0x01b23ed400b210766111ba5b1e63e33922c6ba0c45e6ad56ce112e5f4c578e62"
+            "0x00f6f4cf62e3c010e0ac2451cc7807b5eec19a40b0faacd00cca3914280fdf5a"
           ]
         }
       },
@@ -428,6 +541,15 @@
         "addresses": {
           "mainnet-alpha": [
             "0x0437bd0dab99c6a011ba3a9b17e103832c18af282a12c251555a1e05b8ea2f5b"
+          ]
+        }
+      },
+      {
+        "tag": "Fibrous_Router_legacy",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x01b23ed400b210766111ba5b1e63e33922c6ba0c45e6ad56ce112e5f4c578e62",
+            "0x03201e8057a781dca378564b9d3bbe9b5b7617fac4ad9d9deaa1024cf63f877e"
           ]
         }
       }
@@ -450,6 +572,14 @@
         "addresses": {
           "mainnet-alpha": [
             "0x04b1b3fdf34d00288a7956e6342fb366a1510a9387d321c87f3301d990ac19d4"
+          ]
+        }
+      },
+      {
+        "tag": "flex_storefront",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x02e6c908da3d1ced80d81085ed9374b7c5048f86799e1f35e54daca4d70832d7"
           ]
         }
       }
@@ -586,19 +716,57 @@
     "id": "lootsurvivor",
     "displayName": "Loot Survivor",
     "host": {
-      "goerli-alpha": "survivor.realms.world"
+      "goerli-alpha": "goerli-survivor.realms.world",
+      "mainnet-alpha": "survivor.realms.world"
     },
     "description": "Loot Survivor is an onchain Arcade machine game, first of the Play2Die franchise. You add some tokens, try to get the highscore and live for eternity onchain.",
     "categories": [
       "gamefi",
-      "nft"
+      "nft",
+      "mobile"
     ],
     "contracts": [
       {
         "tag": "loot_survivor_game",
         "addresses": {
           "goerli-alpha": [
-            "0x029eea6beaee6cfd02456e6172441f967a3808f5474921549cb3bafdb1cc32d0"
+            "0x071d07b1217cdcc334739a3f28da75db05d62672ad04b9204ee11b88f2f9f61c"
+          ],
+          "mainnet-alpha": [
+            "0x03c10537fa0073b2dd5120242697dbf76d6173eb9f384d3bf3d284d53388a0b0"
+          ]
+        }
+      },
+      {
+        "tag": "loot_survivor_beasts",
+        "addresses": {
+          "goerli-alpha": [
+            "0x05c909139dbef784180eef8ce7a2f5bf52afe567aa73aaa77b8d8243ad5b6b96"
+          ],
+          "mainnet-alpha": [
+            "0x0158160018d590d93528995b340260e65aedd76d28a686e9daa5c4e8fad0c5dd"
+          ]
+        }
+      },
+      {
+        "tag": "loot_survivor_golden_token",
+        "addresses": {
+          "goerli-alpha": [
+            "0x003583470a8943479f8609192da4427cac45bdf66a58c84043c7ab2fc722c0c0"
+          ],
+          "mainnet-alpha": [
+            "0x04f5e296c805126637552cf3930e857f380e7c078e8f00696de4fc8545356b1d"
+          ]
+        }
+      },
+      {
+        "tag": "lords",
+        "addresses": {
+          "goerli-alpha": [
+            "0x05e367ac160e5f90c5775089b582dfc987dd148a5a2f977c49def2a6644f724b"
+          ],
+          "mainnet-alpha": [
+            "0x0124aeb495b947201f5fac96fd1138e326ad86195b98df6dec9009158a533b49"
           ]
         }
       }
@@ -699,7 +867,7 @@
     "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/myswap/cover.jpg",
     "id": "myswap",
     "displayName": "mySwap",
-    "host": "www.myswap.xyz",
+    "host": "v1.myswap.xyz",
     "description": "mySwap is the first AMM built on Starknet. You can swap tokens and deposit your funds in liquidity pools to earn high yield.",
     "categories": [
       "defi",
@@ -752,7 +920,7 @@
     "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/myswapcl/cover.jpg",
     "id": "myswapcl",
     "displayName": "mySwap CL",
-    "host": "cl.myswap.xyz",
+    "host": "www.myswap.xyz",
     "description": "Swap or provide liquidity using the most advanced AMM on Starknet.",
     "categories": [
       "defi",
@@ -1723,6 +1891,30 @@
         "addresses": {
           "mainnet-alpha": [
             "0x4a31c52c6d952540fd844908797e12ac43ffb9b541aa00abd51d24bf3e0aa63"
+          ]
+        }
+      },
+      {
+        "tag": "zklend_zwsteth_token",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x0536aa7e01ecc0235ca3e29da7b5ad5b12cb881e29034d87a4290edbb20b7c28"
+          ]
+        }
+      },
+      {
+        "tag": "zklend_irm_wsteth",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x0484dd4564cb646f78805126d7c6bded386ccede48ad909240ea9f8140296a03"
+          ]
+        }
+      },
+      {
+        "tag": "zklend_empiric_adapter_wsteth",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x004778c6f2be161ea1a4299c49e602bae2e8c54668112958194fa8684695406d"
           ]
         }
       }

@@ -1,7 +1,7 @@
 {
   "id": "myswap",
   "displayName": "mySwap",
-  "host": "www.myswap.xyz",
+  "host": "v1.myswap.xyz",
   "description": "mySwap is the first AMM built on Starknet. You can swap tokens and deposit your funds in liquidity pools to earn high yield.",
   "categories": [
     "defi",
