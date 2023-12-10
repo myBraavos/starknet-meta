@@ -1399,7 +1399,7 @@
     "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/stakepool/icon.jpg",
     "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/stakepool/cover.jpg",
     "id": "stakepool",
-    "displayName": "Braavos Stake Pooling",
+    "displayName": "Braavos Stake+",
     "host": "braavos.app",
     "description": "Braavos Stake Pooling allows you to enjoy liquid ETH staking while enjoying low gas fees",
     "categories": [
