@@ -44,6 +44,14 @@
           "0x0274a2ef0e6aadb781777954ec78832fbe490de0f0f1484354b99f328f74ab36"
         ]
       }
+    },
+    {
+      "tag": "ninth_plan_combat",
+      "addresses": {
+        "mainnet-alpha": [
+          "0x022a75e2a789c08d4fc139f6780901a799fc419d3615e8b90d38a06267e42240"
+        ]
+      }
     }
   ]
 }
