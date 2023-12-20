@@ -27,6 +27,7 @@ export interface HandleErrorParams {
     calls: Call[];
     context: HandleErrorContext;
 }
+// noinspection SpellCheckingInspection
 export type Category =
     | "nft"
     | "defi"
