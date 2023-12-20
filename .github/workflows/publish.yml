@@ -7,7 +7,7 @@ on:
     paths-ignore:
       - '**.md'
   workflow_run:
-    workflows: ["validate_repository"]
+    workflows: ["generate_repository_file"]
     types:
       - completed
 
