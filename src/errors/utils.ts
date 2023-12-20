@@ -2,7 +2,7 @@ import { Call, ErrorMatcher, HandleErrorParams } from "../types";
 import stringToRegExp from "../utils/stringToRegExp";
 import { extractSubstring, normalizeAddress } from "../utils";
 
-const CONTRACT_MATCHER = /Error in the called contract \(([^\n]*)\)/g;
+const CONTRACT_MATCHER = /Error in the called contract \(([^:\n]*)\)/g;
 
 export const extractErrorTargetContract = (
     rawMessage: string

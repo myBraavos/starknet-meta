@@ -1,6 +1,6 @@
 export default function (str: string) {
-    str = str.replace(/\n/g, "\\n");
-    const flags = str.replace(/.*\/([gimy]*)$/, "$1");
-    const pattern = str.replace(new RegExp("^/(.*?)/" + flags + "$"), "$1");
+    const patternEnd = str.lastIndexOf("/");
+    const flags = str.substring(patternEnd + 1);
+    const pattern = str.substring(1, patternEnd);
     return new RegExp(pattern, flags);
 }
