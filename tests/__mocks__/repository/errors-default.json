@@ -5,7 +5,7 @@
             "message": "Error message default: {{0}}",
             "extractors": [
                 {
-                    "matcher": "/Error message: (.*)\n/"
+                    "matcher": "/Error message: ([^\n]*)/"
                 }
             ]
         },
