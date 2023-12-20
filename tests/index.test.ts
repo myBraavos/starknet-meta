@@ -192,6 +192,14 @@ describe("formatError", () => {
                 result: "Error message default: Invocation went wrong",
             });
         });
+
+        it("if the message is from rpc and has 2 lines", () => {
+            expect(formatError(formatErrorTestData[10])).toEqual({
+                protocol: undefined,
+                interface: undefined,
+                result: "Error message: Oops: something is wrong",
+            });
+        });
     });
 
     describe("should return an unprocessed message if the error message doesn't match any matcher", () => {
