@@ -9,6 +9,7 @@
         "tag": "flex_marketplace",
         "addresses": {
           "mainnet-alpha": [
+            "0x04b1b3fdf34d00288a7956e6342fb366a1510a9387d321c87f3301d990ac19d4",
             "0x115e92613aa2057fa1ea0e47c6b99faab48e887ad62cb12aa5d2ed01a3066d9"
           ]
         }
