@@ -1,0 +1,28 @@
+{
+  "id": "stakepool",
+  "displayName": "Braavos Stake+",
+  "host": "braavos.app",
+  "description": "Braavos Stake Pooling allows you to enjoy liquid ETH staking while enjoying low gas fees",
+  "categories": [
+    "defi",
+    "mobile"
+  ],
+  "contracts": [
+    {
+      "tag": "braavos_stake_pool",
+      "addresses": {
+        "mainnet-alpha": [
+          "0x074c31eb40b4f704814a8b9764889f21a7b12464765c4e235ade9b7dfff63660"
+        ]
+      }
+    },
+    {
+      "tag": "braavos_stake_boost",
+      "addresses": {
+        "mainnet-alpha": [
+            "0x5abfa46fe9bf3323dfe801da51174729c2b3dd060b80575b29c015245899d74"
+        ]
+      }
+    }
+  ]
+}
