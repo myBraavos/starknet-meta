@@ -1318,7 +1318,7 @@
     "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/pyramid/icon.png",
     "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/pyramid/cover.png",
     "id": "pyramid",
-    "displayName": "Pyramid NFT Marketplace",
+    "displayName": "Pyramid",
     "host": "pyramid.market",
     "description": "Discover a new dimension on Pyramid NFT Marketplace, Collect and trade, unique digital assets powered by Dolven Labs and StarkGuardians Built on Starknet",
     "categories": [
