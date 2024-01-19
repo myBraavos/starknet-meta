@@ -2,7 +2,7 @@
   "id": "avnu",
   "displayName": "AVNU",
   "host": "app.avnu.fi",
-  "description":  "Trade any asset with the best prices on Starknet.",
+  "description": "The best trading experience on Starknet. Trade any token with best prices and best UX.",
   "categories": ["defi", "infra"],
   "contracts": [
     {
