@@ -104,12 +104,12 @@
     ]
   },
   {
-    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/avnu/icon.png",
-    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/avnu/cover.png",
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/avnu/icon.jpg",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/avnu/cover.jpg",
     "id": "avnu",
     "displayName": "AVNU",
     "host": "app.avnu.fi",
-    "description": "Trade any asset with the best prices on Starknet.",
+    "description": "The best trading experience on Starknet. Trade any token with best prices and best UX.",
     "categories": [
       "defi",
       "infra"
