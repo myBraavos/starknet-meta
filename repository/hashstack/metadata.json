@@ -4,7 +4,6 @@
   "host": "app.hashstack.finance",
   "description": "Hashstack users get 5x their collateral as debt for yield farming & trading capital.",
   "categories": [
-    "lending",
 	"defi"
   ],
   "contracts": [
