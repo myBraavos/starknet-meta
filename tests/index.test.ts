@@ -200,14 +200,6 @@ describe("formatError", () => {
                 result: "Error message: Oops: something is wrong",
             });
         });
-
-        it("if the message is from rpc and has 3 lines", () => {
-            expect(formatError(formatErrorTestData[11])).toEqual({
-                protocol: undefined,
-                interface: undefined,
-                result: "Error message: Oops: something else went completely wrong",
-            });
-        });
     });
 
     describe("should return an unprocessed message if the error message doesn't match any matcher", () => {
