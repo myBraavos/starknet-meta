@@ -17,6 +17,15 @@
                     "matcher": "/Error message estimate fee: ([^\\\\\\n]*)/"
                 }
             ]
+        },
+        {
+            "matcher": "/Error message: [^\\\\\\n]*/",
+            "message": "Error message: {{0}}",
+            "extractors": [
+                {
+                    "matcher": "/Error message: ([^\\\\\\n]*)/"
+                }
+            ]
         }
     ]
 }
