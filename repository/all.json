@@ -1018,7 +1018,7 @@
     "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/myswapcl/cover.jpg",
     "id": "myswapcl",
     "displayName": "mySwap CL",
-    "host": "www.myswap.xyz",
+    "host": "app.myswap.xyz",
     "description": "Swap or provide liquidity using the most advanced AMM on Starknet.",
     "categories": [
       "defi",
