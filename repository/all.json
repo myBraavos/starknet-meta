@@ -326,11 +326,11 @@
   },
   {
     "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/carbonable/icon.png",
-    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/carbonable/cover.png",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/carbonable/cover.jpg",
     "id": "carbonable",
     "displayName": "Carbonable",
     "host": "app.carbonable.io",
-    "description": "Derisk and manage your carbon investments",
+    "description": "Empower every person and organization to turn ecological intentions into verifiable action",
     "categories": [
       "defi",
       "nft"
@@ -398,7 +398,9 @@
         "tag": "carbonable_project_3525",
         "addresses": {
           "goerli-alpha": [
-            "0x722559df8b45ed4b82aceeaa08f46111ba6d03419916703c7b6990a8ab7da64"
+            "0x722559df8b45ed4b82aceeaa08f46111ba6d03419916703c7b6990a8ab7da64",
+            "0x0516d0acb6341dcc567e85dc90c8f64e0c33d3daba0a310157d6bba0656c8769",
+            "0x05a667adc04676fba78a29371561a0bf91dab25847d5dc4709a93a4cfb5ff293"
           ],
           "mainnet-alpha": []
         }
@@ -409,7 +411,12 @@
           "goerli-alpha": [
             "0x068337d9e937a5a5a440b8d520cc43d80913c6d7769f90c3afdfaa1b7e929025"
           ],
-          "mainnet-alpha": []
+          "mainnet-alpha": [
+            "0x065ff26209e5b2089e84488568ca84d7981d95f2ccb77f2f39878c4ab98e96cc",
+            "0x04673097fab74b77264c05982cd1ee6afaa2ee81787851c3cb47a3ab70357212",
+            "0x0645af9030761e0ecacf0f15876b6cc0720f38ba929b22a76697abc2e5ab4ef2",
+            "0x07336c28e621dce9940603fb85136c57a3c46ce22e4ec862eeb0bdb0cd5cc9d9"
+          ]
         }
       },
       {
@@ -424,7 +431,13 @@
         "tag": "carbonable_offseter_3525",
         "addresses": {
           "goerli-alpha": [
-            "0x37c4ec0aba6efb98a476a324f65cc69399d088cea4b5210276b7b5c950feabb"
+            "0x37c4ec0aba6efb98a476a324f65cc69399d088cea4b5210276b7b5c950feabb",
+            "0x032f39e989f21b7b2001e99e5d5f0c3a2aa166fc162dba35a2e4bf58da2a80c2"
+          ],
+          "mainnet-alpha": [
+            "0x0324b531f731100b494e2f978a26b20b5870585dd96d9f1166b43a28ebbb8aba",
+            "0x022f40128af9798a0b734874fd993bbab6cf75845f26f844cb151b7041132c6d",
+            "0x04258037980fcc15083cde324abe1861ac00d4d48b7d60d76b5efd6f57e59e73"
           ]
         }
       },
@@ -432,7 +445,13 @@
         "tag": "carbonable_yielder_3525",
         "addresses": {
           "goerli-alpha": [
-            "0x5b2fa5a923d5fecb8ca054bd6925f3361d0d71698441599b071ea7e6390121e"
+            "0x5b2fa5a923d5fecb8ca054bd6925f3361d0d71698441599b071ea7e6390121e",
+            "0x000ca9e8277458d3f0340985d25000987400593e116f1a99c429dd5d00363b19"
+          ],
+          "mainnet-alpha": [
+            "0x03d25473be5a6316f351e8f964d0c303357c006f7107779f648d9879b7c6d58a",
+            "0x00426d4e86913759bcc49b7f992b1fe62e6571e8f8089c23d95fea815dbad471",
+            "0x03afe61732ed9b226309775ac4705129319729d3bee81da5632146ffd72652ae"
           ]
         }
       }
