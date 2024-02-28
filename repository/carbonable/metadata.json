@@ -71,6 +71,7 @@
       "tag": "carbonable_project_3525",
       "addresses": {
         "goerli-alpha": [
+          "0x722559df8b45ed4b82aceeaa08f46111ba6d03419916703c7b6990a8ab7da64",
           "0x0516d0acb6341dcc567e85dc90c8f64e0c33d3daba0a310157d6bba0656c8769",
           "0x05a667adc04676fba78a29371561a0bf91dab25847d5dc4709a93a4cfb5ff293"
         ],
@@ -105,6 +106,7 @@
       "tag": "carbonable_offseter_3525",
       "addresses": {
         "goerli-alpha": [
+          "0x37c4ec0aba6efb98a476a324f65cc69399d088cea4b5210276b7b5c950feabb",
           "0x032f39e989f21b7b2001e99e5d5f0c3a2aa166fc162dba35a2e4bf58da2a80c2"
         ],
         "mainnet-alpha":[
@@ -118,6 +120,7 @@
       "tag": "carbonable_yielder_3525",
       "addresses": {
         "goerli-alpha": [
+          "0x5b2fa5a923d5fecb8ca054bd6925f3361d0d71698441599b071ea7e6390121e",
           "0x000ca9e8277458d3f0340985d25000987400593e116f1a99c429dd5d00363b19"
         ],
         "mainnet-alpha":[
