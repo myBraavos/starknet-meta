@@ -476,7 +476,8 @@
             "0x070eb12729e80d751e999557c9c1b0754a0c7933fbde0f310b99c8b6886e139e"
           ],
           "mainnet-alpha": [
-            "0x76dbabc4293db346b0a56b29b6ea9fe18e93742c73f12348c8747ecfc1050aa"
+            "0x76dbabc4293db346b0a56b29b6ea9fe18e93742c73f12348c8747ecfc1050aa",
+            "0x047472e6755afc57ada9550b6a3ac93129cc4b5f98f51c73e0644d129fd208d9"
           ]
         }
       },
