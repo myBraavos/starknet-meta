@@ -38,6 +38,15 @@
             ]
         },
         {
+            "matcher": "/Execution failed. Failure reason: 0x[0-9a-zA-Z]+/",
+            "message": "Execution failed. Failure reason: {{0}}",
+            "extractors": [
+                {
+                    "matcher": "/Execution failed. Failure reason: 0x[0-9a-zA-Z]+ \\('(.[^\\)]+)\\'\\)/"
+                }
+            ]
+        },
+        {
             "matcher": "/Execution failed. Failure reason: .+.\\n?/",
             "message": "Execution failed. Failure reason: {{0}}",
             "extractors": [
