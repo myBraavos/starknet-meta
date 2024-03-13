@@ -45,6 +45,16 @@
                     "matcher": "/Execution failed. Failure reason: (.+).\\n?/"
                 }
             ]
+        },
+        {
+            "matcher": "/Class with hash ClassHash.+.is not declared/",
+            "message": "Class with hash \"{{0}}\" is not declared",
+            "extractors": [
+                {
+                    "matcher": "/StarkFelt\\(.*\\\\\"(.*)\\\\\"/",
+                    "type": "hex"
+                }
+            ]
         }
     ]
 }

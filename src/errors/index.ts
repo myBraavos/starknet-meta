@@ -19,7 +19,15 @@ export function formatError(params: FormatErrorParams): FormatErrorResponse {
 
     const address = extractErrorTargetContract(errorMessage);
     if (!address) {
-        throw new Error("Error is missing a contract address");
+        const { context: res } = errorHandler({
+            errorMessage,
+            calls: [],
+            context: {},
+        });
+
+        return {
+            result: res.result,
+        } as FormatErrorResponse;
     }
 
     // Filter the calls, leaving only those that relate to the contract
