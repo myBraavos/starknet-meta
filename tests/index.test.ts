@@ -87,15 +87,6 @@ describe("getByContract", () => {
 });
 
 describe("formatError", () => {
-    it("should throw an error if error message doesn't contain contract address", () => {
-        expect(() =>
-            formatError({
-                error: "Without contract address",
-                call: [],
-            })
-        ).toThrowError();
-    });
-
     it("should throw an error if error message is empty", () => {
         expect(() =>
             formatError({
@@ -198,6 +189,14 @@ describe("formatError", () => {
                 protocol: undefined,
                 interface: undefined,
                 result: "Error message: Oops: something is wrong",
+            });
+        });
+
+        it("if the error message doesn't contain contract address", () => {
+            expect(formatError(formatErrorTestData[11])).toEqual({
+                protocol: undefined,
+                interface: undefined,
+                result: "Error message default: Oops: something is wrong",
             });
         });
     });
