@@ -57,13 +57,11 @@
         },
         {
             "matcher": "/Class with hash ClassHash.+.is not declared/",
-            "message": "Class with hash \"{{0}}\" is not declared",
-            "extractors": [
-                {
-                    "matcher": "/StarkFelt\\(.*\\\\\"(.*)\\\\\"/",
-                    "type": "hex"
-                }
-            ]
+            "message": "Class with required hash is not declared"
+        },
+        {
+            "matcher": "/Entry point EntryPointSelector\\(StarkFelt\\(\\\\\"0x[0-9a-zA-Z]+\\\\\"\\)\\) not found in contract/",
+            "message": "Entry point not found in contract"
         }
     ]
 }
