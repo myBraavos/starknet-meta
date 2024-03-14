@@ -62,6 +62,10 @@
         {
             "matcher": "/Entry point EntryPointSelector\\(StarkFelt\\(\\\\\"0x[0-9a-zA-Z]+\\\\\"\\)\\) not found in contract/",
             "message": "Entry point not found in contract"
+        },
+        {
+            "matcher": "/failure reason.*TransactionFeeError\\(MaxFeeTooLow/",
+            "message": "The specified max fee is too low"
         }
     ]
 }
