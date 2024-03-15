@@ -1,7 +1,7 @@
 {
     "name": "starknet-meta",
     "description": "Starknet dApps metadata repository.",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "repository": {
         "url": "https://github.com/myBraavos/starknet-meta"
     },
@@ -58,7 +58,7 @@
         "json-schema-to-typescript": "^12.0.0",
         "prettier": "^2.8.7",
         "semantic-release": "^21.0.1",
-        "sharp": "^0.32.0",
+        "sharp": "^0.33.2",
         "starknet": "^5.19.5",
         "terser-webpack-plugin": "^5.3.7",
         "ts-import": "^5.0.0-beta.0",
