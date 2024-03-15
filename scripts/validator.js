@@ -102,18 +102,16 @@ const validateErrorMatchers = (errorMatchers, _messageBase) => {
                 }
             }
 
-            (errorMatcher.extractors || []).forEach(
-                (extractor, extractorIdx) => {
-                    try {
-                        stringToRegExp(extractor.matcher);
-                    } catch (e) {
-                        errorsArray.push(
-                            errorMessageBase +
-                                `/extractors/${extractorIdx}/matcher contains invalid regExp`
-                        );
-                    }
+            errorMatcher.extractors?.forEach((extractor, extractorIdx) => {
+                try {
+                    stringToRegExp(extractor.matcher);
+                } catch (e) {
+                    errorsArray.push(
+                        errorMessageBase +
+                            `/extractors/${extractorIdx}/matcher contains invalid regExp`
+                    );
                 }
-            );
+            });
         });
     });
 
