@@ -45,7 +45,7 @@ To update an existing dApp project, follow the same steps as submitting a new dA
 4. Update the `icon` image file in the project folder if necessary. The icon must be square and up to 1 MB in size. Supported formats are PNG, JPEG, SVG, and WebP.
 5. Update the `cover` image file in the project folder if necessary. The cover image must be up to 1500x500px in size and have a 0.33 aspect ratio. Supported formats are PNG, JPEG, SVG, and WebP.
 6. Create a pull request to the `starknet-meta` repository with your changes.
-
+ 
 ## Authors
 
 - [Braavos Wallet](https://github.com/myBraavos)
