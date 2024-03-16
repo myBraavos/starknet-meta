@@ -496,7 +496,7 @@
     "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/ekubo/cover.png",
     "id": "ekubo",
     "displayName": "Ekubo",
-    "host": "ekubo.org",
+    "host": "app.ekubo.org",
     "description": "The most powerful AMM on Starknet, featuring super-concentrated liquidity and extensibility.",
     "categories": [
       "defi"
