@@ -30,6 +30,9 @@
                         "goerli-alpha": {
                             "$ref": "types.json#/definitions/Host"
                         },
+                        "sepolia-alpha": {
+                            "$ref": "types.json#/definitions/Host"
+                        },
                         "others": {
                             "$ref": "types.json#/definitions/Host"
                         }

@@ -44,6 +44,7 @@ export interface ProjectMetadata {
         | {
               "mainnet-alpha"?: string;
               "goerli-alpha"?: string;
+              "sepolia-alpha"?: string;
               others?: string;
           };
     contracts: Contract[];
@@ -56,6 +57,7 @@ export interface Contract {
     addresses: {
         "mainnet-alpha"?: string[];
         "goerli-alpha"?: string[];
+        "sepolia-alpha"?: string[];
     };
     [k: string]: unknown;
 }

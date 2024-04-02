@@ -35,6 +35,13 @@
                                 "type": "string",
                                 "pattern": "^0x[0-9a-f]{1,64}$"
                             }
+                        },
+                        "sepolia-alpha": {
+                            "type": "array",
+                            "items": {
+                                "type": "string",
+                                "pattern": "^0x[0-9a-f]{1,64}$"
+                            }
                         }
                     },
                     "additionalProperties": false
