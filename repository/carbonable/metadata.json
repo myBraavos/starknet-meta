@@ -76,7 +76,11 @@
           "0x05a667adc04676fba78a29371561a0bf91dab25847d5dc4709a93a4cfb5ff293"
         ],
         "mainnet-alpha":[
-
+          "0x0516d0acb6341dcc567e85dc90c8f64e0c33d3daba0a310157d6bba0656c8769",
+          "0x05a667adc04676fba78a29371561a0bf91dab25847d5dc4709a93a4cfb5ff293"
+        ],
+        "sepolia-alpha":[
+          "0x00130b5a3035eef0470cff2f9a450a7a6856a3c5a4ea3f5b7886c2d03a50d2bf"
         ]
       }
     },
@@ -91,6 +95,12 @@
           "0x04673097fab74b77264c05982cd1ee6afaa2ee81787851c3cb47a3ab70357212",
           "0x0645af9030761e0ecacf0f15876b6cc0720f38ba929b22a76697abc2e5ab4ef2",
           "0x07336c28e621dce9940603fb85136c57a3c46ce22e4ec862eeb0bdb0cd5cc9d9"
+        ],
+        "sepolia-alpha":[
+          "0x02cf1693df4529343fed040fcefe33a50611aa93dd9c399e4baef0f08a82b99d",
+          "0x008b787ba1f74450fbf3dbdbf3a628ca4662e9ce7d689e5c428ddef0f01b69d5",
+          "0x05eaf675f3ffa501247bea322c33c8015964eff53492cfcfd2323db7402426ed",
+          "0x01bb54e00035b0a5cb63985fe9d8ebe871380e378b456fef31f1a3b475e2f02b"
         ]
       }
     },
@@ -113,6 +123,11 @@
           "0x0324b531f731100b494e2f978a26b20b5870585dd96d9f1166b43a28ebbb8aba",
           "0x022f40128af9798a0b734874fd993bbab6cf75845f26f844cb151b7041132c6d",
           "0x04258037980fcc15083cde324abe1861ac00d4d48b7d60d76b5efd6f57e59e73"
+        ],
+        "sepolia-alpha":[
+          "0x029566cc83b15256c6d831f0181fe84c2a3f97fcc8ba1612b2c6584cccc8a0b4",
+          "0x009696715188422bc5d02d085c49ec720160d3e02b22b4c3b014070dcdb45156",
+          "0x0712f275abb840285317e138906bd16b874ac331b7a8f79d4d34289a16d89819"
         ]
       }
     },
@@ -127,6 +142,11 @@
           "0x03d25473be5a6316f351e8f964d0c303357c006f7107779f648d9879b7c6d58a",
           "0x00426d4e86913759bcc49b7f992b1fe62e6571e8f8089c23d95fea815dbad471",
           "0x03afe61732ed9b226309775ac4705129319729d3bee81da5632146ffd72652ae"
+        ],
+        "sepolia-alpha":[
+          "0x0442172b3c081a73ed3ccd54dc4f94b66ffc21052a884ecfed1a213684807c64",
+          "0x0552b206895281add713cf6c877ab5fea6ab18f32e3f8e0cfc3b5fa5b5ad9183",
+          "0x0168183d4f5bc1e66ad8ff619f36263acf30cf7b6adeecc56f44bac3f2c5ee55"
         ]
       }
     }
