@@ -1171,6 +1171,9 @@
         "addresses": {
           "mainnet-alpha": [
             "0x07038b75cd6557f4c788971eacc37cf6554acad7146398d42bcc7da3a05b5218"
+          ],
+          "sepolia-alpha": [
+            "0x03641b0a59fb9f953814f43eeeb41462c45676b033265a0a70ac1c13c2ba64bb"
           ]
         }
       },
@@ -1179,6 +1182,9 @@
         "addresses": {
           "mainnet-alpha": [
             "0x0274a2ef0e6aadb781777954ec78832fbe490de0f0f1484354b99f328f74ab36"
+          ],
+          "sepolia-alpha": [
+            "0x03a1fdb06898c15b317438bda6e7877c9183b8da697b3256082447e3f2ffd7c3"
           ]
         }
       },
@@ -1187,6 +1193,31 @@
         "addresses": {
           "mainnet-alpha": [
             "0x022a75e2a789c08d4fc139f6780901a799fc419d3615e8b90d38a06267e42240"
+          ],
+          "sepolia-alpha": [
+            "0x01fbd26cbfb3c06802102388ce8479805df2a8c6a621fbec11d44aca5ca4ef1a"
+          ]
+        }
+      },
+      {
+        "tag": "ninth_city_passcard",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x31077031aa20437465641d29ac1767d0a918a96b1c7a9e17da3b867752fdfcd"
+          ],
+          "sepolia-alpha": [
+            "0x03a1b10c04fa480395eeea995de69cc84c24601f0acf528987f5e410251f034e"
+          ]
+        }
+      },
+      {
+        "tag": "ascendance_character",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x00701a4015d16941a49b9cc07a6e04f6a38b2f96fba1c1148aebfde99a27819a"
+          ],
+          "sepolia-alpha": [
+            "0x0000c41025be6d90828b1af119d384cecf1a57da8190ce79a2ffd925f02b59df"
           ]
         }
       }
