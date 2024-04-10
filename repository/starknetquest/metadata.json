@@ -1,0 +1,43 @@
+{
+    "id": "starknetquest",
+    "displayName": "Starknet Quest",
+    "host": {
+      "sepolia-alpha": "sepolia.starknet.quest",
+      "goerli-alpha": "goerli.starknet.quest",
+      "mainnet-alpha": "starknet.quest"
+      
+    },
+    "description": "Starknet Quest helps protocols attract and retain users by creating gamified quest experiences on Starknet.",
+    "categories": [
+      "nft",
+      "infra"
+    ],
+    "contracts": [
+      {
+        "tag": "starknet_quest_nft",
+        "addresses": {
+          "goerli-alpha": [
+            "0x068c6b0cab1423338dd3ee6affb14a8e53ec0c64c27075d6137f6b8d2b4ccc73"          
+          ],
+          "sepolia-alpha": [
+            "0x0462de79C0955e32B9C5A35c64dbbfE1BeDf036246CA9D73eD299a670cc106AB"
+          ],
+          "mainnet-alpha": [
+            "0x76503062d78f4481be03c9145022d6a4a71ec0719aa07756f79a2384dc7ef16"
+          ]
+        }
+      },
+      {
+        "tag": "starknet_quest_boost",
+        "addresses": {
+          "sepolia-alpha": [
+            "0x04fbc370a0030f82721252ddc5ffc7c81f8725b321fec56c4bd2a8a0196fd606"
+          ],
+          "mainnet-alpha": [
+            "0x70879acc1b0586803e740b5f1942e1f0574b85b5395077105c537ef04e27ac"
+          ]
+        }
+      }
+    ]
+  }
+  
