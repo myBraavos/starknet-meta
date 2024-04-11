@@ -2,10 +2,11 @@
   "id": "starknetid",
   "displayName": "Starknet.id",
   "host": {
+    "sepolia-alpha": "sepolia.app.starknet.id",
     "goerli-alpha": "goerli.app.starknet.id",
     "mainnet-alpha": "app.starknet.id"
   },
-  "description": "Identity and naming service for starknet",
+  "description": "Identity and naming service for Starknet.",
   "categories": [
     "nft",
     "digitalid"
@@ -17,6 +18,9 @@
         "goerli-alpha": [
           "0x0798e884450c19e072d6620fefdbeb7387d0453d3fd51d95f5ace1f17633d88b",
           "0x0783a9097b26eae0586373b2ce0ed3529ddc44069d1e0fbc4f66d42b69d6850d"
+        ],
+        "sepolia-alpha": [
+          "0x070df8b4f5cb2879f8592849fa8f3134da39d25326b8558cc9c8fe8d47ea3a90"
         ],
         "mainnet-alpha": [
           "0x05dbdedc203e92749e2e746e2d40a768d966bd243df04a6b712e222bc040a9af"
@@ -30,16 +34,11 @@
           "0x5cf267a0af6101667013fc6bd3f6c11116a14cda9b8c4b1198520d59f900b17",
           "0x003bab268e932d2cecd1946f100ae67ce3dff9fd234119ea2f6da57d16d29fce"
         ],
+        "sepolia-alpha": [
+          "0x0707f09bc576bd7cfee59694846291047e965f4184fe13dac62c56759b3b6fa7"
+        ],
         "mainnet-alpha": [
           "0x06ac597f8116f886fa1c97a23fa4e08299975ecaf6b598873ca6792b9bbfb678"
-        ]
-      }
-    },
-    {
-      "tag": "starknet_id_quest",
-      "addresses": {
-        "goerli-alpha": [
-          "0x068c6b0cab1423338dd3ee6affb14a8e53ec0c64c27075d6137f6b8d2b4ccc73"
         ]
       }
     },
@@ -49,8 +48,27 @@
         "goerli-alpha": [
           "0x0660b2cd3c93528d4edf790610404414ba3f03e0d45c814d686d628583cb34de"
         ],
+        "sepolia-alpha": [
+          "0x019cc150f610a8cd23b89a6d5d6071db209d4dbfde61056bd5316f99ef1c2adc"
+        ],
         "mainnet-alpha": [
           "0x3448896d4a0df143f98c9eeccc7e279bf3c2008bda2ad2759f5b20ed263585f"
+        ]
+      }
+    },
+    {
+      "tag": "starknet_id_xplorer_subdomain_address",
+      "addresses": {
+        "mainnet-alpha": [
+          "0x4942ebdc9fc996a42adb4a825e9070737fe68cef32a64a616ba5528d457812e"
+        ]
+      }
+    },
+    {
+      "tag": "starknet_id_sol_subdomain_address",
+      "addresses": {
+        "sepolia-alpha": [
+          "0x03ea3773600c5d81ba35db6eff1e495ca07b43346cd85143c49ccae5819febec"
         ]
       }
     },
@@ -66,13 +84,60 @@
       }
     },
     {
-      "tag": "starknet_id_verifier",
+      "tag": "starknet_id_social_verifier",
       "addresses": {
         "goerli-alpha": [
           "0x4d546c8d60cfd591557ac0613be5ceeb0ea6f797e7d11c0b5160d145fa3089f"
         ],
+        "sepolia-alpha": [
+          "0x0182ece8173c216a395f4828e1523541b7e3600bf190cb252e1a1a0ce219d184"
+        ],
         "mainnet-alpha": [
           "0x0480258f58d43fb73936f803780047a0f6d0a563697d80bd3f95b603f9c8b1c8"
+        ]
+      }
+    },
+    {
+      "tag": "starknet_id_pfp_verifier",
+      "addresses": {
+        "sepolia-alpha": [
+          "0x058061bb6bdc501ee215172c9f87d557c1e0f466dc498ca81b18f998bf1362b2"
+        ],
+        "mainnet-alpha": [
+          "0x070aaa20ec4a46da57c932d9fd89ca5e6bb9ca3188d3df361a32306aff7d59c7"
+        ]
+      }
+    },
+    {
+      "tag": "starknet_id_pop_verifier",
+      "addresses": {
+        "sepolia-alpha": [
+          "0x0023fe3b845ed5665a9eb3792bbb17347b490ee4090f855c1298d03bb5f49b49"
+        ],
+        "mainnet-alpha": [
+          "0x0023fe3b845ed5665a9eb3792bbb17347b490ee4090f855c1298d03bb5f49b49"
+        ]
+      }
+    },
+    {
+      "tag": "starknet_id_referral",
+      "addresses": {
+        "sepolia-alpha": [
+          "0x01fd0467afa7b93ad488d21452480064540219a6fb6040bb31393ed707ec9a68"
+        ],
+        "mainnet-alpha": [
+          "0x000b4622c19726c8e68e0779f003282f1347cbd76235487035403b615ab40c36"
+        ]
+      }
+    },
+    {
+      "tag": "starknet_id_subscription_eth",
+      "addresses": {
+        "sepolia-alpha": [
+          "0x020379ba14750ecee8dde204d0649808bcf6d32e9fde81ca952ab0360cdc0937"
+        ],
+        "mainnet-alpha": [
+          "0x02d7a34091a633522304ea5affb5a936f157e5659aa5297cae6fa24200fa12e8"
         ]
       }
     }
