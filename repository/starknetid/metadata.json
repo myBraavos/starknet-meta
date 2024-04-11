@@ -5,7 +5,6 @@
     "sepolia-alpha": "sepolia.app.starknet.id",
     "goerli-alpha": "goerli.app.starknet.id",
     "mainnet-alpha": "app.starknet.id"
-    
   },
   "description": "Identity and naming service for Starknet.",
   "categories": [
@@ -21,7 +20,7 @@
           "0x0783a9097b26eae0586373b2ce0ed3529ddc44069d1e0fbc4f66d42b69d6850d"
         ],
         "sepolia-alpha": [
-          "0x070DF8B4F5cb2879f8592849fA8f3134da39d25326B8558cc9C8FE8D47EA3A90"
+          "0x070df8b4f5cb2879f8592849fa8f3134da39d25326b8558cc9c8fe8d47ea3a90"
         ],
         "mainnet-alpha": [
           "0x05dbdedc203e92749e2e746e2d40a768d966bd243df04a6b712e222bc040a9af"
@@ -91,7 +90,7 @@
           "0x4d546c8d60cfd591557ac0613be5ceeb0ea6f797e7d11c0b5160d145fa3089f"
         ],
         "sepolia-alpha": [
-          "0x0182EcE8173C216A395f4828e1523541b7e3600bf190CB252E1a1A0cE219d184"
+          "0x0182ece8173c216a395f4828e1523541b7e3600bf190cb252e1a1a0ce219d184"
         ],
         "mainnet-alpha": [
           "0x0480258f58d43fb73936f803780047a0f6d0a563697d80bd3f95b603f9c8b1c8"
@@ -102,7 +101,7 @@
       "tag": "starknet_id_pfp_verifier",
       "addresses": {
         "sepolia-alpha": [
-          "0x058061bb6bdc501eE215172c9f87d557C1E0f466dC498cA81b18f998Bf1362b2"
+          "0x058061bb6bdc501ee215172c9f87d557c1e0f466dc498ca81b18f998bf1362b2"
         ],
         "mainnet-alpha": [
           "0x070aaa20ec4a46da57c932d9fd89ca5e6bb9ca3188d3df361a32306aff7d59c7"
@@ -113,10 +112,10 @@
       "tag": "starknet_id_pop_verifier",
       "addresses": {
         "sepolia-alpha": [
-          "0x0023FE3b845ed5665a9eb3792bbB17347B490EE4090f855C1298d03BB5F49B49"
+          "0x0023fe3b845ed5665a9eb3792bbb17347b490ee4090f855c1298d03bb5f49b49"
         ],
         "mainnet-alpha": [
-          "0x0023FE3b845ed5665a9eb3792bbB17347B490EE4090f855C1298d03BB5F49B49"
+          "0x0023fe3b845ed5665a9eb3792bbb17347b490ee4090f855c1298d03bb5f49b49"
         ]
       }
     },
@@ -124,10 +123,10 @@
       "tag": "starknet_id_referral",
       "addresses": {
         "sepolia-alpha": [
-          "0x01Fd0467AFA7B93aD488D21452480064540219A6fb6040Bb31393Ed707eC9A68"
+          "0x01fd0467afa7b93ad488d21452480064540219a6fb6040bb31393ed707ec9a68"
         ],
         "mainnet-alpha": [
-          "0x000b4622c19726C8e68e0779F003282F1347CBD76235487035403B615aB40c36"
+          "0x000b4622c19726c8e68e0779f003282f1347cbd76235487035403b615ab40c36"
         ]
       }
     },
@@ -135,7 +134,7 @@
       "tag": "starknet_id_subscription_eth",
       "addresses": {
         "sepolia-alpha": [
-          "0x020379Ba14750ECEE8dde204D0649808BCf6D32E9fDe81Ca952Ab0360cdC0937"
+          "0x020379ba14750ecee8dde204d0649808bcf6d32e9fde81ca952ab0360cdc0937"
         ],
         "mainnet-alpha": [
           "0x02d7a34091a633522304ea5affb5a936f157e5659aa5297cae6fa24200fa12e8"
