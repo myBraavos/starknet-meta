@@ -1102,7 +1102,7 @@
     "displayName": "Nimbora",
     "host": {
       "goerli-alpha": "testnet.nimbora.io",
-      "mainnet-alpha": "app.nimbora.io"
+      "mainnet-alpha": "app.nimbora.io/referral/?ref=zJ5q5ztQ"
     },
     "description": "Nimbora is a highly efficient platform that offers the opportunity to interact with favorite Layer 1 (L1) protocols at a fraction of the cost of Layer 2 (L2) solutions. Nimbora makes DeFi actions a simple 1-click process and offers faster transactions and much lower gas fees.",
     "categories": [
