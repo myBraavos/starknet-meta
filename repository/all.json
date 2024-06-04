@@ -2128,6 +2128,28 @@
     ]
   },
   {
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/ventory/icon.jpg",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/ventory/cover.jpg",
+    "id": "ventory",
+    "displayName": "Ventory",
+    "host": "ventory.gg",
+    "description": "Ventory is the cutting-edge protocol that enables NFT enthusiasts to create, trade and earn the latest NFTs designed on the market. Our comprehensive tools enables 721, 404 NFT and derivatives NFT trading on various networks.",
+    "categories": [
+      "nft",
+      "infra"
+    ],
+    "contracts": [
+      {
+        "tag": "marketplace",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x008755a98ccf7d25e69aa90ef3b73b07c470ba4ec6391b0b0c7c598f992c3fee"
+          ]
+        }
+      }
+    ]
+  },
+  {
     "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/yagi/icon.png",
     "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/yagi/cover.jpg",
     "id": "yagi",
