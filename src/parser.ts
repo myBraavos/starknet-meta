@@ -45,7 +45,7 @@ const getImagePath = (projectId: string, baseName: string): string | null => {
                 return `${baseUrl}/${iconName}`;
             }
         } catch (error) {
-            // ignore the error and try the next extension
+            // Ignore the error and try the next extension
         }
     }
     return null;
