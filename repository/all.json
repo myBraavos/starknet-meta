@@ -195,7 +195,7 @@
     ]
   },
   {
-    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/briq/icon.jpg",
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/briq/icon.svg",
     "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/briq/cover.png",
     "id": "briq",
     "displayName": "briq",
@@ -644,7 +644,7 @@
     ]
   },
   {
-    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/flex/icon.jpeg",
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/flex/icon.svg",
     "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/flex/cover.jpeg",
     "id": "flex",
     "displayName": "Flex",
@@ -1077,7 +1077,7 @@
     ]
   },
   {
-    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/myswap/icon.jpg",
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/myswap/icon.svg",
     "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/myswap/cover.jpg",
     "id": "myswap",
     "displayName": "mySwap",
@@ -1130,7 +1130,7 @@
     ]
   },
   {
-    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/myswapcl/icon.jpg",
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/myswapcl/icon.svg",
     "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/myswapcl/cover.jpg",
     "id": "myswapcl",
     "displayName": "mySwap CL",
@@ -1279,7 +1279,7 @@
     ]
   },
   {
-    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/nostra/icon.jpg",
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/nostra/icon.svg",
     "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/nostra/cover.jpg",
     "id": "nostra",
     "displayName": "Nostra",
@@ -1603,7 +1603,7 @@
     "contracts": []
   },
   {
-    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/realms/icon.png",
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/realms/icon.svg",
     "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/realms/cover.webp",
     "id": "realms",
     "displayName": "Realms",
@@ -1680,7 +1680,7 @@
     ]
   },
   {
-    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/stakepool/icon.jpg",
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/stakepool/icon.svg",
     "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/stakepool/cover.jpg",
     "id": "stakepool",
     "displayName": "Braavos Stake+",
@@ -1710,36 +1710,7 @@
     ]
   },
   {
-    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/starkex/icon.jpg",
-    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/starkex/cover.jpg",
-    "id": "starkex",
-    "displayName": "StarkEx",
-    "host": "starkex.org",
-    "description": "StarkEx AMM,Liquidity Farms,and Reward pools on StarkNet.",
-    "categories": [
-      "defi"
-    ],
-    "contracts": [
-      {
-        "tag": "starkex_address",
-        "addresses": {
-          "mainnet-alpha": [
-            "0x07ebd0e95dfc4411045f9424d45a0f132d3e40642c38fdfe0febacf78cc95e76"
-          ]
-        }
-      },
-      {
-        "tag": "starkex_factory",
-        "addresses": {
-          "mainnet-alpha": [
-            "0x07df3bce30857e8f9c08bcd9d9668df34166e94dd968db6e2920b870c4410e34"
-          ]
-        }
-      }
-    ]
-  },
-  {
-    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/starkgate/icon.png",
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/starkgate/icon.svg",
     "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/starkgate/cover.jpg",
     "id": "starkgate",
     "displayName": "StarkGate",
@@ -2048,7 +2019,7 @@
     ]
   },
   {
-    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/starksheet/icon.png",
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/starksheet/icon.svg",
     "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/starksheet/cover.jpg",
     "id": "starksheet",
     "displayName": "StarkSheet",
