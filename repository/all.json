@@ -838,6 +838,59 @@
     ]
   },
   {
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/influence/icon.jpg",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/influence/cover.jpeg",
+    "id": "influence",
+    "displayName": "Influence",
+    "host": "game.influenceth.io",
+    "description": "Build your world, Expand your influence. Embark on a new experience in the first-of-a-kind unstoppable and community-driven MMO.",
+    "categories": [
+      "gamefi"
+    ],
+    "contracts": [
+      {
+        "tag": "influence_dispatcher",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x0422d33a3638dcc4c62e72e1d6942cd31eb643ef596ccac2351e0e21f6cd4bf4"
+          ]
+        }
+      },
+      {
+        "tag": "asteroid_nft",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x0603cf837055c64d026a3c5a9e3a83036cea6c4a3f68a9e19f7a687d726fe817"
+          ]
+        }
+      },
+      {
+        "tag": "crewmate_nft",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x0241b9c4ce12c06f49fee2ec7c16337386fa5185168f538a7631aacecdf3df74"
+          ]
+        }
+      },
+      {
+        "tag": "crew_nft",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x07280a807c8b79379bec87919433b7b836b93a92e6d71b24ee99f4ffe33dd337"
+          ]
+        }
+      },
+      {
+        "tag": "ship_nft",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x04369e47e647ab5fc4d36cee26590276b99a89a83fc3306462d21d366611fde3"
+          ]
+        }
+      }
+    ]
+  },
+  {
     "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/jediswap/icon.jpg",
     "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/jediswap/cover.jpg",
     "id": "jediswap",
