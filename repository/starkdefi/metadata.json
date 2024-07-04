@@ -1,0 +1,19 @@
+{
+  "id": "starkdefi",
+  "displayName": "StarkDeFi",
+  "host": "app.starkdefi.com",
+  "description":"StarkDefi is a permissionless and trustless hub of comprehensive DeFi solutions built to leverage ZK-Rollup on Starknet",
+  "categories": [
+    "defi"
+  ],
+  "contracts": [
+    {
+      "tag": "starkdefi_address",
+      "addresses":{
+        "mainnet-alpha":[
+          "0x02721f5ab785ae5e13b276ca9d41e859b7b150440a288a7826ba5e27dd05e08e"
+        ]
+      }
+    }
+  ]
+}
