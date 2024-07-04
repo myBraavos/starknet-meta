@@ -1130,7 +1130,7 @@
     ]
   },
   {
-    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/myswap/icon.svg",
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/myswap/icon.png",
     "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/myswap/cover.jpg",
     "id": "myswap",
     "displayName": "mySwap",
