@@ -1763,6 +1763,27 @@
     ]
   },
   {
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/starkdefi/icon.svg",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/starkdefi/cover.jpeg",
+    "id": "starkdefi",
+    "displayName": "StarkDeFi",
+    "host": "app.starkdefi.com",
+    "description": "StarkDefi is a permissionless and trustless hub of comprehensive DeFi solutions, built to leverage ZK-Rollup on Starknet",
+    "categories": [
+      "defi"
+    ],
+    "contracts": [
+      {
+        "tag": "starkdefi_address",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x02721f5ab785ae5e13b276ca9d41e859b7b150440a288a7826ba5e27dd05e08e"
+          ]
+        }
+      }
+    ]
+  },
+  {
     "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/starkgate/icon.svg",
     "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/starkgate/cover.jpg",
     "id": "starkgate",
