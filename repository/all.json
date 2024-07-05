@@ -1183,7 +1183,7 @@
     ]
   },
   {
-    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/myswapcl/icon.svg",
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/myswapcl/icon.png",
     "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/myswapcl/cover.jpg",
     "id": "myswapcl",
     "displayName": "mySwap CL",
