@@ -1344,6 +1344,14 @@
     ],
     "contracts": [
       {
+        "tag": "nostra_pool_router",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x040784ffdde08057a5957e64ed360c0ae4e04117b6d8e351c6bb912c09c5cbf5"
+          ]
+        }
+      },
+      {
         "tag": "nostra_ib_wbtc",
         "implements": [
           "erc20"
