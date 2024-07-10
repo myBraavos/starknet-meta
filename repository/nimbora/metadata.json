@@ -25,6 +25,61 @@
                     "0x02a67288e48a8c4e2881aee422da7841fc11fef195e0a81f929871c77f07509d"
                 ]
             }
+        },
+        {
+            "tag": "Nimbora Pendle EtherFi Eth",
+            "implements": [
+                "erc20"
+            ],
+            "addresses": {
+                "mainnet-alpha": [
+                    "0x316ec509f7ad89b7e6e03d15a436df634454f95e815536d616af03edc850fa3"
+                ]
+            }
+        },
+        {
+            "tag": "Nimbora Savings Dai",
+            "implements": [
+                "erc20"
+            ],
+            "addresses": {
+                "mainnet-alpha": [
+                    "0x4380de5819e2e989b5e8b978ea2811fd36fdbc5c12fcfb3a2b444098888665"
+                ]
+            }
+        },
+        {
+            "tag": "Nimbora Pendle Puffer Eth",
+            "implements": [
+                "erc20"
+            ],
+            "addresses": {
+                "mainnet-alpha": [
+                    "0x357cba05d61beb5fe378429d25013dc5fe0f67878b541747b0675c5ebecee1"
+                ]
+            }
+        },
+        {
+            "tag": "Nimbora Pendle Flux Usdc",
+            "implements": [
+                "erc20"
+            ],
+            "addresses": {
+                "mainnet-alpha": [
+                    "0x52bdb85297e6b0c87d8ec98c5195a4324ff731676d64d9bee2e9e8710e8ea52"
+                ]
+            }
+        },
+        {
+            "tag": "Nimbora Pendle Aave Usdt",
+            "implements": [
+                "erc20"
+            ],
+            "addresses": {
+                "mainnet-alpha": [
+                    "0x40daf98c49c6104002428958456208455a03825198fa7646bd793a321f4fc82"
+                ]
+            }
         }
     ]
 }
