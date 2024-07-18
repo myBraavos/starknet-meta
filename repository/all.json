@@ -2533,6 +2533,101 @@
     ]
   },
   {
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/vesu/icon.png",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/vesu/cover.jpeg",
+    "id": "vesu",
+    "displayName": "Vesu",
+    "host": "vesu.xyz",
+    "description": "Vesu is a public lending protocol allowing everyone to earn, borrow and build freely and securely.",
+    "categories": [
+      "defi"
+    ],
+    "contracts": [
+      {
+        "tag": "singleton",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x02545b2e5d519fc230e9cd781046d3a64e092114f07e44771e0d719d148725ef"
+          ]
+        }
+      },
+      {
+        "tag": "default_extension",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x002334189e831d804d4a11d3f71d4a982ec82614ac12ed2e9ca2f8da4e6374fa"
+          ]
+        }
+      },
+      {
+        "tag": "vETH",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "mainnet-alpha": [
+            "0x021fe2ca1b7e731e4a5ef7df2881356070c5d72db4b2d19f9195f6b641f75df0"
+          ]
+        }
+      },
+      {
+        "tag": "vWBTC",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "mainnet-alpha": [
+            "0x06b0ef784eb49c85f4d9447f30d7f7212be65ce1e553c18d516c87131e81dbd6"
+          ]
+        }
+      },
+      {
+        "tag": "vUSDC",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "mainnet-alpha": [
+            "0x01610abab2ff987cdfb5e73cccbf7069cbb1a02bbfa5ee31d97cc30e29d89090"
+          ]
+        }
+      },
+      {
+        "tag": "vUSDT",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "mainnet-alpha": [
+            "0x032dd20efeb027ee51e676280df60c609ac6f6dcff798e4523515bc1668ed715"
+          ]
+        }
+      },
+      {
+        "tag": "vWSTETH",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "mainnet-alpha": [
+            "0x032dd20efeb027ee51e676280df60c609ac6f6dcff798e4523515bc1668ed715"
+          ]
+        }
+      },
+      {
+        "tag": "vSTRK",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "mainnet-alpha": [
+            "0x037ae3f583c8d644b7556c93a04b83b52fa96159b2b0cbd83c14d3122aef80a2"
+          ]
+        }
+      }
+    ]
+  },
+  {
     "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/yagi/icon.png",
     "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/yagi/cover.jpg",
     "id": "yagi",
