@@ -1959,6 +1959,28 @@
     ]
   },
   {
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/pulsarmoney/icon.png",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/pulsarmoney/cover.png",
+    "id": "pulsarmoney",
+    "displayName": "Pulsar Money",
+    "host": "starknet.pulsar.money",
+    "description": "Pulsar Money simplifies digital payments for personal and business use. The Smart Payments Hub automates and enhances on-chain transfers, reducing friction and maximizing ease of use. From payments through Social Media to Payment Links, Airdrops, and much more.",
+    "categories": [
+      "defi",
+      "infra"
+    ],
+    "contracts": [
+      {
+        "tag": "social_pay",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x0105aac6fcf07895956fa0289de2185903dd605f5be54146a9adf40c8a3a2599"
+          ]
+        }
+      }
+    ]
+  },
+  {
     "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/pyramid/icon.png",
     "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/pyramid/cover.png",
     "id": "pyramid",
