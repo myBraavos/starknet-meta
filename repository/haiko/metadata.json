@@ -1,0 +1,27 @@
+{
+    "id": "haiko",
+    "displayName": "Haiko",
+    "host": "www.haiko.xyz",
+    "description": "Haiko is an intent-based AMM for building expressive LP strategies that run on autopilot.",
+    "categories": [
+      "defi"
+    ],
+    "contracts": [
+      {
+        "tag": "haiko_replicating_strategy",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x02ffce9d48390d497f7dfafa9dfd22025d9c285135bcc26c955aea8741f081d2"
+          ]
+        }
+      },
+      {
+        "tag": "haiko_market_manager",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x0038925b0bcf4dce081042ca26a96300d9e181b910328db54a6c89e5451503f5"
+          ]
+        }
+      }
+    ]
+  }
