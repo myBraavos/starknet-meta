@@ -2163,10 +2163,18 @@
     ],
     "contracts": [
       {
-        "tag": "starkdefi_address",
+        "tag": "starkdefi_v2_factory",
         "addresses": {
           "mainnet-alpha": [
             "0x02721f5ab785ae5e13b276ca9d41e859b7b150440a288a7826ba5e27dd05e08e"
+          ]
+        }
+      },
+      {
+        "tag": "starkdefi_v2_router",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x07eee624919fae668387d0d34d86d67795e5c919bc994841581144977ef21c32"
           ]
         }
       }
