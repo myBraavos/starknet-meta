@@ -2634,6 +2634,27 @@
     ]
   },
   {
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkstaking/icon.svg",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkstaking/cover.png",
+    "id": "strkstaking",
+    "displayName": "Braavos Stake STRK",
+    "host": "braavos.app",
+    "description": "Braavos Stark Staking allows you to stake your STRK tokens and enjoy staking rewards",
+    "categories": [
+      "defi"
+    ],
+    "contracts": [
+      {
+        "tag": "strk_staking_contract",
+        "addresses": {
+          "sepolia-alpha": [
+            "0x3745ab04a431fc02871a139be6b93d9260b0ff3e779ad9c8b377183b23109f1"
+          ]
+        }
+      }
+    ]
+  },
+  {
     "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/ventory/icon.jpg",
     "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/ventory/cover.jpg",
     "id": "ventory",
