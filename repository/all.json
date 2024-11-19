@@ -2637,9 +2637,9 @@
     "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkstaking/icon.svg",
     "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkstaking/cover.png",
     "id": "strkstaking",
-    "displayName": "Braavos Stake STRK",
+    "displayName": "STRK Staking",
     "host": "braavos.app",
-    "description": "Braavos Stark Staking allows you to stake your STRK tokens and enjoy staking rewards",
+    "description": "Stark Staking allows you to stake your STRK tokens and enjoy staking rewards",
     "categories": [
       "defi"
     ],
