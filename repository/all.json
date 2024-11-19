@@ -2651,6 +2651,16 @@
             "0x3745ab04a431fc02871a139be6b93d9260b0ff3e779ad9c8b377183b23109f1"
           ]
         }
+      },
+      {
+        "tag": "braavos_staking_pool",
+        "name": "Braavos",
+        "addresses": {
+          "sepolia-alpha": [
+            "0x30bbb25449b910ca6b8cb5de138a34cad956df326fc697623ff6b856e657377"
+          ]
+        },
+        "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkstaking/braavos_pool_icon.svg"
       }
     ]
   },
