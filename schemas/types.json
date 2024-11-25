@@ -45,6 +45,9 @@
                         }
                     },
                     "additionalProperties": false
+                },
+                "icon": {
+                    "type": "string"
                 }
             },
             "required": ["tag", "addresses"]
