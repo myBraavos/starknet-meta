@@ -1,7 +1,7 @@
 {
     "name": "starknet-meta",
     "description": "Starknet dApps metadata repository.",
-    "version": "1.4.0",
+    "version": "1.5.0",
     "repository": {
         "url": "https://github.com/myBraavos/starknet-meta"
     },
