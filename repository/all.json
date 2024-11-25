@@ -2647,6 +2647,9 @@
       {
         "tag": "strk_staking_contract",
         "addresses": {
+          "mainnet-alpha": [
+            "0xca1702e64c81d9a07b86bd2c540188d92a2c73cf5cc0e508d949015e7e84a7"
+          ],
           "sepolia-alpha": [
             "0x3745ab04a431fc02871a139be6b93d9260b0ff3e779ad9c8b377183b23109f1"
           ]
@@ -2656,6 +2659,9 @@
         "tag": "braavos_staking_pool",
         "name": "Braavos",
         "addresses": {
+          "mainnet-alpha": [
+            "0x1f170bafce432964d6cbaf2cb75355b2043f5640897e0623b7dbb029bf6b3ef"
+          ],
           "sepolia-alpha": [
             "0x30bbb25449b910ca6b8cb5de138a34cad956df326fc697623ff6b856e657377"
           ]
