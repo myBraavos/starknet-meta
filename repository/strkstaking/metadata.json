@@ -37,7 +37,7 @@
                     "0x7d695337550e96e1372dd03274965cca0284ded266efc1774d001d37fbca104"
                 ]
             },
-            "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkstaking/karnot_pool_icon.webp"
+            "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkstaking/karnot_pool_icon.svg"
         },
         {
             "tag": "satoshi_university_staking_pool",
@@ -56,7 +56,7 @@
                     "0x362dc7da60bfddc8e3146028dfd94941c6e22403c98b5947104e637543b475d"
                 ]
             },
-            "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkstaking/avnu_pool_icon.jpg"
+            "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkstaking/avnu_pool_icon.svg"
         },
         {
             "tag": "nimbora_staking_pool",
@@ -66,7 +66,7 @@
                     "0x1d1ba466d60c0288dcb2a52b406bacc14c655d7ea98503e9dcdaaff59ed19db"
                 ]
             },
-            "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkstaking/nimbora_pool_icon.jpg"
+            "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkstaking/nimbora_pool_icon.svg"
         },
         {
             "tag": "p2p_staking_pool",
@@ -76,7 +76,7 @@
                     "0x7c744f9bfc2555505dd92399048ec792886a822b26a828496405a57e30a0e0d"
                 ]
             },
-            "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkstaking/p2p_pool_icon.webp"
+            "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkstaking/p2p_pool_icon.svg"
         },
         {
             "tag": "infstones_staking_pool",
@@ -96,7 +96,7 @@
                     "0x1c202d2a02866c57d4950a461c1e870ace37a07ebcf2d92c62764f768233692"
                 ]
             },
-            "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkstaking/teku_pool_icon.webp"
+            "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkstaking/teku_pool_icon.svg"
         }
     ]
 }
