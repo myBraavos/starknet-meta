@@ -59,6 +59,7 @@ export interface Contract {
         "goerli-alpha"?: string[];
         "sepolia-alpha"?: string[];
     };
+    icon?: string;
     [k: string]: unknown;
 }
 export interface ProjectErrors {

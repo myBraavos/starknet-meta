@@ -1,7 +1,7 @@
 {
     "name": "starknet-meta",
     "description": "Starknet dApps metadata repository.",
-    "version": "1.3.0",
+    "version": "1.5.0",
     "repository": {
         "url": "https://github.com/myBraavos/starknet-meta"
     },
@@ -12,6 +12,7 @@
         "starknet",
         "starkware",
         "dapp",
+        "dapps",
         "metadata",
         "assets",
         "repository",
