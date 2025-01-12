@@ -2,7 +2,7 @@
     "id": "strkfarm",
     "displayName": "STRKFarm",
     "host": {
-        "mainnet-alpha": "strkfarm.xyz"
+        "mainnet-alpha": "strkfarm.com"
     },
     "description": "STRKFarm is Starknet's ultimate yield aggregator. Find and invest in high yield pools!",
     "categories": [
