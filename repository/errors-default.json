@@ -47,11 +47,11 @@
             ]
         },
         {
-            "matcher": "/Execution failed. Failure reason: .+.\\n?/",
+            "matcher": "/Execution failed. Failure reason: .+\\.\\n?/",
             "message": "Execution failed. Failure reason: {{0}}",
             "extractors": [
                 {
-                    "matcher": "/Execution failed. Failure reason: (.+).\\n?/"
+                    "matcher": "/Execution failed. Failure reason: (.+)\\.\\n?/"
                 }
             ]
         },
