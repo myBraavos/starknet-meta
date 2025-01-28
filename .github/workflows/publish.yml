@@ -10,6 +10,7 @@ on:
     workflows: ["generate_repository_file"]
     types:
       - completed
+  workflow_dispatch: # Allows manual triggering
 
 jobs:
   publish:
