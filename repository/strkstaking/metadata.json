@@ -41,12 +41,13 @@
         },
         {
             "tag": "satoshi_university_staking_pool",
-            "name": "Satoshi University",
+            "name": "Satoshi Uni.",
             "addresses": {
                 "mainnet-alpha": [
                     "0x69bd0141acecdc330ff8daf8f70f3ccad984ce3a8f015b7386f870309f7da63"
                 ]
-            }
+            },
+            "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkstaking/satoshi_university_pool_icon.svg"
         },
         {
             "tag": "avnu_staking_pool",
@@ -97,6 +98,251 @@
                 ]
             },
             "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkstaking/teku_pool_icon.svg"
+        },
+        {
+            "tag": "argent_staking_pool",
+            "name": "Argent",
+            "addresses": {
+                "mainnet-alpha": [
+                    "0x2cb02c72e8a0975e69e88298443e984d965a49eab38f5bdde1f5072daa09cfe"
+                ]
+            }
+        },
+        {
+            "tag": "zklend_staking_pool",
+            "name": "zkLend",
+            "addresses": {
+                "mainnet-alpha": [
+                    "0x7792f57b5365a0a6948211fa681b69ecfe1e98afcf0897aec15c0fefef5d8ff"
+                ]
+            },
+            "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkstaking/zklend_pool_icon.svg"
+        },
+        {
+            "tag": "twinstake_staking_pool",
+            "name": "Twinstake",
+            "addresses": {
+                "mainnet-alpha": [
+                    "0x778707408dc62e14fee3d9bcdce2e281bdfc030e7f39067a48de3d1e97181dc"
+                ]
+            },
+            "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkstaking/twinstake_pool_icon.svg"
+        },
+        {
+            "tag": "nethermind_staking_pool",
+            "name": "Nethermind",
+            "addresses": {
+                "mainnet-alpha": [
+                    "0x712174ab962df1803ab93de4efc8a9423e825baf29b7067e5e2d24e9fc4e67e"
+                ]
+            },
+            "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkstaking/nethermind_pool_icon.svg"
+        },
+        {
+            "tag": "nansen_staking_pool",
+            "name": "Nansen",
+            "addresses": {
+                "mainnet-alpha": [
+                    "0x3bd73e92891c26838a68379966fb0f23837aed7369d620f0fcc5d36ac44bd60"
+                ]
+            },
+            "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkstaking/nansen_pool_icon.svg"
+        },
+        {
+            "tag": "bitwise_onchain_solutions_staking_pool",
+            "name": "Bitwise O.S.",
+            "addresses": {
+                "mainnet-alpha": [
+                    "0x60e069a86f89f1ab550a93baec20479341579308664fe9e192aed408d6a48ce"
+                ]
+            },
+            "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkstaking/bitwise_onchain_solutions_pool_icon.svg"
+        },
+        {
+            "tag": "carbonable_staking_pool",
+            "name": "Carbonable",
+            "addresses": {
+                "mainnet-alpha": [
+                    "0x51ca10c1fa0c9ba294c0fcf4ec657a73a5ba93bb8e1cc61cd38ae1e5c08a425"
+                ]
+            },
+            "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkstaking/carbonable_pool_icon.svg"
+        },
+        {
+            "tag": "keplr_staking_pool",
+            "name": "Keplr",
+            "addresses": {
+                "mainnet-alpha": [
+                    "0x44d7c8c9d03b79e298b844b7449a5f79c82b31e9697b6634b403bfe9f168216"
+                ]
+            },
+            "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkstaking/keplr_pool_icon.svg"
+        },
+        {
+            "tag": "chainbase_staking_pool",
+            "name": "Chainbase",
+            "addresses": {
+                "mainnet-alpha": [
+                    "0x42b11a3929a2a4f16781fc81a63e6365385c7d101ba9791862da355b811ce6b"
+                ]
+            },
+            "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkstaking/chainbase_pool_icon.svg"
+        },
+        {
+            "tag": "validation_cloud_staking_pool",
+            "name": "Valid. Cloud",
+            "addresses": {
+                "mainnet-alpha": [
+                    "0x4d334dc0105d0a4c8705110472d4693268ca3da8e2dbd2ec6b40b84e5dc7f54"
+                ]
+            },
+            "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkstaking/validation_cloud_pool_icon.svg"
+        },
+        {
+            "tag": "stakecito_staking_pool",
+            "name": "Stakecito",
+            "addresses": {
+                "mainnet-alpha": [
+                    "0x145465c98832cb5ecba143fa137aa4ed9f1dbd5273c587b9acba6ce90539419"
+                ]
+            },
+            "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkstaking/stakecito_pool_icon.svg"
+        },
+        {
+            "tag": "staketab_staking_pool",
+            "name": "Staketab",
+            "addresses": {
+                "mainnet-alpha": [
+                    "0x17a78d942fc48dc61e5be1496750b2810810183339cbd60760dba0ae5a207f7"
+                ]
+            },
+            "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkstaking/staketab_pool_icon.svg"
+        },
+        {
+            "tag": "jonathan_lei_staking_pool",
+            "name": "J. LEI",
+            "addresses": {
+                "mainnet-alpha": [
+                    "0x63b78f351676cf7ee6cb60eca4008bcc45ab936a228904579a9f72ebb03a822"
+                ]
+            },
+            "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkstaking/jonathan_lei_pool_icon.svg"
+        },
+        {
+            "tag": "fibrous",
+            "name": "Fibrous",
+            "addresses": {
+                "mainnet-alpha": [
+                    "0x234b7780f0d2850d46ad666d7192a1c89feb2d30fca9069d5262565cdcd8b62"
+                ]
+            }
+        },
+        {
+            "tag": "luganodes_staking_pool",
+            "name": "Luganodes",
+            "addresses": {
+                "mainnet-alpha": [
+                    "0x792e1c9893d4b5685d5b7c87dd5d8c5a2f038293ef6354783be7a7fca154efa"
+                ]
+            },
+            "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkstaking/luganodes_pool_icon.svg"
+        },
+        {
+            "tag": "stakelab_staking_pool",
+            "name": "Stakelab",
+            "addresses": {
+                "mainnet-alpha": [
+                    "0x1bb1dde5b4c3fe2a94d89e11ee54445081faa8aca2e82f7f1776074cd4a6c38"
+                ]
+            },
+            "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkstaking/stakelab_pool_icon.svg"
+        },
+        {
+            "tag": "allnodes_staking_pool",
+            "name": "Allnodes",
+            "addresses": {
+                "mainnet-alpha": [
+                    "0x116de2f76b9dfdff9791d7d34570772b19968b4d927d4caa28673b71d69ea58"
+                ]
+            },
+            "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkstaking/allnodes_pool_icon.svg"
+        },
+        {
+            "tag": "chorus_one_staking_pool",
+            "name": "Ch. One",
+            "addresses": {
+                "mainnet-alpha": [
+                    "0x63b11e3d91ba5d2b42497c4101717bbaa715b74a837535ca0d0999d8fe95d15"
+                ]
+            },
+            "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkstaking/chorus_one_pool_icon.svg"
+        },
+        {
+            "tag": "impulse_dao_staking_pool",
+            "name": "Impulse DAO",
+            "addresses": {
+                "mainnet-alpha": [
+                    "0x6f41782ac9664979c7f628996c0d7136098c97bd6cd453617465a54b0af541"
+                ]
+            }
+        },
+        {
+            "tag": "starknet_astro_staking_pool",
+            "name": "Strk. Astro",
+            "addresses": {
+                "mainnet-alpha": [
+                    "0x67b2583e86d66e0bd1132403ac20dd3ffe81c70a9dac515c556792037dba760"
+                ]
+            }
+        },
+        {
+            "tag": "steak_staking_pool",
+            "name": "Steak",
+            "addresses": {
+                "mainnet-alpha": [
+                    "0x444d15f91beed1873cd8d2db78aaaefeba1c3b2cee2d3a2e58265ced55cbf6f"
+                ]
+            }
+        },
+        {
+            "tag": "staking4all_staking_pool",
+            "name": "Staking4All",
+            "addresses": {
+                "mainnet-alpha": [
+                    "0x520ead5d1bf9905c01ba740476ccef354d19db772823dc005991ddd1c852aa2"
+                ]
+            },
+            "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkstaking/staking4all_pool_icon.svg"
+        },
+        {
+            "tag": "kiln_staking_pool",
+            "name": "Kiln",
+            "addresses": {
+                "mainnet-alpha": [
+                    "0x40f0a2d940fc7624abadaf06c26d3e1249e0fd4b3fcccf88db56a4b628b23f3"
+                ]
+            },
+            "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkstaking/kiln_pool_icon.svg"
+        },
+        {
+            "tag": "senseinode_staking_pool",
+            "name": "SenseiNode",
+            "addresses": {
+                "mainnet-alpha": [
+                    "0x906b7178b63627384f352b806227c08d30f423b7f75fc680a2d589e126a81b"
+                ]
+            },
+            "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkstaking/senseinode_pool_icon.svg"
+        },
+        {
+            "tag": "lavender_five_nodes_staking_pool",
+            "name": "Lavender",
+            "addresses": {
+                "mainnet-alpha": [
+                    "0x14c10673124301c3c63b5ab28363f314f7ea4abc3eaa42dabd7f1b324fdbf63"
+                ]
+            },
+            "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkstaking/lavender_five_nodes_pool_icon.svg"
         }
     ]
 }
