@@ -386,6 +386,28 @@
     ]
   },
   {
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/btcyield/icon.svg",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/btcyield/cover.jpg",
+    "id": "btcyield",
+    "displayName": "BTC Yield",
+    "host": "braavos.app",
+    "description": "Earn yield on your Bitcoin",
+    "categories": [
+      "defi",
+      "mobile"
+    ],
+    "contracts": [
+      {
+        "tag": "vWBTC-bv",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x8288573352819b6af92ffd780d5dc29e38873c6c172a19fe228aaffd95376d"
+          ]
+        }
+      }
+    ]
+  },
+  {
     "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/carbonable/icon.png",
     "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/carbonable/cover.jpg",
     "id": "carbonable",
