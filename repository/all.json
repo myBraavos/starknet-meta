@@ -129,7 +129,8 @@
           "mainnet-alpha": [
             "0x04270219d365d6b017231b52e92b3fb5d7c8378b05e9abc97724537a80e93b0f"
           ]
-        }
+        },
+        "name": "AVNU exchange"
       }
     ]
   },
@@ -403,7 +404,17 @@
           "mainnet-alpha": [
             "0x8288573352819b6af92ffd780d5dc29e38873c6c172a19fe228aaffd95376d"
           ]
-        }
+        },
+        "name": "Vesu Braavos Vault"
+      },
+      {
+        "tag": "invest_manager",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x6e74157c43117f641f96247eabbc32f0290ea11a62e7b0027105c62d83e248"
+          ]
+        },
+        "name": "Invest Manager"
       }
     ]
   },
@@ -2913,6 +2924,15 @@
             "0x037ae3f583c8d644b7556c93a04b83b52fa96159b2b0cbd83c14d3122aef80a2"
           ]
         }
+      },
+      {
+        "tag": "defi_spring_rewards",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x037ae3f583c8d644b7556c93a04b83b52fa96159b2b0cbd83c14d3122aef80a2"
+          ]
+        },
+        "name": "DeFi Spring Distributor"
       }
     ]
   },
