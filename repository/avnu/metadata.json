@@ -19,7 +19,8 @@
         "mainnet-alpha": [
           "0x04270219d365d6b017231b52e92b3fb5d7c8378b05e9abc97724537a80e93b0f"
         ]
-      }
+      },
+      "name": "AVNU exchange"
     }
   ]
 }

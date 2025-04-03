@@ -14,7 +14,17 @@
         "mainnet-alpha": [
           "0x8288573352819b6af92ffd780d5dc29e38873c6c172a19fe228aaffd95376d"
         ]
-      }
-    }
+      },
+      "name": "Vesu Braavos Vault"
+    },
+    {
+      "tag": "invest_manager",
+      "addresses": {
+        "mainnet-alpha": [
+          "0x6e74157c43117f641f96247eabbc32f0290ea11a62e7b0027105c62d83e248"
+        ]
+      },
+      "name": "Invest Manager"
+     }
   ]
 }
