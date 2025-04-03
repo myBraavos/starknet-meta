@@ -93,7 +93,7 @@
             "tag": "defi_spring_rewards",
             "addresses": {
                 "mainnet-alpha": [
-                    "0x037ae3f583c8d644b7556c93a04b83b52fa96159b2b0cbd83c14d3122aef80a2"
+                    "0x0387f3eb1d98632fbe3440a9f1385aec9d87b6172491d3dd81f1c35a7c61048f"
                 ]
             },
             "name": "DeFi Spring Distributor"
