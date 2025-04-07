@@ -104,6 +104,31 @@
     ]
   },
   {
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/atomiq/icon.png",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/atomiq/cover.png",
+    "id": "atomiq",
+    "displayName": "Atomiq Bridge",
+    "host": {
+      "mainnet-alpha": "app.atomiq.exchange"
+    },
+    "description": "Native cross chain BTC-Starknet bridge",
+    "categories": [
+      "defi",
+      "infra"
+    ],
+    "contracts": [
+      {
+        "tag": "atomiq_bridge",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x04fb26d02d2cf612566cd86cab299716d926272e9f49514670233952ecaf8f0c"
+          ]
+        },
+        "name": "Atomiq Bridge"
+      }
+    ]
+  },
+  {
     "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/avnu/icon.jpg",
     "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/avnu/cover.jpg",
     "id": "avnu",
