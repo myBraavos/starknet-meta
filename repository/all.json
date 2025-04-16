@@ -108,9 +108,7 @@
     "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/atomiq/cover.png",
     "id": "atomiq",
     "displayName": "Atomiq Bridge",
-    "host": {
-      "mainnet-alpha": "app.atomiq.exchange"
-    },
+    "host": "app.atomiq.exchange",
     "description": "Native cross chain BTC-Starknet bridge",
     "categories": [
       "defi",
