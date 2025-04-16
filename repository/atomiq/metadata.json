@@ -1,9 +1,7 @@
 {
   "id": "atomiq",
   "displayName": "Atomiq Bridge",
-  "host": {
-    "mainnet-alpha": "app.atomiq.exchange"
-  },
+  "host": "app.atomiq.exchange",
   "description": "Native cross chain BTC-Starknet bridge",
   "categories": [
     "defi",
