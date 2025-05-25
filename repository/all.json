@@ -2181,6 +2181,30 @@
     ]
   },
   {
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/remusdex/icon.png",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/remusdex/cover.jpg",
+    "id": "remusdex",
+    "displayName": "RemusDEX",
+    "host": "app.remusdex.xyz",
+    "description": "RemusDEX redefines trading with a user-centric order book experience, combining the speed of Starknet with the trust of decentralization.",
+    "categories": [
+      "defi"
+    ],
+    "contracts": [
+      {
+        "tag": "remus_dex_singleton",
+        "addresses": {
+          "sepolia-alpha": [
+            "0x04e1ac8fe63b465a583740a684aeff3589428d50869b79da2dd296c380ee4bd8"
+          ],
+          "mainnet-alpha": [
+            "0x067e7555f9ff00f5c4e9b353ad1f400e2274964ea0942483fae97363fd5d7958"
+          ]
+        }
+      }
+    ]
+  },
+  {
     "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/sithswap/icon.webp",
     "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/sithswap/cover.webp",
     "id": "sithswap",
