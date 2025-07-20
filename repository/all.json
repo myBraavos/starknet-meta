@@ -2688,70 +2688,6 @@
     ]
   },
   {
-    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkfarm/icon.svg",
-    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkfarm/cover.png",
-    "id": "strkfarm",
-    "displayName": "STRKFarm",
-    "host": {
-      "mainnet-alpha": "strkfarm.com"
-    },
-    "description": "STRKFarm is Starknet's ultimate yield aggregator. Find and invest in high yield pools!",
-    "categories": [
-      "defi"
-    ],
-    "contracts": [
-      {
-        "tag": "Master",
-        "addresses": {
-          "mainnet-alpha": [
-            "0x050314707690c31597849ed66a494fb4279dc060f8805f21593f52906846e28e"
-          ]
-        }
-      },
-      {
-        "tag": "Auto-Compounding STRK",
-        "addresses": {
-          "mainnet-alpha": [
-            "0x00541681b9ad63dff1b35f79c78d8477f64857de29a27902f7298f7b620838ea"
-          ]
-        }
-      },
-      {
-        "tag": "Auto-Compounding USDC",
-        "implements": [
-          "erc20"
-        ],
-        "addresses": {
-          "mainnet-alpha": [
-            "0x016912b22d5696e95ffde888ede4bd69fbbc60c5f873082857a47c543172694f"
-          ]
-        }
-      },
-      {
-        "tag": "STRK Sensei",
-        "implements": [
-          "erc20"
-        ],
-        "addresses": {
-          "mainnet-alpha": [
-            "0x020d5fc4c9df4f943ebb36078e703369c04176ed00accf290e8295b659d2cea6"
-          ]
-        }
-      },
-      {
-        "tag": "USDC Sensei",
-        "implements": [
-          "erc20"
-        ],
-        "addresses": {
-          "mainnet-alpha": [
-            "0x04937b58e05a3a2477402d1f74e66686f58a61a5070fcc6f694fb9a0b3bae422"
-          ]
-        }
-      }
-    ]
-  },
-  {
     "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkstaking/icon.svg",
     "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkstaking/cover.png",
     "id": "strkstaking",
@@ -2854,6 +2790,136 @@
           ]
         },
         "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkstaking/teku_pool_icon.svg"
+      }
+    ]
+  },
+  {
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/troves/icon.svg",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/troves/cover.png",
+    "id": "troves",
+    "displayName": "Troves",
+    "host": {
+      "mainnet-alpha": "troves.fi"
+    },
+    "description": "Troves is a DeFi yield aggregator on Starknet that automatically invests your assets across various DeFi protocols within a given strategy to maximise your returns!",
+    "categories": [
+      "defi"
+    ],
+    "contracts": [
+      {
+        "tag": "Master",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x050314707690c31597849ed66a494fb4279dc060f8805f21593f52906846e28e"
+          ]
+        }
+      },
+      {
+        "tag": "Ekubo xSTRK/STRK",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "mainnet-alpha": [
+            "0x01f083b98674bc21effee29ef443a00c7b9a500fd92cf30341a3da12c73f2324"
+          ]
+        }
+      },
+      {
+        "tag": "xSTRK Sensei",
+        "implements": [
+          "erc721"
+        ],
+        "addresses": {
+          "mainnet-alpha": [
+            "0x07023a5cadc8a5db80e4f0fde6b330cbd3c17bbbf9cb145cbabd7bd5e6fb7b0b"
+          ]
+        }
+      },
+      {
+        "tag": "Vesu Fusion ETH",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "mainnet-alpha": [
+            "0x05eaf5ee75231cecf79921ff8ded4b5ffe96be718bcb3daf206690ad1a9ad0ca"
+          ]
+        }
+      },
+      {
+        "tag": "Vesu Fusion STRK",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "mainnet-alpha": [
+            "0x07fb5bcb8525954a60fde4e8fb8220477696ce7117ef264775a1770e23571929"
+          ]
+        }
+      },
+      {
+        "tag": "Vesu Fusion USDC",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "mainnet-alpha": [
+            "0x00a858c97e9454f407d1bd7c57472fc8d8d8449a777c822b41d18e387816f29c"
+          ]
+        }
+      },
+      {
+        "tag": "Vesu Fusion USDT",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "mainnet-alpha": [
+            "0x0115e94e722cfc4c77a2f15c4aefb0928c1c0029e5a57570df24c650cb7cec2c"
+          ]
+        }
+      },
+      {
+        "tag": "Auto-Compounding STRK (deprecated)",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x00541681b9ad63dff1b35f79c78d8477f64857de29a27902f7298f7b620838ea"
+          ]
+        }
+      },
+      {
+        "tag": "Auto-Compounding USDC (deprecated)",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "mainnet-alpha": [
+            "0x016912b22d5696e95ffde888ede4bd69fbbc60c5f873082857a47c543172694f"
+          ]
+        }
+      },
+      {
+        "tag": "STRK Sensei (deprecated)",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "mainnet-alpha": [
+            "0x020d5fc4c9df4f943ebb36078e703369c04176ed00accf290e8295b659d2cea6"
+          ]
+        }
+      },
+      {
+        "tag": "USDC Sensei (deprecated)",
+        "implements": [
+          "erc20"
+        ],
+        "addresses": {
+          "mainnet-alpha": [
+            "0x04937b58e05a3a2477402d1f74e66686f58a61a5070fcc6f694fb9a0b3bae422"
+          ]
+        }
       }
     ]
   },
