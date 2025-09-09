@@ -2717,6 +2717,7 @@
             "0x1f170bafce432964d6cbaf2cb75355b2043f5640897e0623b7dbb029bf6b3ef"
           ],
           "sepolia-alpha": [
+            "0x4be4332e35c2b97405f5ab4d5b3adce04f0b1220ed5a48ca47b1b34547f0abb",
             "0x30bbb25449b910ca6b8cb5de138a34cad956df326fc697623ff6b856e657377"
           ]
         },
@@ -2790,6 +2791,41 @@
           ]
         },
         "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkstaking/teku_pool_icon.svg"
+      }
+    ]
+  },
+  {
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/testbtc1staking/icon.svg",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/testbtc1staking/cover.png",
+    "id": "testbtc1staking",
+    "displayName": "BTC Staking",
+    "host": "braavos.app",
+    "description": "BTC Staking allows you to stake your BTC tokens and enjoy staking rewards",
+    "categories": [
+      "defi"
+    ],
+    "contracts": [
+      {
+        "tag": "btc_staking_contract",
+        "addresses": {
+          "mainnet-alpha": [
+            "0xca1702e64c81d9a07b86bd2c540188d92a2c73cf5cc0e508d949015e7e84a7"
+          ],
+          "sepolia-alpha": [
+            "0x3745ab04a431fc02871a139be6b93d9260b0ff3e779ad9c8b377183b23109f1"
+          ]
+        }
+      },
+      {
+        "tag": "braavos_staking_pool",
+        "name": "Braavos",
+        "addresses": {
+          "mainnet-alpha": [],
+          "sepolia-alpha": [
+            "0x199ad6c2d6148aba1c2d2e54b0be606ea18895eb8dca35493fa78e054fdc869"
+          ]
+        },
+        "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkstaking/braavos_pool_icon.svg"
       }
     ]
   },
