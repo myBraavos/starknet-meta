@@ -3086,6 +3086,41 @@
     ]
   },
   {
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/wbtcstaking/icon.svg",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/wbtcstaking/cover.png",
+    "id": "wbtcstaking",
+    "displayName": "wBTC Staking",
+    "host": "braavos.app",
+    "description": "wBTC Staking allows you to stake your wBTC tokens and enjoy staking rewards",
+    "categories": [
+      "defi"
+    ],
+    "contracts": [
+      {
+        "tag": "wbtc_staking_contract",
+        "addresses": {
+          "mainnet-alpha": [
+            "0xca1702e64c81d9a07b86bd2c540188d92a2c73cf5cc0e508d949015e7e84a7"
+          ],
+          "sepolia-alpha": [
+            "0x3745ab04a431fc02871a139be6b93d9260b0ff3e779ad9c8b377183b23109f1"
+          ]
+        }
+      },
+      {
+        "tag": "wbraavos_staking_pool",
+        "name": "Braavos",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x2948b1055db6c104ce426854983543e2116af081a65155551a003b0d969a19d"
+          ],
+          "sepolia-alpha": []
+        },
+        "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/wbtcstaking/braavos_pool_icon.svg"
+      }
+    ]
+  },
+  {
     "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/yagi/icon.png",
     "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/yagi/cover.jpg",
     "id": "yagi",
