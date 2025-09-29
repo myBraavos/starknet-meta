@@ -1,0 +1,29 @@
+{
+    "id": "tbtcstaking",
+    "displayName": "tBTC Staking",
+    "host": "braavos.app",
+    "description": "tBTC Staking allows you to stake your tBTC tokens and enjoy staking rewards",
+    "categories": ["defi"],
+    "contracts": [
+        {
+            "tag": "tbtc_staking_contract",
+            "addresses": {
+                "mainnet-alpha": [
+                    "0xca1702e64c81d9a07b86bd2c540188d92a2c73cf5cc0e508d949015e7e84a7"
+                ],
+                "sepolia-alpha": []
+            }
+        },
+        {
+            "tag": "tbtc_braavos_staking_pool",
+            "name": "Braavos",
+            "addresses": {
+                "mainnet-alpha": [
+                    "0x61b67fdeb5ac7e7c0717e6011d53e546a8924b09753ae91ae88ca16b1fdebff"
+                ],
+                "sepolia-alpha": []
+            },
+            "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/tbtcstaking/braavos_pool_icon.svg"
+        }
+    ]
+}
