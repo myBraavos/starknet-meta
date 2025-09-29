@@ -1,0 +1,29 @@
+{
+    "id": "lbtcstaking",
+    "displayName": "LBTC Staking",
+    "host": "braavos.app",
+    "description": "LBTC Staking allows you to stake your LBTC tokens and enjoy staking rewards",
+    "categories": ["defi"],
+    "contracts": [
+        {
+            "tag": "lbtc_staking_contract",
+            "addresses": {
+                "mainnet-alpha": [
+                    "0xca1702e64c81d9a07b86bd2c540188d92a2c73cf5cc0e508d949015e7e84a7"
+                ],
+                "sepolia-alpha": []
+            }
+        },
+        {
+            "tag": "lbtc_braavos_staking_pool",
+            "name": "Braavos",
+            "addresses": {
+                "mainnet-alpha": [
+                    "0x1a36f1cabf234c02cebd9e0011774856d5b7b2047c73efe7433b4813f26f247"
+                ],
+                "sepolia-alpha": []
+            },
+            "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/lbtcstaking/braavos_pool_icon.svg"
+        }
+    ]
+}
