@@ -1088,6 +1088,39 @@
     ]
   },
   {
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/lbtcstaking/icon.svg",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/lbtcstaking/cover.png",
+    "id": "lbtcstaking",
+    "displayName": "LBTC Staking",
+    "host": "braavos.app",
+    "description": "LBTC Staking allows you to stake your LBTC tokens and enjoy staking rewards",
+    "categories": [
+      "defi"
+    ],
+    "contracts": [
+      {
+        "tag": "lbtc_staking_contract",
+        "addresses": {
+          "mainnet-alpha": [
+            "0xca1702e64c81d9a07b86bd2c540188d92a2c73cf5cc0e508d949015e7e84a7"
+          ],
+          "sepolia-alpha": []
+        }
+      },
+      {
+        "tag": "lbtc_braavos_staking_pool",
+        "name": "Braavos",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x1a36f1cabf234c02cebd9e0011774856d5b7b2047c73efe7433b4813f26f247"
+          ],
+          "sepolia-alpha": []
+        },
+        "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/lbtcstaking/braavos_pool_icon.svg"
+      }
+    ]
+  },
+  {
     "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/lootsurvivor/icon.png",
     "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/lootsurvivor/cover.png",
     "id": "lootsurvivor",
@@ -2240,6 +2273,39 @@
     ]
   },
   {
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/solvbtcstaking/icon.svg",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/solvbtcstaking/cover.png",
+    "id": "solvbtcstaking",
+    "displayName": "SolvBTC Staking",
+    "host": "braavos.app",
+    "description": "SolvBTC Staking allows you to stake your SolvBTC tokens and enjoy staking rewards",
+    "categories": [
+      "defi"
+    ],
+    "contracts": [
+      {
+        "tag": "solvbtc_staking_contract",
+        "addresses": {
+          "mainnet-alpha": [
+            "0xca1702e64c81d9a07b86bd2c540188d92a2c73cf5cc0e508d949015e7e84a7"
+          ],
+          "sepolia-alpha": []
+        }
+      },
+      {
+        "tag": "solvbtc_braavos_staking_pool",
+        "name": "Braavos",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x45e3a70f03d4af1fe14b18e016ddc005413af87a35b6484f3213b5dc4155b0f"
+          ],
+          "sepolia-alpha": []
+        },
+        "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/solvbtcstaking/braavos_pool_icon.svg"
+      }
+    ]
+  },
+  {
     "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/stakepool/icon.svg",
     "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/stakepool/cover.jpg",
     "id": "stakepool",
@@ -2791,6 +2857,39 @@
           ]
         },
         "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/strkstaking/teku_pool_icon.svg"
+      }
+    ]
+  },
+  {
+    "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/tbtcstaking/icon.svg",
+    "cover": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/tbtcstaking/cover.png",
+    "id": "tbtcstaking",
+    "displayName": "tBTC Staking",
+    "host": "braavos.app",
+    "description": "tBTC Staking allows you to stake your tBTC tokens and enjoy staking rewards",
+    "categories": [
+      "defi"
+    ],
+    "contracts": [
+      {
+        "tag": "tbtc_staking_contract",
+        "addresses": {
+          "mainnet-alpha": [
+            "0xca1702e64c81d9a07b86bd2c540188d92a2c73cf5cc0e508d949015e7e84a7"
+          ],
+          "sepolia-alpha": []
+        }
+      },
+      {
+        "tag": "tbtc_braavos_staking_pool",
+        "name": "Braavos",
+        "addresses": {
+          "mainnet-alpha": [
+            "0x61b67fdeb5ac7e7c0717e6011d53e546a8924b09753ae91ae88ca16b1fdebff"
+          ],
+          "sepolia-alpha": []
+        },
+        "icon": "https://raw.githubusercontent.com/myBraavos/starknet-meta/main/repository/tbtcstaking/braavos_pool_icon.svg"
       }
     ]
   },
