@@ -139,7 +139,7 @@ const validateProjectFiles = async projectFolder => {
     ids.add(metadata.id);
 
     // check if the repository folder exists
-    const assetPath = path.join("repository", metadata.id);
+    const assetPath = path.join("repository", metadata.id).replaceAll(" ", "");
     if (!fs.existsSync(assetPath) || !fs.lstatSync(assetPath).isDirectory()) {
         throw new Error(`Missing asset folder for id: ${metadata.id}`);
     }
