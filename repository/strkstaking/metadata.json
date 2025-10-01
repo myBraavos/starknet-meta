@@ -1,8 +1,8 @@
 {
     "id": "strkstaking",
-    "displayName": "STRK Staking",
+    "displayName": "Starknet Staking",
     "host": "braavos.app",
-    "description": "Stark Staking allows you to stake your STRK tokens and enjoy staking rewards",
+    "description": "Starknet Staking allows you to stake your tokens and enjoy staking rewards",
     "categories": ["defi"],
     "contracts": [
         {
