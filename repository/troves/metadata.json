@@ -2,7 +2,7 @@
     "id": "troves",
     "displayName": "Troves",
     "host": {
-        "mainnet-alpha": "troves.fi"
+        "mainnet-alpha": "app.troves.fi"
     },
     "description": "Troves is a DeFi yield aggregator on Starknet that automatically invests your assets across various DeFi protocols within a given strategy to maximise your returns!",
     "categories": [
@@ -124,6 +124,6 @@
                 ]
             }
         }
-        
+
     ]
 }
