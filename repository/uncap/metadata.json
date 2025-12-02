@@ -1,0 +1,32 @@
+{
+    "id": "uncap",
+    "displayName": "Uncap",
+    "host": {
+        "mainnet-alpha": "uncap.finance"
+    },
+    "description": "Uncap is the liquidity engine for Bitcoin finance on Starknet. It features USDU, a BTC-backed stablecoin, designed to unlock Bitcoin's potential in DeFi.",
+    "categories": [
+        "defi"
+    ],
+    "contracts": [
+        {
+            "tag": "Stability Pool",
+            "addresses": {
+                "mainnet-alpha": [
+                    "0x1ba4a9e2e86a41c6ed15016eda0404d12bf7b01052cccff1ace84d818335c7"
+                ]
+            }
+        },
+        {
+            "tag": "USDU",
+            "implements": [
+                "erc20"
+            ],
+            "addresses": {
+                "mainnet-alpha": [
+                    "0x2f94539f80158f9a48a7acf3747718dfbec9b6f639e2742c1fb44ae7ab5aa04"
+                ]
+            }
+        }
+    ]
+}
