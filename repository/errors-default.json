@@ -66,6 +66,16 @@
         {
             "matcher": "/failure reason.*TransactionFeeError\\(MaxFeeTooLow/",
             "message": "Insufficient gas fee to complete the transaction"
+        },
+        {
+            "matcher": "/can't fit in felt/",
+            "message": "Invalid input: {{0}}",
+            "extractors": [
+                {
+                    "matcher": "/can't fit in felt: (0x[0-9a-zA-Z]+)/",
+                    "type": "hex"
+                }
+            ]
         }
     ]
 }
